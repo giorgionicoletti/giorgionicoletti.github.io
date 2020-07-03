@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Giorgio Nicoletti"
-  avatar           : "profile.png"
+  avatar           : "profile_picture.png"
   bio              : "PhD student in Physics at the University of Padova"
   location         : "Padova (IT)"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.it/citations?hl=it&user=PVA6lnMAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
