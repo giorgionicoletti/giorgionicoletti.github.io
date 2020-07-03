@@ -15,33 +15,33 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 <font size="5">
 <table>
   <tr>
-    <td width="35%"><div align="right">Oct 1st 2017 - Present day<br>
-	  <img src='/images/liphlogo_blue.png' style="padding-top: 7px;display: block;margin: 0 auto;" width="100"></div></td>
+    <td width="35%"><div align="right">Oct 2019 - Present day<br>
+	  <img src='/images/liphlogo_blue.png' style="padding-top: 7px;display: block;margin-left: auto;margin-right: auto;" width="100"></div></td>
     <td width="65%">Ph.D in <i>Physics</i>, University of Padova<br>
 	 <b>Supervisor:</b> Amos Maritan<br>
 		   <b>Co-supervisor:</b> Samir Suweis<br><br>
    </td>
   </tr>
   <tr>
-    <td width="35%"><div align="right">Oct 1st 2017 - Sep 26th 2019<br>
+    <td width="35%"><div align="right">Oct 2017 - Sept 2019<br>
 		<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin: 0 auto;" width="100"></div></td>
 		<td width="65%">Master's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
 	 		<b>Advisor:</b> Amos Maritan<br>
-      <b>Co-advisor:</b> Amos Maritan<br>
+      <b>Co-advisor:</b> Samir Suweis<br>
       <b>Final grade:</b> 110/110 cum laude<br>
       <b>GPA:</b> 29.93/30<br><br>
     </td>
   </tr>
   <tr>
-    <td width="35%"><div align="right">Oct 1st 2017 - Sep 26th 2019<br>
+    <td width="35%"><div align="right">Sept 2018 - Jan 2019<br>
 		<img src="/images/logo_paris.png" style="padding-top: 7px;display: block;margin: 0 auto;" width="100"></div></td>
 		<td width="65%">Erasmus semester, Sorbonne University, Paris Diderot University, Paris-Sud University<br>
       <b>ECTS GPA:</b> A/A<br><br>
     </td>
   </tr>
   <tr>
-    <td width="35%"><div align="right">Oct 1st 2012 - Jul 22nd 2015<br>
+    <td width="35%"><div align="right">Oct 2014 - July 2017<br>
 			<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin: 0 auto;" width="100"></div></td>
 		<td width="65%">Bachelor's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Quantum Mechanics and de Finetti theorem. A Bayesian interpretation of quantum probability</i><br>
