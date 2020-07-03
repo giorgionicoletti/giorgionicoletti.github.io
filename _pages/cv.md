@@ -8,9 +8,12 @@ redirect_from:
 
 {% include base_path %}
 
+You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
+
+
 ## Education
 <font size="5">
-<table>
+<table border = "0">
   <tr>
     <td width="35%"><div align="right">Oct 1st 2017 - Present day<br>
 	   <img src='/images/unipd.png' width="100"></div></td>
@@ -21,7 +24,7 @@ redirect_from:
   </tr>
   <tr>
     <td width="35%"><div align="right">Oct 1st 2017 - Sep 26th 2019<br>
-		<img src="/images/unipd.png" width="150"></div></td>
+		<img src="/images/unipd.png" width="100"></div></td>
 		<td width="65%">Master's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
 	 		<b>Advisor:</b> Amos Maritan<br>
@@ -32,14 +35,14 @@ redirect_from:
   </tr>
   <tr>
     <td width="35%"><div align="right">Oct 1st 2017 - Sep 26th 2019<br>
-		<img src="/images/logo_paris.png" width="150"></div></td>
+		<img src="/images/logo_paris.png" width="100"></div></td>
 		<td width="65%">Erasmus semester, Sorbonne University, Paris Diderot University, Paris-Sud University<br>
       <b>ECTS GPA:</b> A/A<br><br>
     </td>
   </tr>
   <tr>
     <td width="35%"><div align="right">Oct 1st 2012 - Jul 22nd 2015<br>
-			<img src="/images/unipd.png" width="150"></div></td>
+			<img src="/images/unipd.png" width="100"></div></td>
 		<td width="65%">Bachelor's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Quantum Mechanics and de Finetti theorem. A Bayesian interpretation of quantum probability</i><br>
 	 		<b>Advisor:</b> Pieralberto Marchetti<br>
