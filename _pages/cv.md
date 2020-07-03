@@ -15,17 +15,17 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 <font size="5">
 <table border = "0">
   <tr>
-    <td width="35%"><div align="right">Oct 1st 2017 - Present day<br>
-	   <img src='/images/unipd.png' width="100"></div></td>
-       <td width="65%">Ph.D in <i>Physics</i>, University of Padova<br>
+    <td valign="top" width="35%"><div align="right">Oct 1st 2017 - Present day<br>
+	  <img src='/images/unipd.png' width="100"></div></td>
+    <td valign="top" width="65%">Ph.D in <i>Physics</i>, University of Padova<br>
 	 <b>Supervisor:</b> Amos Maritan<br>
 		   <b>Co-supervisor:</b> Samir Suweis<br><br>
    </td>
   </tr>
   <tr>
-    <td width="35%"><div align="right">Oct 1st 2017 - Sep 26th 2019<br>
+    <td valign="top" width="35%"><div align="right">Oct 1st 2017 - Sep 26th 2019<br>
 		<img src="/images/unipd.png" width="100"></div></td>
-		<td width="65%">Master's degree in <i>Physics</i>, University of Padova<br>
+		<td valign="top" width="65%">Master's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
 	 		<b>Advisor:</b> Amos Maritan<br>
       <b>Co-advisor:</b> Amos Maritan<br>
@@ -60,8 +60,8 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 
 ## Attended conferences, schools and workshop
 * [Youth in High-dimensions: Machine Learning, High-dimensional Statistics and Inference for the New Generation](http://indico.ictp.it/event/9409/){:target="_blank"}<!--_-->, *ICTP, Trieste*, 29th June - 3rd July 2020
-* Learning Physics with Machine Learning Virtual Workshop}, *Emory College, Atlanta, Georgia, United States*, 4th June 2020
-* Physics of Behavior Learning Virtual Workshop}, *Emory College, Atlanta, Georgia, United States*, 30th April 2020
+* Learning Physics with Machine Learning Virtual Workshop, *Emory College, Atlanta, Georgia, United States*, 4th June 2020
+* Physics of Behavior Learning Virtual Workshop, *Emory College, Atlanta, Georgia, United States*, 30th April 2020
 * [LiphLab Winter Workshop 2020](https://www.liphlab.com/workshops/winter-workshop-2020/){:target="_blank"}<!--_-->, *Folgaria, Italy*, 16th-18st January 2020
 * [Computational and Theoretical Models in Neuroscience Summer School](https://liphlab.github.io/ContamiNeuro/){:target="_blank"}<!--_-->, *Venice, Italy*, 9th-16th September 2019
 * [First Italian Conference on Complex Systems](http://italy.cssociety.org/index.php/ccs-italy-2019/){:target="_blank"}<!--_-->, *Venice, Italy*, 1st-3rd July 2019
