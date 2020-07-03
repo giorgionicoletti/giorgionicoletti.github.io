@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -16,7 +16,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 <table>
   <tr>
     <td width="35%"><div align="right">Oct 1st 2017 - Present day<br>
-	  <img src='/images/unipd.png' width="100"></div></td>
+	  <img src='/images/unipd.png' style="padding-top: 15px;" width="100"></div></td>
     <td width="65%">Ph.D in <i>Physics</i>, University of Padova<br>
 	 <b>Supervisor:</b> Amos Maritan<br>
 		   <b>Co-supervisor:</b> Samir Suweis<br><br>
