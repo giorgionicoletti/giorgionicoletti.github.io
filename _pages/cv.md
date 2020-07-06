@@ -25,7 +25,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
   </tr>
   <tr>
     <td width="25%"><div align="right">Oct 2017 - Sept 2019<br>
-		<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:30px;" width="100"></div></td>
+		<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:35px;" width="100"></div></td>
 		<td width="65%">Master's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
 	 		<b>Advisor:</b> Amos Maritan<br>
@@ -43,7 +43,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
   </tr>
   <tr>
     <td width="25%"><div align="right">Oct 2014 - July 2017<br>
-			<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:30px;" width="100"></div></td>
+			<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:35px;" width="100"></div></td>
 		<td width="65%">Bachelor's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Quantum Mechanics and de Finetti theorem. A Bayesian interpretation of quantum probability</i><br>
 	 		<b>Advisor:</b> Pieralberto Marchetti<br>
