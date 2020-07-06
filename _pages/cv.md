@@ -16,7 +16,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 <table>
   <tr>
     <td width="25%"><div align="right">Oct 2019 - Present day<br>
-	  <img src='/images/liphlogo_red.png' style="padding-top:4px;margin: 0 auto;display: block;" width="150"></div>
+	  <img src='/images/liphlogo_red.png' style="padding-top:4px;display: block;margin-right:20px;" width="150"></div>
     </td>
     <td width="65%">Ph.D in <i>Physics</i>, University of Padova<br>
 	 <b>Supervisor:</b> Amos Maritan<br>
@@ -36,7 +36,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
   </tr>
   <tr>
     <td width="25%"><div align="right">Sept 2018 - Jan 2019<br>
-		<img src="/images/logo_paris.png" style="padding-top: 7px;display: block;margin-right:30px;" width="120"></div></td>
+		<img src="/images/logo_paris.png" style="padding-top: 7px;display: block;margin-right:25px;" width="120"></div></td>
 		<td width="65%">Erasmus semester, Sorbonne University, Paris Diderot University, Paris-Sud University<br>
       <b>ECTS GPA:</b> A/A<br><br>
     </td>
