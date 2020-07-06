@@ -65,7 +65,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 * Physics of Behavior Learning Virtual Workshop, *Emory College, Atlanta, Georgia, United States*, 30th April 2020
 * [LiphLab Winter Workshop 2020](https://www.liphlab.com/workshops/winter-workshop-2020/){:target="_blank"}<!--_-->, *Folgaria, Italy*, 16th - 18st January 2020
 * [Computational and Theoretical Models in Neuroscience Summer School](https://liphlab.github.io/ContamiNeuro/){:target="_blank"}<!--_-->, *Venice, Italy*, 9th - 16th September 2019
-* [First Italian Conference on Complex Systems](http://italy.cssociety.org/index.php/ccs-italy-2019/){:target="_blank"}<!--_-->, *Venice, Italy*, 1st - 3rd July 2019
+* [First Italian Conference on Complex Systems](http://italy.cssociety.org/index.php/ccs-italy-2019/){:target="_blank"}<!--_-->, *Bruno Kessler Foundation, Trento, Italy*, 1st - 3rd July 2019
 
 
 ## Honors and awards
