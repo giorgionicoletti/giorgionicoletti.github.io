@@ -51,13 +51,6 @@ layout: default
           <p><b><i>Recommended citation</i></b>: {{ page.citation }} <br><br> <a href="{{ page.paperurl }}" target="_blank">Read the paper <i class="fas fa-external-link-alt"></i></a><!--, <a href="{{ page.preprinturl }}" target="_blank">Preprint <i class="fas fa-external-link-alt"></i></a>--></p>
         {% elsif page.citation %}
           <p><b><i>Recommended citation</i></b>: {{ page.citation }} </p>
-        {% elsif page.paperurl %}
-          <p><a href="{{ page.paperurl }}" target="_blank">Read the paper <i class="fas fa-external-link-alt"></i></a></p>
-        {% elsif page.preprinturl %}
-          <p><a href="{{ page.preprinturl }}" target="_blank">Read the preprint <i class="fas fa-external-link-alt"></i></a></p>
-        {% elsif page.paperurl and page.preprinturl %}
-          <p><a href="{{ page.paperurl }}" target="_blank">Read the paper <i class="fas fa-external-link-alt"></i></a></p>
-        {% endif %}
 
         </header>
       {% endunless %}
