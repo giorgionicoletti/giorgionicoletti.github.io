@@ -16,7 +16,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 <table>
   <tr>
     <td width="25%"><div align="right">Oct 2019 - Present day<br>
-	  <img src='/images/liphlogo_red.png' style="padding-top:4px;display: block;margin-right:20px;" width="150"></div>
+	  <img src='/images/liphlogo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
     <td width="65%">Ph.D in <i>Physics</i>, University of Padova<br>
 	 <b>Supervisor:</b> Amos Maritan<br>
