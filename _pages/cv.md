@@ -24,7 +24,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
    </td>
   </tr>
   <tr>
-    <td width="35%"><div align="right">Oct 2017 - Sept 2019<br>
+    <td width="15%"><div align="right">Oct 2017 - Sept 2019<br>
 		<img src="/images/unipd.png" style="padding-top:7px;padding-right:5px;display: block;" width="100"></div></td>
 		<td width="65%">Master's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
@@ -42,7 +42,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
     </td>
   </tr>
   <tr>
-    <td width="10%"><div align="right">Oct 2014 - July 2017<br>
+    <td width="15%"><div align="right">Oct 2014 - July 2017<br>
 			<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin: 0 auto;" width="100"></div></td>
 		<td width="65%">Bachelor's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Quantum Mechanics and de Finetti theorem. A Bayesian interpretation of quantum probability</i><br>
