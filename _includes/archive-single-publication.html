@@ -14,6 +14,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <div class="textbox">
+    <span style="display:block; margin-top:-4em; visibility: hidden">text</span>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -51,5 +52,7 @@
       <p class="archive__item-excerpt" itemprop="description"><a href="{{ post.preprinturl }}" target="_blank">Read the preprint <i class="fas fa-external-link-alt"></i></a></p>
     {% endif %}
   </article>
+  <span style="display:block; margin-top:-2em; visibility: hidden">text</span>
 </div>
 </div>
+<span style="display:block; margin-top:0.25em; visibility: hidden">text</span>
