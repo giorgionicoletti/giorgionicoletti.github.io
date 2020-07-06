@@ -232,8 +232,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: #9e1910;
-        opacity: 0.8;
+        background: mix(#fff, #9e1910, 50%);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
