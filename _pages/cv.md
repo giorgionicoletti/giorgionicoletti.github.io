@@ -60,7 +60,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 
 
 ## Attended conferences, schools and workshop
-* [29th Annual Computational Neuroscience Meeting](https://www.cnsorg.org/cns-2020){:target="_blank"}<!--_-->, *Organization for Computational Neuroscience*, 18th July - 23th July 2020
+* [29th Annual Computational Neuroscience Meeting](https://www.cnsorg.org/cns-2020){:target="_blank"}<!--_-->, *Organization for Computational Neuroscience*, 18th - 23th July 2020
 * [Youth in High-dimensions: Machine Learning, High-dimensional Statistics and Inference for the New Generation](http://indico.ictp.it/event/9409/){:target="_blank"}<!--_-->, *ICTP, Trieste*, 29th June - 3rd July 2020
 * Learning Physics with Machine Learning Virtual Workshop, *Emory College, Atlanta, Georgia, United States*, 4th June 2020
 * Physics of Behavior Learning Virtual Workshop, *Emory College, Atlanta, Georgia, United States*, 30th April 2020
