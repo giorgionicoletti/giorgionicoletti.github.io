@@ -1,5 +1,5 @@
 ---
-title: "Scaling and criticality in a phenomenological Renormalization Group"
+title: "What can a phenomenological Renormalization Group teach us about criticality in a network of neurons?"
 collection: talks
 type: "Poster"
 permalink:
