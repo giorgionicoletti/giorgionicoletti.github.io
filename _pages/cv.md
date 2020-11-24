@@ -60,7 +60,9 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 
 
 ## Attended conferences, schools and workshop
-* [Brain Criticality Virtual Meeting](https://braincriticality.org/){:target="_blank"}<!--_-->, *Bernstein Network*, 6th October - 9th October 2020
+* [Winter School on Quantitative Systems Biology: Quantitative Approaches in Ecosystem Ecology](http://indico.ictp.it/event/9131/){:target="_blank"}<!--_-->, *ICTP, Trieste*, 30th November - 18th December 2020
+* [Physics of Brains,](https://www.physicsoflife.org.uk/physics-of-brains.html){:target="_blank"}<!--_-->, *PolNET*, 18th November - 19th November 2020
+* [Brain Criticality Virtual Meeting](https://braincriticality.org/){:target="_blank"}<!--_-->, *the Brain Initiative*, 6th October - 9th October 2020
 * [Bernstein Conference 2020](http://www.bernstein-conference.de/){:target="_blank"}<!--_-->, *Bernstein Network*, 29th September - 1st October 2020
 * [29th Annual Computational Neuroscience Meeting](https://www.cnsorg.org/cns-2020){:target="_blank"}<!--_-->, *Organization for Computational Neuroscience*, 18th - 23th July 2020
 * [Youth in High-dimensions: Machine Learning, High-dimensional Statistics and Inference for the New Generation](http://indico.ictp.it/event/9409/){:target="_blank"}<!--_-->, *ICTP, Trieste*, 29th June - 3rd July 2020
