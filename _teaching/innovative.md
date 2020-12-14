@@ -1,5 +1,5 @@
 ---
-title: 'Innovative University Teaching'
+title: 'Innovative University Teaching (teaching workshop)'
 collection: teaching
 type: "Teaching workshop"
 permalink:
