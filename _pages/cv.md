@@ -19,8 +19,9 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 	  <img src='/images/liphlogo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
     <td width="65%">Ph.D in <i>Physics</i>, University of Padova<br>
-	 <b>Supervisor:</b> Amos Maritan<br>
-		   <b>Co-supervisor:</b> Samir Suweis<br><br>
+	     <b>Supervisor:</b> Amos Maritan<br>
+		   <b>Co-supervisor:</b> Samir Suweis<br>
+       <b>Main research interests:</b> complex systems and the Physics of phase transitions.<br>
    </td>
   </tr>
   <tr>
