@@ -15,7 +15,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 <font size="5">
 <table>
   <tr>
-    <td width="30%"><div align="right">Oct 2019 - Present day<br>
+    <td width="40%"><div align="right">Oct 2019 - Present day<br>
 	  <img src='/images/liphlogo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
     <td width="70%">Ph.D in <i>Physics</i>, University of Padova<br>
