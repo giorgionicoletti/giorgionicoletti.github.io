@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
+You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_--> (last updated on 24/07/2021).
 
 
 ## Education
@@ -61,14 +61,16 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_-->.
 
 
 ## Attended conferences, schools and workshop
-* [Winter School on Quantitative Systems Biology: Quantitative Approaches in Ecosystem Ecology](http://indico.ictp.it/event/9131/){:target="_blank"}<!--_-->, *ICTP, Trieste*, 30th November - 18th December 2020
-* [Physics of Brains,](https://www.physicsoflife.org.uk/physics-of-brains.html){:target="_blank"}<!--_-->, *PolNET*, 18th November - 19th November 2020
-* [Brain Criticality Virtual Meeting](https://braincriticality.org/){:target="_blank"}<!--_-->, *the Brain Initiative*, 6th October - 9th October 2020
-* [Bernstein Conference 2020](http://www.bernstein-conference.de/){:target="_blank"}<!--_-->, *Bernstein Network*, 29th September - 1st October 2020
-* [29th Annual Computational Neuroscience Meeting](https://www.cnsorg.org/cns-2020){:target="_blank"}<!--_-->, *Organization for Computational Neuroscience*, 18th - 23th July 2020
-* [Youth in High-dimensions: Machine Learning, High-dimensional Statistics and Inference for the New Generation](http://indico.ictp.it/event/9409/){:target="_blank"}<!--_-->, *ICTP, Trieste*, 29th June - 3rd July 2020
-* Learning Physics with Machine Learning Virtual Workshop, *Emory College, Atlanta, Georgia, United States*, 4th June 2020
-* Physics of Behavior Learning Virtual Workshop, *Emory College, Atlanta, Georgia, United States*, 30th April 2020
+* [Stochastic Models and Experiments in Ecology and Biology](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:target="_blank"}<!--_-->, *ECLT, Venice, Italy*, 22th - 25th June 2021
+* [The Beg Rohu Summer School “Statistical Mechanics and Emergent
+Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:target="_blank"}<!--_-->, *Beg Rohu, France*, 30th May - 12th June 2021
+* [Brain Connectivity Workshop](https://www.physicsoflife.org.uk/physics-of-brains.html){:target="_blank"}<!--_-->, *online*, 25th - 28th May 2021
+* [Winter School on Quantitative Systems Biology: Quantitative Approaches in Ecosystem Ecology](http://indico.ictp.it/event/9131/){:target="_blank"}<!--_-->, *online*, 30th November - 18th December 2020
+* [Physics of Brains](https://www.physicsoflife.org.uk/physics-of-brains.html){:target="_blank"}<!--_-->, *online*, 18th - 19th November 2020
+* [Brain Criticality Virtual Meeting](https://braincriticality.org/){:target="_blank"}<!--_-->, *online*, 6th - 9th October 2020
+* [Bernstein Conference 2020](http://www.bernstein-conference.de/){:target="_blank"}<!--_-->, *online*, 29th September - 1st October 2020
+* [29th Annual Computational Neuroscience Meeting](https://www.cnsorg.org/cns-2020){:target="_blank"}<!--_-->, *online*, 18th - 23th July 2020
+* [Youth in High-dimensions: Machine Learning, High-dimensional Statistics and Inference for the New Generation](http://indico.ictp.it/event/9409/){:target="_blank"}<!--_-->, *online*, 29th June - 3rd July 2020
 * [LiphLab Winter Workshop 2020](https://www.liphlab.com/workshops/winter-workshop-2020/){:target="_blank"}<!--_-->, *Folgaria, Italy*, 16th - 18st January 2020
 * [Computational and Theoretical Models in Neuroscience Summer School](https://liphlab.github.io/ContamiNeuro/){:target="_blank"}<!--_-->, *Venice, Italy*, 9th - 16th September 2019
 * [First Italian Conference on Complex Systems](http://italy.cssociety.org/index.php/ccs-italy-2019/){:target="_blank"}<!--_-->, *Bruno Kessler Foundation, Trento, Italy*, 1st - 3rd July 2019
