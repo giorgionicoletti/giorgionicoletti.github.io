@@ -2,10 +2,12 @@
 title: "On the critical signatures of neural activity"
 collection: preprint
 permalink: /publication/2021-05-11-signatures-arXiv
-excerpt: ''
+excerpt: 'preprint'
 date: 2021-05-11
-venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2105.05070'
+year: '2021'
+authors: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Stefano Vassanelli, Samir Suweis'
+venue: 'arXiv:2105.05070'
+preprinturl: 'https://arxiv.org/abs/2105.05070'
 citation: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Stefano Vassanelli, Samir Suweis. On the critical signatures of neural activity. arXiv:2105.05070 (2021).'
 ---
 

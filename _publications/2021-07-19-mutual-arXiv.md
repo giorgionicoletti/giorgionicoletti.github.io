@@ -2,10 +2,12 @@
 title: "Mutual information disentangles interactions from changing environments"
 collection: preprint
 permalink: /publication/2021-07-19-mutual-arXiv
-excerpt: ''
+excerpt: 'preprint'
 date: 2021-07-19
-venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2107.08985'
+year: '2021'
+authors: 'Giorgio Nicoletti, Daniel M. Busiello'
+venue: 'arXiv:2107.08985'
+preprinturl: 'https://arxiv.org/abs/2107.08985'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Mutual information disentangles interactions from changing environments. arXiv:2107.08985 (2021).'
 ---
 

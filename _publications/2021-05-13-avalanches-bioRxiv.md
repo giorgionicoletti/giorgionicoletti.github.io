@@ -2,10 +2,12 @@
 title: "Beyond resting state neuronal avalanches in the somatosensory barrel cortex"
 collection: preprint
 permalink: /publication/2021-05-13-avalanches-bioRxiv
-excerpt: ''
+excerpt: 'preprint'
 date: 2021-05-13
-venue: 'bioRxiv'
-paperurl: 'https://www.biorxiv.org/content/10.1101/2021.05.13.444047v1.abstract'
+year: '2021'
+authors: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Stefano Vassanelli, Samir Suweis'
+venue: 'bioRxiv 2021.05.13.444047'
+preprinturl: 'https://www.biorxiv.org/content/10.1101/2021.05.13.444047v1.abstract'
 citation: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Stefano Vassanelli, Samir Suweis. Beyond resting state neuronal avalanches in the somatosensory barrel cortex. bioRxiv 2021.05.13.444047 (2021).'
 ---
 

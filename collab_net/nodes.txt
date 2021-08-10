@@ -1,0 +1,13 @@
+ 	name	group
+0	"Giorgio Nicoletti"	1
+1	"Samir Suweis"	2
+2	"Amos Maritan"	2
+3	"Benedetta Mariani"	2
+4	"Marta Bisio"	2
+5	"Marta Maschietto"	2
+6	"Stefano Vassanelli"	2
+7	"Daniel M. Busiello"	2
+9	"Scaling and criticality in a phenomenological renormalization group"	4
+10	"On the critical signatures of neural activity"	3
+11	"Beyond resting state neuronal avalanches in the somatosensory barrel cortex"	3
+12	"Mutual information disentangles interactions from changing environments"	3

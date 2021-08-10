@@ -2,10 +2,13 @@
 title: "Scaling and criticality in a phenomenological renormalization group"
 collection: publications
 permalink: /publication/2020-05-08-PRR
-excerpt: ''
-date: 2020-05-08
-venue: 'Physical Review Research'
+excerpt: 'Journal article'
+date: 2020-05-07
+year: '2020'
+authors: 'Giorgio Nicoletti, Samir Suweis, Amos Maritan'
+venue: 'Physical Review Research 2, 023144'
 paperurl: 'https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023144'
+preprinturl: 'https://arxiv.org/abs/2001.04353'
 citation: 'Giorgio Nicoletti, Samir Suweis, and Amos Maritan. Scaling and criticality in a phenomenological renormalization group. Phys. Rev. Research 2, 023144 (2020).'
 ---
 
