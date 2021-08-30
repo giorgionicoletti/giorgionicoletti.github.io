@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_--> (last updated on 24/07/2021).
+You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_--> (last updated on 30/08/2021).
 
 
 ## Education
