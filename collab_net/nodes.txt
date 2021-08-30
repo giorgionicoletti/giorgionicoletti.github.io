@@ -6,8 +6,10 @@
 4	"Marta Bisio"	2
 5	"Marta Maschietto"	2
 6	"Stefano Vassanelli"	2
-7	"Daniel M. Busiello"	2
-9	"Scaling and criticality in a phenomenological renormalization group"	4
-10	"On the critical signatures of neural activity"	3
-11	"Beyond resting state neuronal avalanches in the somatosensory barrel cortex"	3
-12	"Mutual information disentangles interactions from changing environments"	3
+7	"Oboe Roberto"	2
+8	"Alessandro Leparulo"	2
+9	"Daniel M. Busiello"	2
+11	"Scaling and criticality in a phenomenological renormalization group"	4
+12	"On the critical signatures of neural activity"	3
+13	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
+14	"Mutual information disentangles interactions from changing environments"	3

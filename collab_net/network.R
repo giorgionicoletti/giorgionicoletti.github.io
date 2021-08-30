@@ -24,25 +24,3 @@ fn$x$options$clickAction = 'window.open(d.hyperlink)'
 
 fn%>%
   saveNetwork(file = 'network.html')
-
-library(visNetwork)
-
-names(links) <- c("from","to","value")
-
-
-nodes$id <- 0:(nrow(nodes)-1)
-nodes$label <- c("name")
-
-vn <- visNetwork(nodes=nodes, edges=links) %>% 
-  visInteraction(zoomView = FALSE)
-
-vn.on("hoverNode", function (params) {
-        network.canvas.body.container.style.cursor = 'pointer'
- });
-
-vn.on("blurNode", function (params) {
-        network.canvas.body.container.style.cursor = 'default'
- });
-
-vn%>%
-  saveNetwork(file = 'network2.html')
