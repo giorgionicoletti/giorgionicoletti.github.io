@@ -77,6 +77,7 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
+* **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
 * **Graduate Alumni Award**, best graduate students of University of Padova, academic year 2018/2019
 
 ## Talks, presentations and posters
