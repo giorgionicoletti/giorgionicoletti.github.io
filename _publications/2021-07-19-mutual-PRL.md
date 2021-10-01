@@ -9,7 +9,7 @@ authors: 'Giorgio Nicoletti, Daniel M. Busiello'
 venue: 'Physical Review Letters (accepted)'
 paperurl: 'https://journals.aps.org/prl/accepted/4d070Y3aTa11718729e70a95c14755e7e28a10824'
 preprinturl: 'https://arxiv.org/abs/2107.08985'
-citation: 'Giorgio Nicoletti, Daniel M. Busiello. Mutual information disentangles interactions from changing environments. arXiv:2107.08985 (2021).'
+citation: 'Giorgio Nicoletti, Daniel M. Busiello. Mutual information disentangles interactions from changing environments. Phys. Rev. Lett. (accepted, 2021).'
 ---
 
 ## Abstract
