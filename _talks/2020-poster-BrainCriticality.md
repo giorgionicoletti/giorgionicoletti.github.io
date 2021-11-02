@@ -8,4 +8,4 @@ date: 2020-10-06
 location: "Online"
 ---
 
-This poster has been shown during the poster session of the [Brain Criticality Virtual Meeting](https://braincriticality.org/){:target="_blank"}<!--_-->.
+This poster has been shown during the poster session of the [Brain Criticality Virtual Meeting](https://braincriticality.org/){:target="_blank"}<!--_-->, held online.

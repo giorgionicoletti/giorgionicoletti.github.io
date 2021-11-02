@@ -60,6 +60,14 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_--> (las
   {% endfor %}</ul>
 
 
+## Organized conferences
+* [Robustness, Adaptability and Critical Transitions in Living Systems Satellite](https://liphlab.github.io/REACT2021){:target="_blank"}<!--_-->, *Conference on Complex Systems 2021, Lyon, France*, 27th October 2021
+
+## Talks, presentations and posters
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
 ## Attended conferences, schools and workshop
 * [Stochastic Models and Experiments in Ecology and Biology](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:target="_blank"}<!--_-->, *ECLT, Venice, Italy*, 22th - 25th June 2021
 * [The Beg Rohu Summer School “Statistical Mechanics and Emergent
@@ -77,14 +85,10 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
-* **Physical Review Letters Editors' Suggestion** for the paper "Mutual information disentangles interactions from changing environments"
+* **Physical Review Letters Editors' Suggestion and *Physics* featuring** for the paper "Mutual information disentangles interactions from changing environments"
 * **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
 * **Graduate Alumni Award**, best student to graduate in a Master of Science at the University of Padova, academic year 2018/2019
 
-## Talks, presentations and posters
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
 
 ## Teaching
   <ul>{% for post in site.teaching reversed %}
