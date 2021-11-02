@@ -69,7 +69,8 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_--> (las
   {% endfor %}</ul>
 
 ## Attended conferences, schools and workshop
-* [Stochastic Models and Experiments in Ecology and Biology](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:target="_blank"}<!--_-->, *ECLT, Venice, Italy*, 22th - 25th June 2021
+* [Conference on Complex Systems 2021](https://ccs2021.univ-lyon1.fr/){:target="_blank"}<!--_-->, *Lyon, France*, 25th - 29th October 2021
+* [Stochastic Models and Experiments in Ecology and Biology](https://liphlab.github.io/SMEEB2021/){:target="_blank"}<!--_-->, *ECLT, Venice, Italy*, 22th - 25th June 2021
 * [The Beg Rohu Summer School “Statistical Mechanics and Emergent
 Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:target="_blank"}<!--_-->, *Beg Rohu, France*, 30th May - 12th June 2021
 * [Brain Connectivity Workshop](https://www.physicsoflife.org.uk/physics-of-brains.html){:target="_blank"}<!--_-->, *online*, 25th - 28th May 2021
