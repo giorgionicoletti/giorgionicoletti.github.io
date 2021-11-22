@@ -39,11 +39,11 @@
     {% assign authors = post.authors | split: ', ' %}
     {% for author in authors %}
       {% if author contains 'Giorgio Nicoletti' %}
-        <b>{{ author }}</b>,
-      {% elsif forloop.last == false %}
         {{ author }},
+      {% elsif forloop.last == false %}
+        <span style="color: #9BA1A6">{{ author }}, </span>
       {% else %}
-        {{ author }}.
+        <span style="color: #9BA1A6">{{ author }}</span>.
       {% endif %}
       {% endfor %}
       <i>{{ post.venue }}</i>.
