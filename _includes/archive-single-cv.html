@@ -37,6 +37,16 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    {% assign authors = post.authors | split: ', ' %}
+    {% for author in authors %}
+      {% if author contains 'Giorgio Nicoletti' %}
+        <b>{{ author }}</b>,
+      {% elsif forloop.last == false %}
+        <span style="color: #9BA1A6">{{ author }}, </span>
+      {% else %}
+        <span style="color: #9BA1A6">{{ author }}</span>
+      {% endif %}
+      {% endfor %}
     </li>
  </article>
 </div>
