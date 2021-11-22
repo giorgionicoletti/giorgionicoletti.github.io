@@ -41,12 +41,12 @@
       {% if author contains 'Giorgio Nicoletti' %}
         <b>{{ author }}</b>,
       {% elsif forloop.last == false %}
-        <span style="color: #9BA1A6">{{ author }}, </span>
+        {{ author }},
       {% else %}
-        <span style="color: #9BA1A6">{{ author }}</span>
+        {{ author }}.
       {% endif %}
       {% endfor %}
-      <i>{{ post.venue }}</i>
+      <i>{{ post.venue }}</i>.
     </li>
  </article>
 </div>
