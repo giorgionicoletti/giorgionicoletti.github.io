@@ -86,7 +86,7 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
-* **Physical Review Letters Editors' Suggestion and *Physics* featuring** for the paper "Mutual information disentangles interactions from changing environments"
+* **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v14/162){:target="_blank"}<!--_-->** for the paper "Mutual information disentangles interactions from changing environments"
 * **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
 * **Graduate Alumni Award**, best student to graduate in a Master of Science at the University of Padova, academic year 2018/2019
 
