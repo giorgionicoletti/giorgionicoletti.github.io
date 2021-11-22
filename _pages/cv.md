@@ -56,7 +56,7 @@ You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_--> (las
 
 ## Publications
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv-pub.html %}
   {% endfor %}</ul>
 
 
