@@ -90,6 +90,10 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 * **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
 * **Graduate Alumni Award**, best student to graduate in a Master of Science at the University of Padova, academic year 2018/2019
 
+## Supervision
+* Supervision of one student's thesis for the Master Degree in Physics of Data, University of Padova, Italy.
+* Supervision of two students' projects for the Master Degree in Physics of Data, University of Padova, Italy.
+
 
 ## Teaching
   <ul>{% for post in site.teaching reversed %}
