@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/CV.pdf){:target="_blank"}<!--_--> (last updated on 30/08/2021).
+You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!--_--> (last updated on December 21st, 2021).
 
 
 ## Education
@@ -86,6 +86,7 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
+* **SECS grant**, provided by the Young Researcher in Complex Systems Society.
 * **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v14/162){:target="_blank"}<!--_-->** for the paper "Mutual information disentangles interactions from changing environments"
 * **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
 * **Graduate Alumni Award**, best student to graduate in a Master of Science at the University of Padova, academic year 2018/2019
