@@ -19,3 +19,4 @@
 18	"Mutual information disentangles interactions from changing environments"	4
 19	"The emergence of scale-free fires in Australia"	3
 20	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	3
+21	"Information-driven transitions in projections of underdamped dynamics"	3
