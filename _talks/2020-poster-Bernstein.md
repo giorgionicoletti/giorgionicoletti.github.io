@@ -1,7 +1,7 @@
 ---
 title: "Scaling and criticality in a phenomenological Renormalization Group"
 collection: talks
-type: "Poster"
+type: "Contributed poster"
 permalink:
 venue: "Bernstein Conference 2020"
 date: 2020-10-01

@@ -1,7 +1,7 @@
 ---
 title: "Modeling the emergence of scale-free fire outbreaks in Australia"
 collection: talks
-type: "Talk"
+type: "Contributed talk"
 permalink:
 venue: "CCS 2021"
 date: 2021-10-26

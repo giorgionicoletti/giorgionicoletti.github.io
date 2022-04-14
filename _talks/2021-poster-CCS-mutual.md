@@ -1,7 +1,7 @@
 ---
 title: "Disentangling internal interactions from noisy environments through mutual information"
 collection: talks
-type: "Poster"
+type: "Contributed poster"
 permalink:
 venue: "CCS 2021"
 date: 2021-10-26

@@ -1,7 +1,7 @@
 ---
 title: "Disentangling the role of external and intrinsic dynamics on the critical signatures of neural activityd"
 collection: talks
-type: "Talk"
+type: "Contributed talk"
 permalink:
 venue: "CCS 2021"
 date: 2021-10-25

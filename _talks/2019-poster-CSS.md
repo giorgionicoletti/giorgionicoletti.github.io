@@ -1,7 +1,7 @@
 ---
 title: "Scaling and Renormalization Group for the activity of neurons"
 collection: talks
-type: "Poster"
+type: "Contributed poster"
 permalink:
 venue: "First Italian Conference on Complex Systems"
 date: 2019-07-02

@@ -1,7 +1,7 @@
 ---
 title: "Modeling the emergence of scale-free fire out-breaks in Australia"
 collection: talks
-type: "Poster"
+type: "Contributed poster"
 permalink:
 venue: "SMEEB 2021"
 date: 2021-06-23

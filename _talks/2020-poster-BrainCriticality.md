@@ -1,7 +1,7 @@
 ---
 title: "What can a phenomenological Renormalization Group teach us about criticality in a network of neurons?"
 collection: talks
-type: "Poster"
+type: "Contributed poster"
 permalink:
 venue: "Brain Criticality Virtual Meeting"
 date: 2020-10-06

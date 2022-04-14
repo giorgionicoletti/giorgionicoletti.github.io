@@ -1,7 +1,7 @@
 ---
 title: "On the critical signatures of neural activity"
 collection: talks
-type: "Poster"
+type: "Contributed poster"
 permalink:
 venue: "The Beg Rohu Summer School 2021"
 date: 2021-06-03
