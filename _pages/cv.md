@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!--_--> (last updated on December 21st, 2021).
+You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!--_--> (last updated on April 14th, 2022).
 
 
 ## Education
@@ -16,7 +16,7 @@ You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!-
 <table>
   <tr>
     <td width="40%"><div align="right">Oct 2019 - Present day<br>
-	  <img src='/images/liphlogo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
     <td width="70%">Ph.D in <i>Physics</i>, University of Padova<br>
 	     <b>Supervisor:</b> Amos Maritan<br>
