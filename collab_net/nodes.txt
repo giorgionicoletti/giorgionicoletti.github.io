@@ -14,7 +14,7 @@
 12	"Giacomo Barzon"	2
 13	"Marco Formentin"	2
 15	"Scaling and criticality in a phenomenological renormalization group"	4
-16	"On the critical signatures of neural activity"	3
+16	"Disentangling the critical signatures of neural activity"	4
 17	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
 18	"Mutual information disentangles interactions from changing environments"	4
 19	"The emergence of scale-free fires in Australia"	3
