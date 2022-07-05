@@ -1,7 +1,7 @@
 ---
 title: "Disentangling the critical signatures of neural activity"
 collection: publications
-permalink: /publication/2021-05-11-signatures-SciRep
+permalink: /publication/2022-06-24-signatures-SciRep
 excerpt: 'Journal article'
 date: 2022-06-24
 year: '2022'
