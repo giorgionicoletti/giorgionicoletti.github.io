@@ -8,7 +8,21 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!--_--> (last updated on April 14th, 2022).
+You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!--_--> (last updated on July 25th, 2022).
+
+## Research experience
+<font size="5">
+<table>
+  <tr>
+    <td width="40%"><div align="right">June - July 2022<br>
+	  <img src='/images/mpipks.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+    </td>
+    <td width="70%">Visiting Ph.D. student, Max Planck Institute for the Physics of Complex Systems, Dresden, Germany<br>
+	     <b>Supervisor:</b> Daniel M. Busiello<br>
+   </td>
+  </tr>
+</table>
+</font>
 
 
 ## Education
