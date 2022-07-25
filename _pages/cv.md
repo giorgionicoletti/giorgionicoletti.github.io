@@ -14,10 +14,10 @@ You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!-
 <font size="5">
 <table>
   <tr>
-    <td width="40%"><div align="right">June - July 2022<br>
+    <td width="25%"><div align="right">June - July 2022<br>
 	  <img src='/images/mpipks.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
-    <td width="70%">Visiting Ph.D. student, Max Planck Institute for the Physics of Complex Systems, Dresden, Germany<br>
+    <td width="75%">Visiting Ph.D. student, Max Planck Institute for the Physics of Complex Systems, Dresden, Germany<br>
 	     <b>Supervisor:</b> Daniel M. Busiello<br>
    </td>
   </tr>
@@ -29,10 +29,10 @@ You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!-
 <font size="5">
 <table>
   <tr>
-    <td width="40%"><div align="right">Oct 2019 - Present day<br>
+    <td width="25%"><div align="right">Oct 2019 - Present day<br>
 	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
-    <td width="70%">Ph.D in <i>Physics</i>, University of Padova<br>
+    <td width="75%">Ph.D in <i>Physics</i>, University of Padova<br>
 	     <b>Supervisor:</b> Amos Maritan<br>
 		   <b>Co-supervisor:</b> Samir Suweis<br>
        <b>Main research interests:</b> complex systems and the Physics of phase transitions.<br><br>
@@ -41,7 +41,7 @@ You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!-
   <tr>
     <td width="25%"><div align="right">Oct 2017 - Sept 2019<br>
 		<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:35px;" width="100"></div></td>
-		<td width="65%">Master's degree in <i>Physics</i>, University of Padova<br>
+		<td width="75%">Master's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
 	 		<b>Advisor:</b> Amos Maritan<br>
       <b>Co-advisor:</b> Samir Suweis<br>
@@ -52,14 +52,14 @@ You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!-
   <tr>
     <td width="25%"><div align="right">Sept 2018 - Jan 2019<br>
 		<img src="/images/logo_paris.png" style="padding-top: 7px;display: block;margin-right:25px;" width="120"></div></td>
-		<td width="65%">Erasmus semester, Sorbonne University, Paris Diderot University, Paris-Sud University<br>
+		<td width="75%">Erasmus semester, Sorbonne University, Paris Diderot University, Paris-Sud University<br>
       <b>ECTS GPA:</b> A/A<br><br>
     </td>
   </tr>
   <tr>
     <td width="25%"><div align="right">Oct 2014 - July 2017<br>
 			<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:35px;" width="100"></div></td>
-		<td width="65%">Bachelor's degree in <i>Physics</i>, University of Padova<br>
+		<td width="75%">Bachelor's degree in <i>Physics</i>, University of Padova<br>
       <b>Thesis title:</b> <i>Quantum Mechanics and de Finetti theorem. A Bayesian interpretation of quantum probability</i><br>
 	 		<b>Advisor:</b> Pieralberto Marchetti<br>
       <b>Final grade:</b> 110/110 cum laude<br>
