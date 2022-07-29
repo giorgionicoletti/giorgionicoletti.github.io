@@ -1,15 +1,15 @@
 ---
-title: "Mutual information in changing environments: non-linear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"
-collection: preprint
-permalink: /publication/2022-04-04-mutual-arXiv
-excerpt: 'preprint'
-date: 2022-04-04
+title: "Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"
+collection: publications
+permalink: /publication/2022-07-29-mutual-PRE
+excerpt: 'Journal article'
+date: 2022-07-29
 year: '2022'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
-venue: 'arXiv:2204.01644'
+venue: 'Phys. Rev. E 106, 014153 (2022)'
 preprinturl: 'https://arxiv.org/abs/2204.01644'
-citation: 'Giorgio Nicoletti, Daniel M. Busiello. Mutual information in changing environments: non-linear interactions, out-of-equilibrium systems, and continuously-varying diffusivities. arXiv:2204.01644
- (2022).'
+paperurl: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.014153'
+citation: 'Giorgio Nicoletti, Daniel M. Busiello. Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities. Phys. Rev. E 106, 014153 (2022).'
 ---
 
 ## Abstract
