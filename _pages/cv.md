@@ -15,16 +15,16 @@ You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!-
 <table>
   <tr>
     <td width="25%"><div align="right">Sept - Dec 2022<br>
-    <img src='/images/tubingen.png' style="padding-top:7px;display: block;margin-right:20px;" width="150"></div>
+    <img src='/images/tubingen.png' style="padding-top:7px; display: block; margin-right:20px;" width="150"></div>
     </td>
-    <td width="75%">Visiting Ph.D. student, University of Tübingen, Tübingen, Germany<br>
+    <td width="75%">Visiting Ph.D. student, Self-organization and optimality in neuronal networks group, University of Tübingen, Tübingen, Germany<br>
        <b>Supervisor:</b> Anna Levina<br>
    </td>
   </tr>
 
   <tr>
     <td width="25%"><div align="right">June - July 2022<br>
-	  <img src='/images/mpipks.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+	  <img src='/images/mpipks.png' style="padding-top:7px; display: block; margin-right:15px;" width="150"></div>
     </td>
     <td width="75%">Visiting Ph.D. student, Max Planck Institute for the Physics of Complex Systems, Dresden, Germany<br>
 	     <b>Supervisor:</b> Daniel M. Busiello<br>
