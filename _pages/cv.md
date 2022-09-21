@@ -14,6 +14,15 @@ You can download my full CV [here](/files/CV_Nicoletti.pdf){:target="_blank"}<!-
 <font size="5">
 <table>
   <tr>
+    <td width="25%"><div align="right">Sept - Dec 2022<br>
+    <img src='/images/mpipks.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+    </td>
+    <td width="75%">Visiting Ph.D. student, University of Tübingen, Tübingen, Germany<br>
+       <b>Supervisor:</b> Anna Levina<br>
+   </td>
+  </tr>
+
+  <tr>
     <td width="25%"><div align="right">June - July 2022<br>
 	  <img src='/images/mpipks.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
