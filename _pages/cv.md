@@ -102,10 +102,10 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
+* **Graduate Alumni Award**, best graduate student in the School of Science of the University of Padova
 * **SECS grant**, provided by the Young Researcher in Complex Systems Society.
 * **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v14/162){:target="_blank"}<!--_-->** for the paper "Mutual information disentangles interactions from changing environments"
 * **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
-* **Graduate Alumni Award**, best student to graduate in a Master of Science at the University of Padova, academic year 2018/2019
 
 ## Supervision
 * Supervision of one student's thesis for the Master Degree in Physics of Data, University of Padova, Italy.
