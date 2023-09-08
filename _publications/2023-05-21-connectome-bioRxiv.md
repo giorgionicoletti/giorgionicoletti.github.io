@@ -1,0 +1,15 @@
+---
+title: "A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"
+collection: preprint
+permalink: /publication/2023-05-21-connectome-bioRxiv
+excerpt: 'preprint'
+date: 2023-05-21
+year: '2023'
+authors: 'Karan Manjunatha, Matteo Bruzzone, Giorgio Nicoletti, Samir Suweis, Marco Dal Maschio'
+venue: 'bioRxiv 2023.05.21.541471'
+preprinturl: 'https://www.biorxiv.org/content/10.1101/2023.05.21.541471v1.abstract'
+citation: 'Karan Manjunatha, Matteo Bruzzone, Giorgio Nicoletti, Samir Suweis, Marco Dal Maschio. A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets. bioRxiv 2023.05.21.541471 (2023).'
+---
+
+## Abstract
+Understanding brain mechanisms is a currently open challenge. There are several methods available to characterize the functional aspects. However, the information that one can retrieve about the organization of the wiring between the cells across the brain that could support the network organization and the circuit mechanism remains limited. This appears to be a general problem, even when the cell anatomy is well described and potentially accessible at scales up to the synaptic level across the whole brain. Typically, such high-resolution analyses focus on the reconstruction of a limited portion of the brain or of a specific circuit, while missing the general organization principles of the neuronal networks within the brain, the network components, and internetwork connection schemes. To extend the investigation on these aspects, we present a theoretical and computational framework using modularity analysis to identify from connectome datasets the brain-wide circuit organization and the underlying cell modules based on synaptic connectivity patterns. We applied this approach on an Electron Microscopy (EM) dataset with about 25-thousand annotated cell reconstructions that incorporate synaptic information from the hemibrain of adult Drosophila melanogaster. The analysis provided a representation of the connectome organized in a hierarchical structure and characterized by several cell modules with precise and topographically organized connection patterns. We then tested this approach on a “synthetic” connectome, one obtained from a light microscopy dataset of more than three thousand neuronal skeletonizations from the zebrafish larvae brain, where a cell-to-cell proximity rule was used to assign synaptic contacts. Despite this approximation, the developed approach revealed reported connectivity patterns and functional connection schemes. In conclusion, we show that our framework is scalable and amenable for different types of datasets, independently from the particular anatomical reconstruction method adopted, to reveal the neuronal architectures supporting the brain mechanisms.

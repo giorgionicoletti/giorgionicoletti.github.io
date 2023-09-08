@@ -13,6 +13,15 @@ You can download my full CV [here](/files/CV_Nicoletti_17112022.pdf){:target="_b
 ## Research experience
 <font size="5">
 <table>
+<tr>
+    <td width="25%"><div align="right">Jan 2023 - present<br>
+	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+    </td>
+    <td width="75%">Researcher, Department of Mathematics, University of Padova, Padova, Italy<br>
+       <b>Group:</b> Laboratory of Interdisciplinary Physics<br>
+   </td>
+  </tr>
+
   <tr>
     <td width="25%"><div align="right">Sept - Dec 2022<br>
     <img src='/images/tubingen.png' style="padding-top:7px; display: block; margin-right:20px;" width="150"></div>
@@ -38,7 +47,7 @@ You can download my full CV [here](/files/CV_Nicoletti_17112022.pdf){:target="_b
 <font size="5">
 <table>
   <tr>
-    <td width="25%"><div align="right">Oct 2019 - Present day<br>
+    <td width="25%"><div align="right">Oct 2019 - Apr 2023<br>
 	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
     </td>
     <td width="75%">Ph.D in <i>Physics</i>, University of Padova<br>
@@ -108,7 +117,8 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 * **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
 
 ## Supervision
-* Supervision of one student's thesis for the Master Degree in Physics of Data, University of Padova, Italy.
+* Supervision of one student's thesis for the Bachelor Degree in Physics, University of Padova, Italy.
+* Supervision of two student's thesis for the Master Degree in Physics of Data, University of Padova, Italy.
 * Supervision of two students' projects for the Master Degree in Physics of Data, University of Padova, Italy.
 
 

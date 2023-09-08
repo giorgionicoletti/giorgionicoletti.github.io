@@ -15,12 +15,20 @@
 13	"Ferdinando Momo"	2
 14	"Matteo Bruzzone"	2
 15	"Marco Dal Maschio"	2
-17	"Scaling and criticality in a phenomenological renormalization group"	4
-18	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
-19	"Mutual information disentangles interactions from changing environments"	4
-20	"Disentangling the critical signatures of neural activity"	4
-21	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
-22	"Information-driven transitions in projections of underdamped dynamics"	4
-23	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
-24	"The emergence of scale-free fires in Australia"	4
-25	"The architecture of information processing in biological systems"	3
+16	"Karan Manjunatha"	2
+17	"Bendetta Mariani"	2
+18	"Maía Clemencia Ortíz Barajas"	2
+19	"Mohinish Shukla"	2
+20	"Ramon Guevara"	2
+21	"Judit Gervain"	2
+23	"Scaling and criticality in a phenomenological renormalization group"	4
+24	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
+25	"Mutual information disentangles interactions from changing environments"	4
+26	"Disentangling the critical signatures of neural activity"	4
+27	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
+28	"Information-driven transitions in projections of underdamped dynamics"	4
+29	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
+30	"The emergence of scale-free fires in Australia"	4
+31	"The architecture of information processing in biological systems"	3
+32	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
+33	"Prenatal experience with language shapes the brain"	3
