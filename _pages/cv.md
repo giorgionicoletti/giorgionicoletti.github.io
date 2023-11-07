@@ -14,8 +14,17 @@ You can download my full CV [here](/files/CV_Nicoletti_2023-09-08.pdf){:target="
 <font size="5">
 <table>
 <tr>
-    <td width="25%"><div align="right">Jan 2023 - present<br>
-	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+    <td width="25%"><div align="right">Nov 2023 - present<br>
+	  <img src='/images/epfl_logo.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+    </td>
+    <td width="75%">Postdoc, École Polytechnique Fédérale de Lausanne, Switzerland<br>
+       <b>Group:</b> ECHO lab<br>
+   </td>
+  </tr>
+
+  <tr>
+    <td width="25%"><div align="right">Jan 2023 - Nov 2023<br>
+	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="130"></div>
     </td>
     <td width="75%">Researcher, Department of Mathematics, University of Padova, Padova, Italy<br>
        <b>Group:</b> Laboratory of Interdisciplinary Physics<br>
@@ -111,6 +120,7 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
+* **Featured in the ``Top 100 papers in Neuroscience'' published by Scientific Reports in 2022** for the paper "Disentangling the critical signatures of neural activity"
 * **Graduate Alumni Award**, best graduate student in the School of Science of the University of Padova
 * **SECS grant**, provided by the Young Researcher in Complex Systems Society.
 * **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v14/162){:target="_blank"}<!--_-->** for the paper "Mutual information disentangles interactions from changing environments"
