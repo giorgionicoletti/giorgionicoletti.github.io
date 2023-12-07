@@ -8,4 +8,4 @@ date: 2022-11-08
 location: "Online"
 ---
 
-This poster has been shown during the poster session of the [Brain Criticality Meeting 2022](https://braincriticality.org/){:target="_blank"}<!--_-->, held in Bethesda, MD, USA.
+This poster has been shown during the virtual poster session of the [Brain Criticality Meeting 2022](https://braincriticality.org/){:target="_blank"}<!--_-->, held in Bethesda, MD, USA.
