@@ -252,14 +252,15 @@
    ====================================================================================== */
 
 .textbox {
-  background-color: #f2f2f2;
+  background-color: #f8f9fa2b;
   color: black;
-  border-color: #750909;
-  border-width: thin;
-  border-radius: 10px;
+  border-color: #ffffff;
+  border: 1px solid #f1f2f375;
+  border-radius: 7px;
   padding: 10px;
 
   &:hover{
-    background-color: #e0e0e0;
+    background-color: #F8F9FA;
+    border: 1px solid #f1f2f3;
   }
 }

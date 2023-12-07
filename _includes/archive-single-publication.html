@@ -42,7 +42,7 @@
         <a href="{{ post.preprinturl }}" target="_blank">Preprint link <i class="fas fa-external-link-alt"></i></a>
       </p>
     {% endif %}
-    <p class="archive__item-excerpt" itemprop="description">  <span style="color: #9BA1A6"> <b><i>Authors</i></b>: </span>
+    <p class="archive__item-excerpt" itemprop="description">  <span style="color: #9BA1A6;font-weight:600">Authors: </span>
     {% assign authors = post.authors | split: ', ' %}
     {% for author in authors %}
       {% if author contains 'Giorgio Nicoletti' %}
@@ -59,4 +59,4 @@
   <span style="display:block; margin-top:-2em; margin-left:-2em; visibility: hidden">text</span>
 </div>
 </div>
-<span style="display:block; margin-top:0.25em; visibility: hidden">text</span>
+<span style="display:block; margin-top:-2em; visibility: hidden">text</span>
