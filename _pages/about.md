@@ -16,7 +16,9 @@ I was awarded the [Graduate Alumni Award](https://www.alumniunipd.it/blog/event/
 
 
 ## My work at a glance
-My main project with Andrea Rinaldo (EPFL) and Amos Maritan (University of Padova) is the study of general metapopulation models in arbitrary network topologies to understand how dispersal affects survival, coexistence and dynamics of ecological metacommunities. With Daniel M. Busiello (MPIPKS, Germany) and many other collaborators, I am also currently working on understanding how biological systems process information and how they adapt to their environment, seeking universal principles that can be applied across different scales.
+My main project with Andrea Rinaldo (EPFL) and Amos Maritan (University of Padova) is the study of <span style="color:#6c757d;font-weight:600;">spatial metapopulation models</span> in arbitrary network topologies to understand how dispersal affects <span style="color:#6c757d;font-weight:600;">survival, coexistence and dynamics of ecological metacommunities</span>.
+
+With Daniel M. Busiello (MPIPKS, Germany) and many other collaborators, I am also currently working on understanding <span style="color:#6c757d;font-weight:600;">how biological systems process information</span> and how they adapt to their environment, seeking universal principles that can be applied across different scales.
 
 ### Collaboration network
 Below is a network representing my work. The color of each node specifies either a <span style="color:#d6d2d2;font-weight:600;">co-author</span>, a <span style="color:#79addc;font-weight:600;">preprint</span> or <span style="color:#9e1910;font-weight:600;">journal article</span>. Click on a node for more information.
