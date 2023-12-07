@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Giorgio Nicoletti"
   avatar           : "profile_picture.png"
-  bio              : "PhD student in Physics at the University of Padova"
-  location         : "Padova (IT)"
+  bio              : "Postdoctoral researcher at EPFL"
+  location         : "Lausanne, Switzerland"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.it/citations?hl=it&user=PVA6lnMAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=PVA6lnMAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :

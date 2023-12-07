@@ -12,7 +12,7 @@ weblinks <- c(read.table("hyperlinks.txt"))
 
 ColourScale <- 'd3.scaleOrdinal()
             .domain(["1", "2", "3", "4", "5"])
-            .range(["#000000", "#9BA1A6", "#dbbb2a", "#9e1910", "#8e20c1"]);'
+            .range(["#000000", "#d6d2d2", "#79addc", "#9e1910", "#8e20c1"]);'
 
 fn <- forceNetwork(Links = links, Nodes = nodes,
              Source = "source", Target = "target",

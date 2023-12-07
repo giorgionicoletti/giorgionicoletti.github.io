@@ -14,38 +14,52 @@ You can download my full CV [here](/files/CV_Nicoletti_2023-11-07.pdf){:target="
 <font size="5">
 <table>
 <tr>
-    <td width="25%"><div align="right">Nov 2023 - present<br>
-	  <img src='/images/epfl_logo.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+    <td width="22%"><div align="right">Nov 2023 - present<br>
+	  <img src='/images/epfl_logo.png' style="padding-top:7px;display:block;margin-right:10px;" width="130"></div>
     </td>
-    <td width="75%">Postdoc, École Polytechnique Fédérale de Lausanne, Switzerland<br>
-       <b>Group:</b> ECHO lab<br>
+    <td width="80%">Postdoctoral researcher<br>
+    École Polytechnique Fédérale de Lausanne, Switzerland<br>
+    <span style="font-weight:600">@</span> ECHO laboratory<br>
    </td>
   </tr>
 
+  <td></td>
+
+
   <tr>
-    <td width="25%"><div align="right">Jan 2023 - Nov 2023<br>
-	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="130"></div>
+    <td width="22%"><div align="right">Jan - Nov 2023<br>
+	  <img src='/images/FINAL_liph-logo_red_text.png' style="padding-top:7px;display: block;margin-right:7px;" width="150"></div>
     </td>
-    <td width="75%">Researcher, Department of Mathematics, University of Padova, Padova, Italy<br>
-       <b>Group:</b> Laboratory of Interdisciplinary Physics<br>
+    <td width="80%">
+    Research grant<br>
+    Department of Physics and Department of Mathematics, University of Padova, Italy<br>
+    <span style="font-weight:600">@</span> Laboratory of Interdisciplinary Physics<br>
    </td>
   </tr>
 
+  <td></td>
+
+
   <tr>
-    <td width="25%"><div align="right">Sept - Dec 2022<br>
-    <img src='/images/tubingen.png' style="padding-top:7px; display: block; margin-right:20px;" width="150"></div>
+    <td width="22%"><div align="right">Sept - Dec 2022<br>
+    <img src='/images/tubingen.png' style="padding-top:5px; display: block; margin-right:10px;" width="150"></div>
     </td>
-    <td width="75%">Visiting Ph.D. student, Self-organization and optimality in neuronal networks group, University of Tübingen, Tübingen, Germany<br>
-       <b>Supervisor:</b> Anna Levina<br>
+    <td width="80%">
+    Visiting Ph.D. student <br>
+    AI Research Center, University of Tübingen, Germany<br>
+    <span style="font-weight:600">@</span> Self-organization and optimality in neuronal networks<br>
    </td>
   </tr>
 
+  <td></td>
+
   <tr>
-    <td width="25%"><div align="right">June - July 2022<br>
-	  <img src='/images/mpipks.png' style="padding-top:7px; display: block; margin-right:15px;" width="150"></div>
+    <td width="22%"><div align="right">June - July 2022<br>
+	  <img src='/images/mpipks.png' style="padding-top:4px; display: block; margin-right:0px;" width="150"></div>
     </td>
-    <td width="75%">Visiting Ph.D. student, Max Planck Institute for the Physics of Complex Systems, Dresden, Germany<br>
-	     <b>Supervisor:</b> Daniel M. Busiello<br>
+    <td width="80%">Visiting Ph.D. student<br>
+    Max Planck Institute for the Physics of Complex Systems, Germany<br>
+	  <span style="font-weight:600">@</span> Division of Biological Physics<br>
    </td>
   </tr>
 </table>
@@ -56,44 +70,79 @@ You can download my full CV [here](/files/CV_Nicoletti_2023-11-07.pdf){:target="
 <font size="5">
 <table>
   <tr>
-    <td width="25%"><div align="right">Oct 2019 - Apr 2023<br>
-	  <img src='/images/NEW_liph-logo_red.png' style="padding-top:7px;display: block;margin-right:15px;" width="150"></div>
+    <td width="22%"><div align="right">Oct 2019 - Apr 2023<br>
+	  <img src='/images/FINAL_liph-logo_red_text.png' style="padding-top:7px;display: block;margin-right:7px;" width="150"></div>
     </td>
-    <td width="75%">Ph.D in <i>Physics</i>, University of Padova<br>
-	     <b>Supervisor:</b> Amos Maritan<br>
-		   <b>Co-supervisor:</b> Samir Suweis<br>
-       <b>Main research interests:</b> complex systems and the Physics of phase transitions.<br><br>
+    <td width="80%">Ph.D in Physics <i>cum laude</i>, University of Padova<br>
+       <span style="font-weight:600">Thesis:</span> <i>Information and criticality in complex stochastic systems</i><br>
+	     <span style="font-weight:600">Supervisors:</span> Amos Maritan and Samir Suweis
    </td>
   </tr>
+
+  <td></td>
+
   <tr>
-    <td width="25%"><div align="right">Oct 2017 - Sept 2019<br>
-		<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:35px;" width="100"></div></td>
-		<td width="75%">Master's degree in <i>Physics</i>, University of Padova<br>
-      <b>Thesis title:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
-	 		<b>Advisor:</b> Amos Maritan<br>
-      <b>Co-advisor:</b> Samir Suweis<br>
-      <b>Final grade:</b> 110/110 cum laude<br>
-      <b>GPA:</b> 29.93/30<br><br>
+    <td width="22%"><div align="right">Oct 2017 - Sept 2019<br>
+		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
+		<td width="80%">Master's degree in Physics, University of Padova<br>
+      <span style="font-weight:600">Thesis:</span> <i>Scaling and renormalization group for models of neural activity</i><br>
+	    <span style="font-weight:600">Advisors:</span> Amos Maritan and Samir Suweis<br>
+      <span style="font-weight:600">Final grade:</span> 110/110 <i>cum laude</i> &nbsp; &nbsp; &nbsp;
+      <span style="font-weight:600">GPA:</span> 29.93/30
     </td>
   </tr>
+
+  <td></td>
+
   <tr>
-    <td width="25%"><div align="right">Sept 2018 - Jan 2019<br>
-		<img src="/images/logo_paris.png" style="padding-top: 7px;display: block;margin-right:25px;" width="120"></div></td>
-		<td width="75%">Erasmus semester, Sorbonne University, Paris Diderot University, Paris-Sud University<br>
-      <b>ECTS GPA:</b> A/A<br><br>
+    <td width="22%"><div align="right">Sept 2018 - Jan 2019<br>
+		<img src="/images/logo_paris.png" style="padding-top: 7px;display: block;margin-right:7px;" width="150"></div></td>
+		<td width="80%">Erasmus semester<br>
+    Sorbonne University, Paris Diderot University, Paris-Sud University<br>
+    <span style="font-weight:600">ECTS GPA:</span> A/A
     </td>
   </tr>
+
+  <td></td>
+
   <tr>
-    <td width="25%"><div align="right">Oct 2014 - July 2017<br>
-			<img src="/images/unipd.png" style="padding-top: 7px;display: block;margin-right:35px;" width="100"></div></td>
-		<td width="75%">Bachelor's degree in <i>Physics</i>, University of Padova<br>
-      <b>Thesis title:</b> <i>Quantum Mechanics and de Finetti theorem. A Bayesian interpretation of quantum probability</i><br>
-	 		<b>Advisor:</b> Pieralberto Marchetti<br>
-      <b>Final grade:</b> 110/110 cum laude<br>
+    <td width="22%"><div align="right">Oct 2014 - July 2017<br>
+		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
+		<td width="80%">Bachelor's degree in Physics, University of Padova<br>
+      <span style="font-weight:600">Thesis:</span> <i>A Bayesian interpretation of quantum probability</i><br>
+	    <span style="font-weight:600">Advisor:</span> Pieralberto Marchetti<br>
+      <span style="font-weight:600">Final grade:</span> 110/110 <i>cum laude</i> &nbsp; &nbsp; &nbsp;
+      <span style="font-weight:600">GPA:</span> 29.19/30
     </td>
   </tr>
 </table>
 </font>
+
+<!---
+## Funding
+<font size="5">
+<table>
+  <tr>
+    <td width="22%"><div align="right">Jan 2023 - Nov 2023<br>
+		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
+    <td width="80%">
+	  <span style="font-weight:600">Research grant, Department of Mathematics, University of Padova</span><br>
+    <span style="font-weight:600">Project: </span><i>Mathematical models for complex living systems: critical emergent phenomena from network interaction and optimization</i><br>
+    <span style="font-weight:600">Amount: </span> € 23,889.84 <br>
+   </td>
+  </tr>
+<td></td>
+  <tr>
+    <td width="22%"><div align="right">Oct 2019 - Dec 2022<br>
+		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
+    <td width="80%">
+	  <span style="font-weight:600">Doctoral fellowship, University of Padova</span><br>
+    <span style="font-weight:600">Amount: </span> ≈ € 70,000.00 <br>
+   </td>
+  </tr>
+</table>
+</font>
+-->
 
 ## Publications & preprints
   <ul>{% for post in site.publications reversed %}
