@@ -6,7 +6,7 @@ excerpt: 'Journal article'
 date: 2023-11-06
 year: '2023'
 authors: 'Giorgio Nicoletti, Prajwal Padmanabha, Sandro Azaele, Samir Suweis, Andrea Rinaldo, Amos Maritan'
-venue: 'PNAS 120 (46) e2311548120'
+venue: 'PNAS 120 (46) e2311548120 (2023)'
 preprinturl: 'https://doi.org/10.1073/pnas.2311548120'
 paperurl: 'https://doi.org/10.1073/pnas.2311548120'
 citation: 'Giorgio Nicoletti, Prajwal Padmanabha, Sandro Azaele, Samir Suweis, Andrea Rinaldo, Amos Maritan. Emergent encoding of dispersal network topologies in spatial metapopulation models. Proceedings of the National Academy of Sciences 120 (46) e2311548120 (2023).'

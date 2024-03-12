@@ -6,7 +6,7 @@ excerpt: 'preprint'
 date: 2023-05-21
 year: '2023'
 authors: 'Karan Manjunatha, Matteo Bruzzone, Giorgio Nicoletti, Samir Suweis, Marco Dal Maschio'
-venue: 'bioRxiv 2023.05.21.541471'
+venue: 'bioRxiv 2023.05.21.541471 (2023)'
 preprinturl: 'https://www.biorxiv.org/content/10.1101/2023.05.21.541471v1.abstract'
 citation: 'Karan Manjunatha, Matteo Bruzzone, Giorgio Nicoletti, Samir Suweis, Marco Dal Maschio. A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets. bioRxiv 2023.05.21.541471 (2023).'
 ---

@@ -1,14 +1,14 @@
 ---
-title: "The architecture of information processing in biological systems"
+title: "Adaptation maximizes information and minimizes dissipation across biological scales"
 collection: preprint
 permalink: /publication/2023-04-05-infoprocess-arXiv
 excerpt: 'preprint'
-date: 2023-04-05
+date: 2023-09-20
 year: '2023'
 authors: 'Giorgio Nicoletti, Matteo Bruzzone, Samir Suweis, Marco Dal Maschio, Daniel M. Busiello'
-venue: 'arXiv:2301.12812'
+venue: 'arXiv:2301.12812 (2023)'
 preprinturl: 'https://arxiv.org/abs/2301.12812'
-citation: 'Giorgio Nicoletti, Matteo Bruzzone, Samir Suweis, Marco Dal Maschio, Daniel M. Busiello. The architecture of information processing in biological systems. arXiv:2301.12812 (2023).'
+citation: 'Giorgio Nicoletti, Matteo Bruzzone, Samir Suweis, Marco Dal Maschio, Daniel M. Busiello. Adaptation maximizes information and minimizes dissipation across biological scales. arXiv:2301.12812 (2023).'
 ---
 
 ## Abstract

@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/CV_Nicoletti_2023-11-07.pdf){:target="_blank"}<!--_--> (last updated on November 7th, 2023).
+You can download my full CV [here](/files/CV_Nicoletti_2024-03-12.pdf){:target="_blank"}<!--_--> (last updated on March 12th, 2024).
 
 ## Research experience
 <font size="5">
@@ -27,7 +27,7 @@ You can download my full CV [here](/files/CV_Nicoletti_2023-11-07.pdf){:target="
 
 
   <tr>
-    <td width="22%"><div align="right">Jan - Nov 2023<br>
+    <td width="22%"><div align="right">Apr - Nov 2023<br>
 	  <img src='/images/FINAL_liph-logo_red_text.png' style="padding-top:7px;display: block;margin-right:7px;" width="150"></div>
     </td>
     <td width="80%">

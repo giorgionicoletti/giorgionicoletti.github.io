@@ -32,7 +32,9 @@
 31	"Information-driven transitions in projections of underdamped dynamics"	4
 32	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
 33	"The emergence of scale-free fires in Australia"	4
-34	"The architecture of information processing in biological systems"	3
+34	"Adaptation maximizes information and minimizes dissipation across biological scales"	3
 35	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
 36	"Prenatal experience with language shapes the brain"	4
 37	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
+38	"Tuning transduction from hidden observables to optimize information harvesting"	3
+39	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
