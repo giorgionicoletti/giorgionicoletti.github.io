@@ -3,7 +3,7 @@ title: "Information-driven transitions in optimal projections of underdamped dyn
 collection: talks
 type: "Contributed talk"
 permalink:
-venue: "CCS 2021"
+venue: "CCS 2022"
 date: 2022-10-18
 location: "Palma de Mallorca, Spain"
 ---

@@ -3,7 +3,7 @@ title: "Criticality and network structure drive emergent oscillations in a stoch
 collection: talks
 type: "Contributed talk"
 permalink:
-venue: "CCS 2021"
+venue: "CCS 2022"
 date: 2022-10-17
 location: "Palma de Mallorca, Spain"
 ---

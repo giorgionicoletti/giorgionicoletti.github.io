@@ -3,7 +3,7 @@ title: "Survival and coexistence in spatially explicit metapopulation models"
 collection: talks
 type: "Invited talk"
 permalink:
-venue: "'Emergent dynamical patterns of disordered systems with applications to natural communities' workshop"
+venue: "'Emergent dynamical patterns of disordered systems with applications to natural communities' workshop, University of Padova"
 date: 2023-12-18
 location: "Padova, Italy"
 ---

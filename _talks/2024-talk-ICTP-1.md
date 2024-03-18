@@ -3,7 +3,7 @@ title: "Tuning transduction from hidden observables to optimize information harv
 collection: talks
 type: "Invited talk"
 permalink:
-venue: "'Information processing and decision-making in biology' workshop"
+venue: "'Information processing and decision-making in biology' workshop, ICTP"
 date: 2024-03-11
 location: "Trieste, Italy"
 ---
