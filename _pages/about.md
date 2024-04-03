@@ -27,6 +27,6 @@ This is a network representing my work. The color of each node specifies either 
 
 
 ### Talks & contributions
-The markers on the map represents a conference, workshop, or institute where I presented my work. Each marker represent an <span style="color:#a23336;font-weight:600;">invited talk</span>, a <span style="color:#065b92;font-weight:600;">contributed talk</span>, or a <span style="color:#979797;font-weight:600;">poster</span>. Click on a marker for more information.
+The markers on the map represents a conference, workshop, or institute where I presented my work, either <span style="color:#a23336;font-weight:600;">invited talks</span> or <span style="color:#065b92;font-weight:600;">contributed talks and posters</span>. Click on a marker for more information.
 
  <iframe src="/talkmap/talks_map.html" height="300" width="100%" style="border: none"></iframe>
