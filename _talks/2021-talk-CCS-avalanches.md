@@ -1,5 +1,5 @@
 ---
-title: "Disentangling the role of external and intrinsic dynamics on the critical signatures of neural activityd"
+title: "Disentangling the role of external and intrinsic dynamics on the critical signatures of neural activity"
 collection: talks
 type: "Contributed talk"
 permalink:
