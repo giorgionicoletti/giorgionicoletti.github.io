@@ -24,7 +24,7 @@
 22	"Prajwal Padmanabha"	2
 23	"Sandro Azaele"	2
 24	"Andrea Rinaldo"	2
-25	"Davide Bernardi*"	2
+25	"Davide Bernardi"	2
 27	"Scaling and criticality in a phenomenological renormalization group"	4
 28	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
 29	"Mutual information disentangles interactions from changing environments"	4

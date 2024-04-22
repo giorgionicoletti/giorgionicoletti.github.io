@@ -5,7 +5,7 @@ permalink: /publication/2024-04-15-Multispecies-arXiv
 excerpt: 'preprint'
 date: 2024-04-15
 year: '2024'
-authors: 'Prajwal Padmanabha, Giorgio Nicoletti, Davide Bernardi*, Samir Suweis, Sandro Azaele, Andrea Rinaldo, Amos Maritan'
+authors: 'Giorgio Nicoletti, Prajwal Padmanabha, Davide Bernardi, Samir Suweis, Sandro Azaele, Andrea Rinaldo, Amos Maritan'
 venue: 'arXiv:2404.09908 (2024)'
 preprinturl: 'https://arxiv.org/abs/2404.09908'
 citation: 'Prajwal Padmanabha*, Giorgio Nicoletti*, Davide Bernardi*, Samir Suweis, Sandro Azaele, Andrea Rinaldo, Amos Maritan. Spatially disordered environments stabilize competitive metacommunities. arXiv:2404.09908 (2024) (* equal contribution).'
