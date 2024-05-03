@@ -40,3 +40,4 @@
 39	"Tuning transduction from hidden observables to optimize information harvesting"	3
 40	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
 41	"Spatially disordered environments stabilize competitive metacommunities"	3
+42	"Information propagation in Gaussian processes on multilayer networks"	3

@@ -9,7 +9,7 @@ authors: 'Giorgio Nicoletti, Daniel M. Busiello'
 venue: 'Physical Review X 14 (2) 021007 (2024)'
 preprinturl: 'https://doi.org/10.48550/arXiv.2312.06246'
 paperurl: 'https://doi.org/10.1103/PhysRevX.14.021007'
-citation: 'Giorgio Nicoletti, Daniel M. Busiello. Information propagation in multilayer systems with higher-order interactions across timescales. in press, Physical Review X 14 (2) 021007 (2024).'
+citation: 'Giorgio Nicoletti, Daniel M. Busiello. Information propagation in multilayer systems with higher-order interactions across timescales. Physical Review X 14 (2) 021007 (2024).'
 ---
 
 ## Abstract
