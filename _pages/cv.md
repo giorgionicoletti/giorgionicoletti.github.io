@@ -8,7 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](/files/CV_Nicoletti_2024-05-03.pdf){:target="_blank"}<!--_--> (last updated on Mat 3rd, 2024).
+You can download my full CV [here](/files/CV_Nicoletti_2024-05-14.pdf){:target="_blank"}<!--_--> (last updated on May 14th, 2024).
 
 ## Research experience
 <font size="5">

@@ -25,19 +25,24 @@
 23	"Sandro Azaele"	2
 24	"Andrea Rinaldo"	2
 25	"Davide Bernardi"	2
-27	"Scaling and criticality in a phenomenological renormalization group"	4
-28	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
-29	"Mutual information disentangles interactions from changing environments"	4
-30	"Disentangling the critical signatures of neural activity"	4
-31	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
-32	"Information-driven transitions in projections of underdamped dynamics"	4
-33	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
-34	"The emergence of scale-free fires in Australia"	4
-35	"Adaptation maximizes information and minimizes dissipation across biological scales"	3
-36	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
-37	"Prenatal experience with language shapes the brain"	4
-38	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
-39	"Tuning transduction from hidden observables to optimize information harvesting"	3
-40	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
-41	"Spatially disordered environments stabilize competitive metacommunities"	3
-42	"Information propagation in Gaussian processes on multilayer networks"	3
+26	"Clelia Corridori"	2
+27	"Merrit Romeike"	2
+28	"Christa Buecker"	2
+29	"Graziano Martello"	2
+31	"Scaling and criticality in a phenomenological renormalization group"	4
+32	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
+33	"Mutual information disentangles interactions from changing environments"	4
+34	"Disentangling the critical signatures of neural activity"	4
+35	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
+36	"Information-driven transitions in projections of underdamped dynamics"	4
+37	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
+38	"The emergence of scale-free fires in Australia"	4
+39	"Adaptation maximizes information and minimizes dissipation across biological scales"	3
+40	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
+41	"Prenatal experience with language shapes the brain"	4
+42	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
+43	"Tuning transduction from hidden observables to optimize information harvesting"	3
+44	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
+45	"Spatially disordered environments stabilize competitive metacommunities"	3
+46	"Information propagation in Gaussian processes on multilayer networks"	3
+47	"Unveiling Gene Perturbation Effects through Gene Regulatory Networks Inference from single-cell transcriptomic data"	3
