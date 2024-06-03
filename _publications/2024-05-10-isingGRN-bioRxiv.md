@@ -1,5 +1,5 @@
 ---
-title: "Unveiling Gene Perturbation Effects through Gene Regulatory Networks Inference from single-cell transcriptomic data"
+title: "Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"
 collection: preprint
 permalink: /publication/2024-05-10-isingGRN-bioRxiv
 excerpt: 'preprint'
@@ -8,7 +8,7 @@ year: '2024'
 authors: 'Clelia Corridori, Merrit Romeike, Giorgio Nicoletti, Christa Buecker, Samir Suweis, Sandro Azaele, Graziano Martello'
 venue: 'bioRxiv 2024.05.10.593314 (2024)'
 preprinturl: 'https://www.biorxiv.org/content/10.1101/2024.05.10.593314v1'
-citation: 'Clelia Corridori, Merrit Romeike, Giorgio Nicoletti, Christa Buecker, Samir Suweis*, Sandro Azaele*, Graziano Martello*. Unveiling Gene Perturbation Effects through Gene Regulatory Networks Inference from single-cell transcriptomic data. bioRxiv 2024.05.10.593314 (2024) (* equal contribution).'
+citation: 'Clelia Corridori, Merrit Romeike, Giorgio Nicoletti, Christa Buecker, Samir Suweis*, Sandro Azaele*, Graziano Martello*. Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data. bioRxiv 2024.05.10.593314 (2024) (* equal contribution).'
 ---
 
 ## Abstract

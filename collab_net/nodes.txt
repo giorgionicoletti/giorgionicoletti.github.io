@@ -45,4 +45,4 @@
 44	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
 45	"Spatially disordered environments stabilize competitive metacommunities"	3
 46	"Information propagation in Gaussian processes on multilayer networks"	3
-47	"Unveiling Gene Perturbation Effects through Gene Regulatory Networks Inference from single-cell transcriptomic data"	3
+47	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
