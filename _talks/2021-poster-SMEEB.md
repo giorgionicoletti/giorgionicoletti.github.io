@@ -3,7 +3,7 @@ title: "Modeling the emergence of scale-free fire out-breaks in Australia"
 collection: talks
 type: "Contributed poster"
 permalink:
-venue: "SMEEB 2021"
+venue: "Stochastic Models and Experiments in Ecology and Biology 2021"
 date: 2021-06-23
 location: "Venice, Italy"
 ---
