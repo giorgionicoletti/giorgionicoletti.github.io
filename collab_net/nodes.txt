@@ -46,3 +46,4 @@
 45	"Spatially disordered environments stabilize competitive metacommunities"	3
 46	"Information propagation in Gaussian processes on multilayer networks"	3
 47	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
+48	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
