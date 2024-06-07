@@ -45,12 +45,18 @@
     <p class="archive__item-excerpt" itemprop="description">  <span style="color: #9BA1A6;font-weight:600">Authors: </span>
     {% assign authors = post.authors | split: ', ' %}
     {% for author in authors %}
-      {% if author contains 'Giorgio Nicoletti' %}
-        <b>{{ author }}</b>,
-      {% elsif forloop.last == false %}
-        <span style="color: #9BA1A6">{{ author }}, </span>
+      {% if forloop.last == false %}
+        {% if author contains 'Giorgio Nicoletti' %}
+          <b>{{ author }}</b>,
+        {% else %}
+          <span style="color: #9BA1A6">{{ author }}, </span>
+        {% endif %}
       {% else %}
-        <span style="color: #9BA1A6">{{ author }}</span>
+        {% if author contains 'Giorgio Nicoletti' %}
+          <b>{{ author }}</b>
+        {% else %}
+          <span style="color: #9BA1A6">{{ author }}</span>
+        {% endif %}
       {% endif %}
       {% endfor %}
     </p>
