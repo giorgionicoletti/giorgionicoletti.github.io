@@ -16,34 +16,33 @@
 14	"Matteo Bruzzone"	2
 15	"Marco Dal Maschio"	2
 16	"Karan Manjunatha"	2
-17	"Bendetta Mariani"	2
-18	"Maía Clemencia Ortíz Barajas"	2
-19	"Mohinish Shukla"	2
-20	"Ramon Guevara"	2
-21	"Judit Gervain"	2
-22	"Prajwal Padmanabha"	2
-23	"Sandro Azaele"	2
-24	"Andrea Rinaldo"	2
-25	"Davide Bernardi"	2
-26	"Clelia Corridori"	2
-27	"Merrit Romeike"	2
-28	"Christa Buecker"	2
-29	"Graziano Martello"	2
-31	"Scaling and criticality in a phenomenological renormalization group"	4
-32	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
-33	"Mutual information disentangles interactions from changing environments"	4
-34	"Disentangling the critical signatures of neural activity"	4
-35	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
-36	"Information-driven transitions in projections of underdamped dynamics"	4
-37	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
-38	"The emergence of scale-free fires in Australia"	4
-39	"Information gain at the onset of habituation to repeated stimuli"	3
-40	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
-41	"Prenatal experience with language shapes the brain"	4
-42	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
-43	"Tuning transduction from hidden observables to optimize information harvesting"	3
-44	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
-45	"Spatially disordered environments stabilize competitive metacommunities"	3
-46	"Information propagation in Gaussian processes on multilayer networks"	3
-47	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
-48	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
+17	"Maía Clemencia Ortíz Barajas"	2
+18	"Mohinish Shukla"	2
+19	"Ramon Guevara"	2
+20	"Judit Gervain"	2
+21	"Prajwal Padmanabha"	2
+22	"Sandro Azaele"	2
+23	"Andrea Rinaldo"	2
+24	"Davide Bernardi"	2
+25	"Clelia Corridori"	2
+26	"Merrit Romeike"	2
+27	"Christa Buecker"	2
+28	"Graziano Martello"	2
+30	"Scaling and criticality in a phenomenological renormalization group"	4
+31	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
+32	"Mutual information disentangles interactions from changing environments"	4
+33	"Disentangling the critical signatures of neural activity"	4
+34	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
+35	"Information-driven transitions in projections of underdamped dynamics"	4
+36	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
+37	"The emergence of scale-free fires in Australia"	4
+38	"Information gain at the onset of habituation to repeated stimuli"	3
+39	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
+40	"Prenatal experience with language shapes the brain"	4
+41	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
+42	"Tuning transduction from hidden observables to optimize information harvesting"	3
+43	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
+44	"Spatially disordered environments stabilize competitive metacommunities"	3
+45	"Information propagation in Gaussian processes on multilayer networks"	3
+46	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
+47	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
