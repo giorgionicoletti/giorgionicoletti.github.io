@@ -1,14 +1,15 @@
 ---
 title: "Tuning transduction from hidden observables to optimize information harvesting"
 collection: preprint
-permalink: /publication/2024-03-07-Transduction-arXiv
-excerpt: 'preprint'
-date: 2024-03-07
+permalink: /publication/2024-10-07-Transduction-PRL
+excerpt: 'Journal article'
+date: 2024-10-07
 year: '2024'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
-venue: 'arXiv:2403.04709 (2024)'
+venue: 'Physical Review Letters 133, 158401 (2024)'
 preprinturl: 'https://arxiv.org/abs/2403.04709'
-citation: 'Giorgio Nicoletti, Daniel M. Busiello. Tuning transduction from hidden observables to optimize information harvesting. arXiv:2403.04709 (2024)'
+paperurl: 'https://doi.org/10.1103/PhysRevLett.133.158401'
+citation: 'Giorgio Nicoletti, Daniel M. Busiello. Tuning transduction from hidden observables to optimize information harvesting. Phys. Rev. Lett. 133, 158401 (2024)'
 ---
 
 ## Abstract

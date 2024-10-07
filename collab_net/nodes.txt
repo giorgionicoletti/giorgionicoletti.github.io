@@ -40,9 +40,9 @@
 39	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
 40	"Prenatal experience with language shapes the brain"	4
 41	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
-42	"Tuning transduction from hidden observables to optimize information harvesting"	3
-43	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
-44	"Spatially disordered environments stabilize competitive metacommunities"	3
-45	"Information propagation in Gaussian processes on multilayer networks"	3
-46	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
-47	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
+42	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
+43	"Spatially disordered environments stabilize competitive metacommunities"	3
+44	"Information propagation in Gaussian processes on multilayer networks"	3
+45	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
+46	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
+47	"Tuning transduction from hidden observables to optimize information harvesting"	4

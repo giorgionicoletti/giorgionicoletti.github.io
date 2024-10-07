@@ -6,7 +6,7 @@ excerpt: 'Journal article'
 date: 2022-07-18
 year: '2022'
 authors: 'Giorgio Nicoletti, Amos Maritan, Daniel M. Busiello'
-venue: 'Phys. Rev. E 106, 014118 (2022)'
+venue: 'Physical Review E 106, 014118 (2022)'
 preprinturl: 'https://arxiv.org/abs/2202.11067'
 paperurl: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.014118'
 citation: 'Giorgio Nicoletti, Amos Maritan, Daniel M. Busiello. Information-driven transitions in projections of underdamped dynamics. Phys. Rev. E 106, 014118 (2022).'

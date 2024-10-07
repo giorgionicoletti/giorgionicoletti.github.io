@@ -6,7 +6,7 @@ excerpt: 'Journal article'
 date: 2021-11-22
 year: '2021'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
-venue: 'Phys. Rev. Lett. 127, 228301 (2021)'
+venue: 'Physical Review Letters 127, 228301 (2021)'
 paperurl: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.228301'
 preprinturl: 'https://arxiv.org/abs/2107.08985'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Mutual information disentangles interactions from changing environments. Phys. Rev. Lett. 127, 228301 (2021).'

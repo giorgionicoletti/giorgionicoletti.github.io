@@ -6,7 +6,7 @@ excerpt: 'Journal article'
 date: 2022-06-24
 year: '2022'
 authors: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Stefano Vassanelli, Samir Suweis'
-venue: 'Sci. Rep. 12, 10770 (2022)'
+venue: 'Scientific Reports 12, 10770 (2022)'
 preprinturl: 'https://arxiv.org/abs/2105.05070'
 paperurl: 'https://www.nature.com/articles/s41598-022-13686-0'
 
