@@ -3,7 +3,7 @@ title: "Landscape and environmental heterogeneity support coexistence in competi
 collection: publications
 permalink: /publication/2024-10-22-Multispecies-PNAS
 excerpt: 'Journal article'
-date: 2024-04-15
+date: 2024-10-22
 year: '2024'
 authors: 'Giorgio Nicoletti, Prajwal Padmanabha, Davide Bernardi, Samir Suweis, Sandro Azaele, Andrea Rinaldo, Amos Maritan'
 venue: 'Proceedings of the National Academy of Sciences 121 (44) e2410932121 (2024)'
