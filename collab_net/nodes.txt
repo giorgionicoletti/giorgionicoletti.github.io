@@ -23,11 +23,11 @@
 21	"Prajwal Padmanabha"	2
 22	"Sandro Azaele"	2
 23	"Andrea Rinaldo"	2
-24	"Davide Bernardi"	2
-25	"Clelia Corridori"	2
-26	"Merrit Romeike"	2
-27	"Christa Buecker"	2
-28	"Graziano Martello"	2
+24	"Clelia Corridori"	2
+25	"Merrit Romeike"	2
+26	"Christa Buecker"	2
+27	"Graziano Martello"	2
+28	"Davide Bernardi"	2
 30	"Scaling and criticality in a phenomenological renormalization group"	4
 31	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
 32	"Mutual information disentangles interactions from changing environments"	4
@@ -41,8 +41,9 @@
 40	"Prenatal experience with language shapes the brain"	4
 41	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
 42	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
-43	"Spatially disordered environments stabilize competitive metacommunities"	3
-44	"Information propagation in Gaussian processes on multilayer networks"	3
-45	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
-46	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
-47	"Tuning transduction from hidden observables to optimize information harvesting"	4
+43	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
+44	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
+45	"Tuning transduction from hidden observables to optimize information harvesting"	4
+46	"Information interference driven by environmental activity"	3
+47	"Information propagation in Gaussian processes on multilayer networks"	4
+48	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4

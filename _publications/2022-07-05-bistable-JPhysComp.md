@@ -6,7 +6,7 @@ excerpt: 'Journal article'
 date: 2022-07-05
 year: '2022'
 authors: 'Giorgio Nicoletti, Giacomo Barzon, Benedetta Mariani, Marco Formentin, Samir Suweis'
-venue: 'J. Phys. Complex. 3 025010 (2022)'
+venue: 'Journal of Physics: Complexity 3 025010 (2022)'
 preprinturl: 'https://doi.org/10.1101/2022.01.17.476567'
 paperurl: 'https://iopscience.iop.org/article/10.1088/2632-072X/ac7a83'
 citation: 'Giacomo Barzon*, Giorgio Nicoletti*, Benedetta Mariani, Marco Formentin, Samir Suweis. Criticality and network structure drive emergent oscillations in a stochastic whole-brain model. J. Phys. Complex. 3 025010 (2022) (* equal contribution).'

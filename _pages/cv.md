@@ -159,6 +159,7 @@ You can download my full CV [here](/files/CV_Nicoletti_2024-06-05.pdf){:target="
   {% endfor %}</ul>
 
 ## Attended schools and workshops
+* [Emergence of Information in Molecular Systems](https://www.munich-iapbp.de/molinfo){:target="_blank"}<!--_-->, *Munich, Germany*, 22nd July - 2nd August 2024
 * [Winter Workshop on Complex Systems 2022](https://wwcs2022.github.io/){:target="_blank"}<!--_-->, *Arc-et-Senans, France*, 24th - 28th January 2022
 * [The Beg Rohu Summer School “Statistical Mechanics and Emergent
 Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:target="_blank"}<!--_-->, *Beg Rohu, France*, 30th May - 12th June 2021
@@ -169,6 +170,7 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
+* **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v17/143){:target="_blank"}<!--_-->** for the paper "Tuning transduction from hidden observables to optimize information harvesting"
 * **Featured in the ``Top 100 papers in Neuroscience'' published by Scientific Reports in 2022** for the paper "Disentangling the critical signatures of neural activity"
 * **Graduate Alumni Award**, best graduate student in the School of Science of the University of Padova
 * **SECS grant**, provided by the Young Researcher in Complex Systems Society.
