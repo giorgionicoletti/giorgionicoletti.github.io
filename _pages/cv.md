@@ -14,7 +14,19 @@ You can download my full CV [here](/files/CV_Nicoletti_2024-06-05.pdf){:target="
 <font size="5">
 <table>
 <tr>
-    <td width="22%"><div align="right">Nov 2023 - present<br>
+    <td width="22%"><div align="right">2024 - present<br>
+	  <img src='/images/ictp_logo.png' style="padding-top:7px;display:block;margin-right:10px;" width="130"></div>
+    </td>
+    <td width="80%">Postdoctoral researcher<br>
+    International Center for Theoretical Physics, Trieste, Italy<br>
+    <span style="font-weight:600">@</span> Quantitative Life Sciencies<br>
+   </td>
+  </tr>
+
+  <td></td>
+
+<tr>
+    <td width="22%"><div align="right">2023 - 2024<br>
 	  <img src='/images/epfl_logo.png' style="padding-top:7px;display:block;margin-right:10px;" width="130"></div>
     </td>
     <td width="80%">Postdoctoral researcher<br>
@@ -26,7 +38,7 @@ You can download my full CV [here](/files/CV_Nicoletti_2024-06-05.pdf){:target="
   <td></td>
 
 
-  <tr>
+ <!-- <tr>
     <td width="22%"><div align="right">Apr - Nov 2023<br>
 	  <img src='/images/FINAL_liph-logo_red_text.png' style="padding-top:7px;display: block;margin-right:7px;" width="150"></div>
     </td>
@@ -37,7 +49,7 @@ You can download my full CV [here](/files/CV_Nicoletti_2024-06-05.pdf){:target="
    </td>
   </tr>
 
-  <td></td>
+  <td></td> -->
 
 
   <tr>
