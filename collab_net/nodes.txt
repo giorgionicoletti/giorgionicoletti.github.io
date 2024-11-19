@@ -47,3 +47,4 @@
 46	"Information interference driven by environmental activity"	3
 47	"Information propagation in Gaussian processes on multilayer networks"	4
 48	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
+49	"Multiscale nonlinear integration drives accurate encoding of input information"	3
