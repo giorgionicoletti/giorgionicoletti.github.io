@@ -1,14 +1,15 @@
 ---
 title: "Information interference driven by environmental activity"
-collection: preprint
-permalink: /publication/2024-10-08-InfoInterference-arXiv
-excerpt: 'preprint'
-date: 2024-10-08
+collection: publications
+permalink: /publication/2024-12-13-InfoInterference-PRR
+excerpt: 'Journal article'
+date: 2024-12-13
 year: '2024'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
-venue: 'arXiv:2410.06057 (2024)'
+venue: 'Physical Review Research 6, 043275 (2024)'
+paperurl: 'https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043275'
 preprinturl: 'https://arxiv.org/abs/2410.06057'
-citation: 'Giorgio Nicoletti, Daniel M. Busiello. Information interference driven by environmental activity. arXiv:2410.06057 (2024)'
+citation: 'Giorgio Nicoletti, Daniel M. Busiello. Information interference driven by environmental activity. Phys. Rev. Research 6, 043275 (2024)'
 ---
 
 ## Abstract

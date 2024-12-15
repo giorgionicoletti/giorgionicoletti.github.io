@@ -1,7 +1,7 @@
 ---
 title: "Scaling and criticality in a phenomenological renormalization group"
 collection: publications
-permalink: /publication/2020-05-08-PRR
+permalink: /publication/2020-05-08-Renormalization-PRR
 excerpt: 'Journal article'
 date: 2020-05-07
 year: '2020'

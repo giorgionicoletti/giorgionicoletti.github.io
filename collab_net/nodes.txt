@@ -44,7 +44,7 @@
 43	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
 44	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
 45	"Tuning transduction from hidden observables to optimize information harvesting"	4
-46	"Information interference driven by environmental activity"	3
+46	"Information interference driven by environmental activity"	4
 47	"Information propagation in Gaussian processes on multilayer networks"	4
 48	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
 49	"Multiscale nonlinear integration drives accurate encoding of input information"	3
