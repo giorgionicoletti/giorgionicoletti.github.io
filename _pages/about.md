@@ -35,75 +35,78 @@ The markers on the map represents a conference, workshop, or institute where I p
 
 <script type="application/ld+json">
 {
-"@context": "http://www.schema.org",
-"@type": "Person",
-"@id": "https://giorgionicoletti.github.io",
-"name": "Giorgio Nicoletti",
-"nationality": "Italian",
-"award": [
-	"Graduate Alumni Award, University of Padova"
-],
-"affiliation": [
-	{
-		"@type": "Organization",
-		"name": "International Center for Theoretical Physics",
-		"sameAs": [
-			"https://x.com/ictpnews",
-			"https://www.ictp.it/",
-			"https://www.linkedin.com/company/ictp-page/",
-			"https://www.youtube.com/channel/UChFTAv9bS-LJjXSVkFBkK5g"
-		]
-  	}
-],
-"alumniOf": [
-	{
-	 "@type": "CollegeOrUniversity",
-	 "name": "University of Padova",
-	 "sameAs": "https://www.unipd.it/"
-	},
-	{
-	 "@type": "CollegeOrUniversity",
-	 "name": "EPFL",
-     "sameAs": "https://www.epfl.ch/en/"
-	}
-],
-"gender": "Male",
-"honorificPrefix": "Dr.",
-"jobTitle": "ICTP Postdoctoral Fellow",
-"Description": "Researcher in Theoretical Physics",
-"disambiguatingDescription": "Theoretical physicist working on Complex Systems, at the interface between Physics, Biology, and Ecology.",
-"worksFor": [
-	{
-		"@type": "Organization",
-		"name": "Quantitative Life Sciences Section at ICTP",
-				"sameAs": [
-			"https://x.com/ictpnews",
-			"https://www.ictp.it/",
-			"https://www.ictp.it/qls",
-			"https://www.linkedin.com/company/ictp-page/",
-			"https://www.youtube.com/channel/UChFTAv9bS-LJjXSVkFBkK5g"
-		]
-	}
-],
-"url": "https://giorgionicolletti.github.io",
-"image": "https://giorgionicoletti.github.io/images/profile_picture.png",
-"address": {
-	"@type": "PostalAddress",
-	"addressLocality": "Trieste",
-	"addressCountry": "Italy"
-},
-"sameAs": [
-	"https://twitter.com/@gnicoletti09",
-	"https://www.linkedin.com/in/giorgio-nicoletti-023556a3/",
-	"https://github.com/giorgionicoletti",
-	"https://scholar.google.com/citations?user=PVA6lnMAAAAJ",
-	"https://orcid.org/0000-0002-7682-0596",
-	"https://www.webofscience.com/wos/author/record/GIW-7237-2022",
-	"https://bsky.app/profile/giorgionicoletti.bsky.social",
-    "https://www.ictp.it/member/giorgio-nicoletti",
-    "https://people.epfl.ch/giorgio.nicoletti?lang=en",
-    "https://www.researchgate.net/profile/Giorgio-Nicoletti-2"
-	]
+    "@context" : "http://schema.org",
+    "@type" : "ProfilePage",
+    "mainEntity" : {
+  "@type": "Person",
+  "@id": "https://giorgionicoletti.github.io",
+  "name": "Giorgio Nicoletti",
+  "nationality": "Italian",
+  "award": [
+    "Graduate Alumni Award, University of Padova"
+  ],
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "International Center for Theoretical Physics",
+      "sameAs": [
+        "https://x.com/ictpnews",
+        "https://www.ictp.it/",
+        "https://www.linkedin.com/company/ictp-page/",
+        "https://www.youtube.com/channel/UChFTAv9bS-LJjXSVkFBkK5g"
+      ]
+      }
+  ],
+  "alumniOf": [
+    {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Padova",
+    "sameAs": "https://www.unipd.it/"
+    },
+    {
+    "@type": "CollegeOrUniversity",
+    "name": "EPFL",
+      "sameAs": "https://www.epfl.ch/en/"
+    }
+  ],
+  "gender": "Male",
+  "honorificPrefix": "Dr.",
+  "jobTitle": "ICTP Postdoctoral Fellow",
+  "Description": "Researcher in Theoretical Physics",
+  "disambiguatingDescription": "Theoretical physicist working on Complex Systems, at the interface between Physics, Biology, and Ecology.",
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "Quantitative Life Sciences Section at ICTP",
+          "sameAs": [
+        "https://x.com/ictpnews",
+        "https://www.ictp.it/",
+        "https://www.ictp.it/qls",
+        "https://www.linkedin.com/company/ictp-page/",
+        "https://www.youtube.com/channel/UChFTAv9bS-LJjXSVkFBkK5g"
+      ]
+    }
+  ],
+  "url": "https://giorgionicolletti.github.io",
+  "image": "https://giorgionicoletti.github.io/images/profile_picture.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Trieste",
+    "addressCountry": "Italy"
+  },
+  "sameAs": [
+    "https://twitter.com/@gnicoletti09",
+    "https://www.linkedin.com/in/giorgio-nicoletti-023556a3/",
+    "https://github.com/giorgionicoletti",
+    "https://scholar.google.com/citations?user=PVA6lnMAAAAJ",
+    "https://orcid.org/0000-0002-7682-0596",
+    "https://www.webofscience.com/wos/author/record/GIW-7237-2022",
+    "https://bsky.app/profile/giorgionicoletti.bsky.social",
+      "https://www.ictp.it/member/giorgio-nicoletti",
+      "https://people.epfl.ch/giorgio.nicoletti?lang=en",
+      "https://www.researchgate.net/profile/Giorgio-Nicoletti-2"
+    ]
+  }
 }
 </script>
 
