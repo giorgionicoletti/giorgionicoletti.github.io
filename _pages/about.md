@@ -14,6 +14,46 @@ I am a theoretical physicist working at the interface between statistical physic
 
 I was awarded the [Graduate Alumni Award](https://www.alumniunipd.it/blog/event/alumni-awards-2022-storie-di-eccellenza/){:target="_blank"}<!--_--> from the University of Padova for the best graduate student in the School of Science. I have been an affiliate of the [Padova Neuroscience Center](https://pnc.unipd.it/){:target="_blank"}<!--_-->, in Italy, and a visiting PhD student at the [AI center of the University of Tübingen](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/self-organization-and-optimality-in-neuronal-networks/){:target="_blank"}<!--_-->, in Germany. I was hosted several times at the [Max Planck Institute for the Physics of Complex Systems](https://www.pks.mpg.de/){:target="_blank"}<!--_--> in Dresden, Germany, as a visiting scientist. I have been a member of the Complex System Society, of the Italian Society of Physics, of the Italian Society of Statistical Physics, and the American Physical Society.
 
+## <span style="display: flex; align-items: center;">Research Highlights <span onclick="toggleVisibility('highlights')" style="cursor: pointer; display: inline-block; vertical-align: middle; margin-left: 5px;"><svg id="arrow-highlights" style="display: inline-block; transform: rotate(180deg); transition: transform 0.5s; vertical-align: middle; transform-origin: center; fill: #4A4E52;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M18.59 16.41L20 15l-8-8-8 8 1.41 1.41L12 9.83z"/></svg></span></span>
+<div id="highlights" style="max-height: 1000px; overflow: hidden; transition: max-height 0.5s ease-out;">
+  <!-- Publication 1 -->
+  <div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <img src="/images/PRL_transduction.jpg" alt="Publication 1" style="width: 150px; height: auto; margin-right: 20px;">
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+      <h3 style="margin: 0;"><a href="https://link.aps.org/pdf/10.1103/PhysRevLett.133.158401" target="_blank">Tuning transduction from hidden observables to optimize information harvesting</a></h3>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#9BA1A6">Giorgio Nicoletti and D. M. Busiello, Physical Review Letters 133, 158401 (2024) - Editors' Suggestion, <a href="https://physics.aps.org/articles/v17/143" target="_blank" style="color:#9BA1A6">Physics Viewpoint</a></p>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#51585e"><i>How can we extract information on hidden signals via transduction mechanisms?</i></p>
+    </div>
+  </div>
+  <!-- Publication 2 -->
+  <div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+      <h3 style="margin: 0;"><a href="https://link.aps.org/pdf/10.1103/PhysRevX.14.021007" target="_blank">Information propagation in multilayer systems with higher-order interactions across timescales</a></h3>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#9BA1A6">Giorgio Nicoletti and D. M. Busiello, Physical Review X 14, 021007 (2024)</p>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#51585e"><i>How do timescales shape the information content of complex multiscale systems?</i></p>
+    </div>
+    <img src="/images/PRX_multiscale.png" alt="Publication 2" style="width: 150px; height: auto; margin-left: 20px;">
+  </div>
+  <!-- Publication 3 -->
+  <div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <img src="/images/PNAS_multispecies.png" alt="Publication 3" style="width: 150px; height: auto; margin-right: 20px;">
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+      <h3 style="margin: 0;"><a href="https://www.pnas.org/doi/full/10.1073/pnas.2410932121" target="_blank">Landscape and environmental heterogeneity support coexistence in competitive metacommunities</a></h3>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#9BA1A6">P. Padmanabha*, Giorgio Nicoletti*, D. Bernardi*, S. Suweis, S. Azaele, A. Rinaldo, A. Maritan, Proceedings of the National Academy of Sciences 121 (44), e2410932121 (2024)</p>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#51585e"><i>How can competitive ecological communities survive in complex spatial landscapes?</i></p>
+    </div>
+  </div>
+  <!-- Publication 4 -->
+  <div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+      <h3 style="margin: 0;"><a href="https://www.science.org/doi/full/10.1126/sciadv.adj3524" target="_blank">Prenatal experience with language shapes the brain</a></h3>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#9BA1A6">B. Mariani, Giorgio Nicoletti, G. Barzon, M. C. Ortiz Barajas, M. Shukla, R. Guevara, S. Suweis, J. Gervain</p>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#51585e"><i>How does the newborn brain respond to sounds from the maternal language?</i></p>
+    </div>
+    <img src="/images/SciAdv_eeg.png" alt="Publication 4" style="width: 150px; height: auto; margin-left: 20px;">
+  </div>
+</div>
+
 ## My work at a glance
 My main research interest is the Statistical Physics of Complex Systems and its theoretical and multidisciplinary applications, from Neuroscience to Ecology. With Antonio Celani (ICTP, Italy), Daniel M. Busiello (MPIPKS, Germany) and many other collaborators, I am currently working on the understanding <span style="color:#6c757d;font-weight:600;">how biological and artificial agents process information and make decisions</span> in complex and stochastic environments. We are seeking universal principles that can be applied across different scales, from biochemical to neural networks, exploiting ideas from Information Theory and general tools from machine learning.
 
@@ -22,15 +62,31 @@ With Amos Maritan (University of Padova), Andrea Rinaldo (EPFL) and Prajwal Padm
 <!-- My works have been published in Physical Review X, Physical Review Letters, Proceedings of the National Academy of Sciences (PNAS), and Science Advances, among others. I have presented my work at several international conferences and workshops, -->
 
 ### Collaboration network
-The network below represents my works and collaborations. The color of each node specifies either a <span style="color:#d6d2d2;font-weight:600;">co-author</span>, a <span style="color:#79addc;font-weight:600;">preprint</span> or <span style="color:#9e1910;font-weight:600;">journal article</span>. Click on a node for more information.
+This is a my collaboration network: the color of each node specifies either a <span style="color:#d6d2d2;font-weight:600;">co-author</span>, a <span style="color:#79addc;font-weight:600;">preprint</span> or <span style="color:#9e1910;font-weight:600;">journal article</span>. Click on a node for more information.
 
  <iframe src="/collab_net/network.html" height="300" width="100%" style="border: none"></iframe>
 
 
 ### Talks & contributions
-The markers on the map represents a conference, workshop, or institute where I presented my work, either <span style="color:#a23336;font-weight:600;">invited talks</span> or <span style="color:#065b92;font-weight:600;">contributed talks and posters</span>. Click on a marker for more information.
+The markers on the map represent a conference, workshop, or institute where I presented my work, either <span style="color:#a23336;font-weight:600;">invited talks</span> or <span style="color:#065b92;font-weight:600;">contributed talks and posters</span>. Click on a marker for more information.
 
  <iframe src="/talkmap/talks_map.html" height="300" width="100%" style="border: none"></iframe>
+
+
+
+<script>
+  function toggleVisibility(id) {
+    var element = document.getElementById(id);
+    var arrow = document.getElementById('arrow-' + id);
+    if (element.style.maxHeight === "1000px") {
+      element.style.maxHeight = "0px";
+      arrow.style.transform = "rotate(0deg)";
+    } else {
+      element.style.maxHeight = "1000px";
+      arrow.style.transform = "rotate(180deg)";
+    }
+  }
+</script>
 
 
 <script type="application/ld+json">
