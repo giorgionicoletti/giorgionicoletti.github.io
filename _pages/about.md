@@ -14,7 +14,7 @@ I am a theoretical physicist working at the interface between statistical physic
 
 I was awarded the [Graduate Alumni Award](https://www.alumniunipd.it/blog/event/alumni-awards-2022-storie-di-eccellenza/){:target="_blank"}<!--_--> from the University of Padova for the best graduate student in the School of Science. I have been an affiliate of the [Padova Neuroscience Center](https://pnc.unipd.it/){:target="_blank"}<!--_-->, in Italy, and a visiting PhD student at the [AI center of the University of Tübingen](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/self-organization-and-optimality-in-neuronal-networks/){:target="_blank"}<!--_-->, in Germany. I was hosted several times at the [Max Planck Institute for the Physics of Complex Systems](https://www.pks.mpg.de/){:target="_blank"}<!--_--> in Dresden, Germany, as a visiting scientist. I have been a member of the Complex System Society, of the Italian Society of Physics, of the Italian Society of Statistical Physics, and the American Physical Society.
 
-## <span style="display: flex; align-items: center;">Research Highlights <span onclick="toggleVisibility('highlights')" style="cursor: pointer; display: inline-block; vertical-align: middle; margin-left: 5px;"><svg id="arrow-highlights" style="display: inline-block; transform: rotate(180deg); transition: transform 0.5s; vertical-align: middle; transform-origin: center; fill: #4A4E52;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M18.59 16.41L20 15l-8-8-8 8 1.41 1.41L12 9.83z"/></svg></span></span>
+## <span style="display: flex; align-items: center;">Research Highlights <span onclick="toggleVisibility('highlights')" style="cursor: pointer; display: inline-block; vertical-align: middle; margin-left: 5px;"><svg id="arrow-highlights" style="display: inline-block; transform: rotate(0deg); transition: transform 0.5s; vertical-align: middle; transform-origin: center; fill: #4A4E52;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M18.59 16.41L20 15l-8-8-8 8 1.41 1.41L12 9.83z"/></svg></span></span>
 <div id="highlights" style="max-height: 1000px; overflow: hidden; transition: max-height 0.5s ease-out;">
   <!-- Publication 1 -->
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
@@ -47,7 +47,7 @@ I was awarded the [Graduate Alumni Award](https://www.alumniunipd.it/blog/event/
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
       <h3 style="margin: 0;"><a href="https://www.science.org/doi/full/10.1126/sciadv.adj3524" target="_blank">Prenatal experience with language shapes the brain</a></h3>
-      <p style="font-size: 0.9em; margin: 5px 0;color:#9BA1A6">B. Mariani, Giorgio Nicoletti, G. Barzon, M. C. Ortiz Barajas, M. Shukla, R. Guevara, S. Suweis, J. Gervain</p>
+      <p style="font-size: 0.9em; margin: 5px 0;color:#9BA1A6">B. Mariani, Giorgio Nicoletti, G. Barzon, M. C. Ortiz Barajas, M. Shukla, R. Guevara, S. Suweis, J. Gervain, Science Advances 9 (47) eadj3524 (2023)</p>
       <p style="font-size: 0.9em; margin: 5px 0;color:#51585e"><i>How does the newborn brain respond to sounds from the maternal language?</i></p>
     </div>
     <img src="/images/SciAdv_eeg.png" alt="Publication 4" style="width: 150px; height: auto; margin-left: 20px;">
@@ -80,10 +80,10 @@ The markers on the map represent a conference, workshop, or institute where I pr
     var arrow = document.getElementById('arrow-' + id);
     if (element.style.maxHeight === "1000px") {
       element.style.maxHeight = "0px";
-      arrow.style.transform = "rotate(0deg)";
+      arrow.style.transform = "rotate(180deg)";
     } else {
       element.style.maxHeight = "1000px";
-      arrow.style.transform = "rotate(180deg)";
+      arrow.style.transform = "rotate(0deg)";
     }
   }
 </script>

@@ -38,9 +38,6 @@
       <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       <li><a href="https://www.webofscience.com/wos/author/record/GIW-7237-2022" target="_blank"><span style="display:inline-block; width: 13px;"><img src='/images/clarivate.png'></span> Web of Science</a></li>
-      {% if author.orcid %}
-      <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>
-      {% endif %}
 
       {% if author.github %}
       <li><a href="https://github.com/{{ author.github }}"><i class="fa-brands fa-square-github" aria-hidden="true"></i> Github</a></li>
@@ -48,6 +45,18 @@
 
 
       <li><a rel="me" href="https://bsky.app/profile/giorgionicoletti.bsky.social" target="_blank"><i class="fa-brands fa-square-bluesky" aria-hidden="true"></i> Bluesky</a></li>
+      {% if author.twitter %}
+      <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fa-brands fa-square-twitter" aria-hidden="true"></i> Twitter</a></li>
+      {% endif %}
+
+      {% if author.linkedin %}
+      <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a></li>
+      {% endif %}
+
+      
+      {% if author.orcid %}
+      <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>
+      {% endif %}
 
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -55,17 +64,11 @@
        {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
-      {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fa-brands fa-square-twitter" aria-hidden="true"></i> Twitter</a></li>
-      {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
       {% endif %}
       {% if author.google_plus %}
         <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
-      {% endif %}
-      {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing-square" aria-hidden="true"></i> XING</a></li>
