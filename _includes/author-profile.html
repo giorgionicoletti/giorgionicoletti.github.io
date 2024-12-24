@@ -4,6 +4,7 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
@@ -117,7 +118,10 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+      {% endif %}
+      <li><a href="https://www.webofscience.com/wos/author/record/GIW-7237-2022" target="_blank"><span style="display:inline-block; width: 14px;"><img src='/images/clarivate.png'></span> Web of Science</a></li>
+      <li><a rel="me" href="https://bsky.app/profile/giorgionicoletti.bsky.social" target="_blank"><i class="fa-brands fa-square-bluesky"></i> Bluesky</a></li>
+    
     </ul>
   </div>
 </div>
