@@ -38,15 +38,17 @@
       <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       <li><a href="https://www.webofscience.com/wos/author/record/GIW-7237-2022" target="_blank"><span style="display:inline-block; width: 13px;"><img src='/images/clarivate.png'></span> Web of Science</a></li>
-      {% if author.github %}
-      <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      {% endif %}
       {% if author.orcid %}
       <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>
       {% endif %}
 
+      {% if author.github %}
+      <li><a href="https://github.com/{{ author.github }}"><i class="fa-brands fa-square-github" aria-hidden="true"></i> Github</a></li>
+      {% endif %}
+
+
       <li><a rel="me" href="https://bsky.app/profile/giorgionicoletti.bsky.social" target="_blank"><i class="fa-brands fa-square-bluesky" aria-hidden="true"></i> Bluesky</a></li>
-      
+
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
