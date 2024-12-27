@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm Giorgio Nicoletti, a Postdoctoral Researcher at the Quantitative Life Sciences section of UNESCO's [International Center for Theoretical Pysics](https://www.ictp.it/qls){:target="_blank"}<!--_-->, a research center supported by the IAEA and the United Nations, located in Trieste, Italy.
+I am Giorgio Nicoletti, a Postdoctoral Researcher at the Quantitative Life Sciences section of UNESCO's [International Center for Theoretical Pysics](https://www.ictp.it/qls){:target="_blank"}<!--_-->, a research center supported by the IAEA and the United Nations located in Trieste, Italy.
 
 I am a theoretical physicist working at the interface between statistical physics, biology, and ecology. I obtained my PhD in Physics cum laude at the [Laboratory of Interdisciplinary Physics](https://liphlab.com/){:target="_blank"}<!--_--> of the University of Padova (Italy) under the supervision of Amos Maritan and Samir Suweis, with a particular focus on how the physics of phase transition and critical systems can be applied to the study of living systems. I then moved to the [ECHO lab](https://www.epfl.ch/labs/echo/){:target="_blank"}<!--_--> of the École Polytechnique Fédérale de Lausanne (Switzerland) for a postdoc with Andrea Rinaldo.
 
