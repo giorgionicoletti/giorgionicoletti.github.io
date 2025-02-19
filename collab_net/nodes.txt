@@ -43,10 +43,10 @@
 42	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
 43	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
 44	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
-45	"Maximal information at the edge of stability in excitatory-inhibitory neural populations"	3
-46	"Tuning transduction from hidden observables to optimize information harvesting"	4
-47	"Information interference driven by environmental activity"	4
-48	"Information propagation in Gaussian processes on multilayer networks"	4
-49	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
-50	"Multiscale nonlinear integration drives accurate encoding of input information"	3
-51	"Finite size scaling of survival statistics in metapopulation models"	3
+45	"Tuning transduction from hidden observables to optimize information harvesting"	4
+46	"Information propagation in Gaussian processes on multilayer networks"	4
+47	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
+48	"Multiscale nonlinear integration drives accurate encoding of input information"	3
+49	"Information interference driven by environmental activity"	4
+50	"Finite size scaling of survival statistics in metapopulation models"	3
+51	"Excitation-Inhibition balance controls information encoding in neural populations"	4

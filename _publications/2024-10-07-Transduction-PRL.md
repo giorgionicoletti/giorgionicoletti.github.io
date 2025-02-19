@@ -1,6 +1,6 @@
 ---
 title: "Tuning transduction from hidden observables to optimize information harvesting"
-collection: preprint
+collection: publications
 permalink: /publication/2024-10-07-Transduction-PRL
 excerpt: 'Journal article'
 date: 2024-10-07
