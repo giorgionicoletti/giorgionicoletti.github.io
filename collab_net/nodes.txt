@@ -50,4 +50,4 @@
 49	"Information interference driven by environmental activity"	4
 50	"Excitation-Inhibition balance controls information encoding in neural populations"	4
 51	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
-52	"Finite size scaling of survival statistics in metapopulation models"	3
+52	"Finite size scaling of survival statistics in metapopulation models"	4

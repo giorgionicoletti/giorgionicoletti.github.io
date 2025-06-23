@@ -2,7 +2,7 @@
 title: "Finite size scaling of survival statistics in metapopulation models"
 collection: preprint
 permalink: /publication/2025-06-20-StochasticMetaPop-PRE
-excerpt: 'preprint'
+excerpt: 'Journal article'
 date: 2025-06-20
 year: '2025'
 authors: 'Alice Doimo, Giorgio Nicoletti, Davide Bernardi, Prajwal Padmanabha'
