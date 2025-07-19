@@ -182,14 +182,17 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
+* **["Giovanni Paladin Award"](https://www.fisicastatistica.org/premio-giovanni-paladin){:target="_blank"}<!--_--> at the 29th International Conference on Statistical Physics** for the best PhD thesis in Statistical Physics, awarded by the Italian Society of Statistical Physics (SIFS) in 2025
+* **[Outstanding Reviewer Award](https://www.mdpi.com/journal/entropy/awards/2794){:target="_blank"}<!--_--> for the journal Entropy in 2024
 * **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v17/143){:target="_blank"}<!--_-->** for the paper "Tuning transduction from hidden observables to optimize information harvesting"
 * **Featured in the ``Top 100 papers in Neuroscience'' published by Scientific Reports in 2022** for the paper "Disentangling the critical signatures of neural activity"
-* **Graduate Alumni Award**, best graduate student in the School of Science of the University of Padova
+* **[Graduate Alumni Award](https://www.alumniunipd.it/blog/event/alumni-awards-2022-storie-di-eccellenza/){:target="_blank"}<!--_-->** for the best graduate student in the School of Science of the University of Padova
 * **SECS grant**, provided by the Young Researcher in Complex Systems Society.
 * **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v14/162){:target="_blank"}<!--_-->** for the paper "Mutual information disentangles interactions from changing environments"
 * **Best Poster Award** at SMEEB 2021 for the poster "Modeling the emergence of scale-free fire outbreaks in Australia"
 
 ## Supervision
+* Co-supervision of one student's thesis for the Master Degree in Physics, EPFL, Switzerland and ICTP, Italy.
 * Supervision of one student's thesis for the Bachelor Degree in Physics, University of Padova, Italy.
 * Supervision of two student's thesis for the Master Degree in Physics of Data, University of Padova, Italy.
 * Supervision of two students' projects for the Master Degree in Physics of Data, University of Padova, Italy.
