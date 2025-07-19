@@ -5,7 +5,7 @@ type: "Invited talk"
 permalink:
 venue: "BrainNet workshop"
 date: 2022-05-24
-location: "KTH, Stockholm, Sweden"
+location: "Stockholm, Sweden"
 ---
 
 Invited talk at the [BrainNet workshop](https://www.digitalfutures.kth.se/event/brainnet-workshop/){:target="_blank"}<!--_-->, held at KTH, Stockholm, Sweden.
