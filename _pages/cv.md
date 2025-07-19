@@ -182,8 +182,8 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Honors and awards
-* **["Giovanni Paladin Award"](https://www.fisicastatistica.org/premio-giovanni-paladin){:target="_blank"}<!--_--> at the 29th International Conference on Statistical Physics** for the best PhD thesis in Statistical Physics, awarded by the Italian Society of Statistical Physics (SIFS) in 2025
-* **[Outstanding Reviewer Award](https://www.mdpi.com/journal/entropy/awards/2794){:target="_blank"}<!--_--> for the journal Entropy in 2024
+* **[Giovanni Paladin Award](https://www.fisicastatistica.org/premio-giovanni-paladin){:target="_blank"}<!--_--> at the 29th International Conference on Statistical Physics** for the best PhD thesis in Statistical Physics, awarded by the Italian Society of Statistical Physics (SIFS) in 2025
+* **[Outstanding Reviewer Award](https://www.mdpi.com/journal/entropy/awards/2794){:target="_blank"}<!--_-->** for the journal Entropy in 2024
 * **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v17/143){:target="_blank"}<!--_-->** for the paper "Tuning transduction from hidden observables to optimize information harvesting"
 * **Featured in the ``Top 100 papers in Neuroscience'' published by Scientific Reports in 2022** for the paper "Disentangling the critical signatures of neural activity"
 * **[Graduate Alumni Award](https://www.alumniunipd.it/blog/event/alumni-awards-2022-storie-di-eccellenza/){:target="_blank"}<!--_-->** for the best graduate student in the School of Science of the University of Padova
