@@ -1,5 +1,5 @@
 ---
-title: "Tuning transduction from hidden observables to optimize information harvesting with a limited energy budget"
+title: "Optimizing transduction of information from hidden observables in biological systems with a limited energy budget"
 collection: talks
 type: "Contributed talk"
 permalink:
