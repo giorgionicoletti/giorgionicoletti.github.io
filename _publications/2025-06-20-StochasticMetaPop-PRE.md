@@ -1,6 +1,6 @@
 ---
 title: "Finite size scaling of survival statistics in metapopulation models"
-collection: preprint
+collection: publications
 permalink: /publication/2025-06-20-StochasticMetaPop-PRE
 excerpt: 'Journal article'
 date: 2025-06-20
