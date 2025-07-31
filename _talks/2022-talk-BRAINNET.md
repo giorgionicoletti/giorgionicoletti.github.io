@@ -3,7 +3,7 @@ title: "What can criticality and phase transitions teach us about brain dynamics
 collection: talks
 type: "Invited talk"
 permalink:
-venue: "BrainNet workshop"
+venue: "BrainNet workshop, KTH"
 date: 2022-05-24
 location: "Stockholm, Sweden"
 ---
