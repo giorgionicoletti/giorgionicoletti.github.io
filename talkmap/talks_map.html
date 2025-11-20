@@ -3,21 +3,13 @@
 <head>
     
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    
-        <script>
-            L_NO_TOUCH = false;
-            L_DISABLE_3D = false;
-        </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
@@ -25,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9f12fcff88954130cedad1107c6029fe {
+                #map_a4476377e3083aca74bc83d4e62d739f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -34,26 +26,52 @@
                 }
                 .leaflet-container { font-size: 1rem; }
             </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
         
 </head>
 <body>
     
     
-            <div class="folium-map" id="map_9f12fcff88954130cedad1107c6029fe" ></div>
+            <div class="folium-map" id="map_a4476377e3083aca74bc83d4e62d739f" ></div>
         
 </body>
 <script>
     
     
-            var map_9f12fcff88954130cedad1107c6029fe = L.map(
-                "map_9f12fcff88954130cedad1107c6029fe",
+            var map_a4476377e3083aca74bc83d4e62d739f = L.map(
+                "map_a4476377e3083aca74bc83d4e62d739f",
                 {
                     center: [40.0, 40.0],
                     crs: L.CRS.EPSG3857,
-                    zoom: 3,
-                    zoomControl: true,
-                    preferCanvas: false,
-                    zIndex: 0,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "zIndex": 0,
+}
+
                 }
             );
 
@@ -61,537 +79,872 @@
 
         
     
-            var tile_layer_b1fc2e197fbbb2c14d7bf4139d141157 = L.tileLayer(
+            var tile_layer_8e55a9335a11e6a792ad7e537d5adc3f = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
             );
         
     
-            tile_layer_b1fc2e197fbbb2c14d7bf4139d141157.addTo(map_9f12fcff88954130cedad1107c6029fe);
+            tile_layer_8e55a9335a11e6a792ad7e537d5adc3f.addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var pane_40706b959d727fb1a433d83e65b30938 = map_9f12fcff88954130cedad1107c6029fe.createPane(
+            var pane_618ca6f22fbe214dba840e66954dbefb = map_a4476377e3083aca74bc83d4e62d739f.createPane(
                 "Invited talk");
-            pane_40706b959d727fb1a433d83e65b30938.style.zIndex = 1000;
+            pane_618ca6f22fbe214dba840e66954dbefb.style.zIndex = 1000;
             
-                pane_40706b959d727fb1a433d83e65b30938.style.pointerEvents = 'none';
+                pane_618ca6f22fbe214dba840e66954dbefb.style.pointerEvents = 'none';
             
         
     
-            var pane_2efcfe2a04b7e1c8b66d4e72c51cda50 = map_9f12fcff88954130cedad1107c6029fe.createPane(
+            var pane_9c036d666bd1013f7e70da689f904b00 = map_a4476377e3083aca74bc83d4e62d739f.createPane(
                 "Contributed talk");
-            pane_2efcfe2a04b7e1c8b66d4e72c51cda50.style.zIndex = 999;
+            pane_9c036d666bd1013f7e70da689f904b00.style.zIndex = 999;
             
-                pane_2efcfe2a04b7e1c8b66d4e72c51cda50.style.pointerEvents = 'none';
+                pane_9c036d666bd1013f7e70da689f904b00.style.pointerEvents = 'none';
             
         
     
-            var pane_ba1d075153742f04a9aec7b0e24e6bd6 = map_9f12fcff88954130cedad1107c6029fe.createPane(
+            var pane_6bbf18cec6d18433e39ff7f6cc7745da = map_a4476377e3083aca74bc83d4e62d739f.createPane(
                 "Contributed poster");
-            pane_ba1d075153742f04a9aec7b0e24e6bd6.style.zIndex = 998;
+            pane_6bbf18cec6d18433e39ff7f6cc7745da.style.zIndex = 998;
             
-                pane_ba1d075153742f04a9aec7b0e24e6bd6.style.pointerEvents = 'none';
+                pane_6bbf18cec6d18433e39ff7f6cc7745da.style.pointerEvents = 'none';
             
         
     
-            var pane_26aef4512925458e98a35062da31b850 = map_9f12fcff88954130cedad1107c6029fe.createPane(
+            var pane_1f908734a775577ef92d0a657f9a2f3e = map_a4476377e3083aca74bc83d4e62d739f.createPane(
                 "arrow");
-            pane_26aef4512925458e98a35062da31b850.style.zIndex = 450;
+            pane_1f908734a775577ef92d0a657f9a2f3e.style.zIndex = 450;
             
-                pane_26aef4512925458e98a35062da31b850.style.pointerEvents = 'none';
-            
-        
-    
-            var marker_54dc08b83f249d3c7f66e5c9d6e72516 = L.marker(
-                [47.509905, -3.1180916],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
-        
-    
-            var icon_69a13c56c59f28a360a646c23dd0dded = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
-            );
-            marker_54dc08b83f249d3c7f66e5c9d6e72516.setIcon(icon_69a13c56c59f28a360a646c23dd0dded);
-        
-    
-        var popup_48a38c457daf0f6aa15e874b40005956 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
-
-        
-            
-                var html_58ea6e0ef5cbf093dc987d770487557f = $(`<div id="html_58ea6e0ef5cbf093dc987d770487557f" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>The Beg Rohu Summer School 2021</b>, Beg Rohu, France<br /><i>On the critical signatures of neural activity</i><br />June 3rd, 2021 (contributed poster)</p></div>`)[0];
-                popup_48a38c457daf0f6aa15e874b40005956.setContent(html_58ea6e0ef5cbf093dc987d770487557f);
+                pane_1f908734a775577ef92d0a657f9a2f3e.style.pointerEvents = 'none';
             
         
-
-        marker_54dc08b83f249d3c7f66e5c9d6e72516.bindPopup(popup_48a38c457daf0f6aa15e874b40005956)
-        ;
-
-        
     
-    
-            var marker_a81ace913798ade8c8b4f4bc64ffdbb3 = L.marker(
+            var marker_689ce1cecc46a0a81f0c2029cbd0a79a = L.marker(
                 [40.8358846, 14.2487679],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_79ca4b1a58ed9daa724de6bd6e3c6359 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_437cd81657bb114f842ad7b9f6ee33e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_a81ace913798ade8c8b4f4bc64ffdbb3.setIcon(icon_79ca4b1a58ed9daa724de6bd6e3c6359);
         
     
-        var popup_89ad7e18a2d53b71c2ca915f147f607a = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_8f6db2af66bb3e46971855f08e4159af = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_2552927f5804f3e0f5adf20ce46d7eae = $(`<div id="html_2552927f5804f3e0f5adf20ce46d7eae" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Italian Conference on Complex Systems 2023</b>, Naples, Italy<br /><i>Emergent encoding of dispersal network topologies in spatial metapopulation models</i><br />October 9th, 2023 (contributed poster)</p></div>`)[0];
-                popup_89ad7e18a2d53b71c2ca915f147f607a.setContent(html_2552927f5804f3e0f5adf20ce46d7eae);
+                var html_37ae6615caa24040d54362e3fe009a3a = $(`<div id="html_37ae6615caa24040d54362e3fe009a3a" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Italian Conference on Complex Systems 2023</b>, Naples, Italy<br /><i>Emergent encoding of dispersal network topologies in spatial metapopulation models</i><br />October 9th, 2023 (contributed poster)</p></div>`)[0];
+                popup_8f6db2af66bb3e46971855f08e4159af.setContent(html_37ae6615caa24040d54362e3fe009a3a);
             
         
 
-        marker_a81ace913798ade8c8b4f4bc64ffdbb3.bindPopup(popup_89ad7e18a2d53b71c2ca915f147f607a)
+        marker_689ce1cecc46a0a81f0c2029cbd0a79a.bindPopup(popup_8f6db2af66bb3e46971855f08e4159af)
         ;
 
         
     
     
-            var marker_09da12038b04bd5ff165fe51a926c4a3 = L.marker(
-                [46.1029536, 11.1297425],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_689ce1cecc46a0a81f0c2029cbd0a79a.setIcon(icon_437cd81657bb114f842ad7b9f6ee33e6);
+            
+    
+            var marker_0fe90015756b4e84ccd2aa9ccc918e66 = L.marker(
+                [52.5173885, 13.3951309],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_9c07af53da09f0200e2bc8be520e56fd = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_100493f52eb00f2956c697e4a417e988 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_09da12038b04bd5ff165fe51a926c4a3.setIcon(icon_9c07af53da09f0200e2bc8be520e56fd);
         
     
-        var popup_ec99ddd7ce268d4928a471bf35f50390 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_bba643b038891c022918468cda12afdc = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_4c2eb05634f3fe287e9cbf1dc7dc3377 = $(`<div id="html_4c2eb05634f3fe287e9cbf1dc7dc3377" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>First Italian Conference on Complex Systems</b>, Trento, Italy<br /><i>Scaling and Renormalization Group for the activity of neurons</i><br />July 2nd, 2019 (contributed poster)</p></div>`)[0];
-                popup_ec99ddd7ce268d4928a471bf35f50390.setContent(html_4c2eb05634f3fe287e9cbf1dc7dc3377);
+                var html_127f7c8bc1c8a4a5146c60f8e187647f = $(`<div id="html_127f7c8bc1c8a4a5146c60f8e187647f" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Bernstein Conference 2022</b>, Berlin, Germany<br /><i>Disentangling the critical signatures of neural activity: avalanches, spatial correlations and information</i><br />September 15th, 2022 (contributed poster)<br /><br /><b>Bernstein Conference 2020 (online)</b>, Berlin, Germany<br /><i>Scaling and criticality in a phenomenological Renormalization Group</i><br />October 1st, 2020 (contributed poster)<br /><br /></p></div>`)[0];
+                popup_bba643b038891c022918468cda12afdc.setContent(html_127f7c8bc1c8a4a5146c60f8e187647f);
             
         
 
-        marker_09da12038b04bd5ff165fe51a926c4a3.bindPopup(popup_ec99ddd7ce268d4928a471bf35f50390)
+        marker_0fe90015756b4e84ccd2aa9ccc918e66.bindPopup(popup_bba643b038891c022918468cda12afdc)
         ;
 
         
     
     
-            var marker_c91eb69f83da68aab55300a93ff4f9db = L.marker(
-                [46.5218269, 6.6327025],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_0fe90015756b4e84ccd2aa9ccc918e66.setIcon(icon_100493f52eb00f2956c697e4a417e988);
+            
+    
+            var marker_0ddb0904218f0c60611155aa51f47c06 = L.marker(
+                [47.509905, -3.1180916],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_1efe1c439688026a4668eb4ec530b40b = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_4513370b9590a4b166b68804c222b708 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_c91eb69f83da68aab55300a93ff4f9db.setIcon(icon_1efe1c439688026a4668eb4ec530b40b);
         
     
-        var popup_87cd25824a9e04acf05f808addd08d17 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_22c439cfb0af0c8f039e05d7ebfa4c23 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_86eae7aa3848ca40428d2da9e51845b2 = $(`<div id="html_86eae7aa3848ca40428d2da9e51845b2" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>ENAC Research Day 2024</b>, Lausanne, Switzerland<br /><i>Landscape and habitat heterogeneity drive niche coexistence in dispersing ecological metacommunities</i><br />September 9th, 2024 (contributed poster)</p></div>`)[0];
-                popup_87cd25824a9e04acf05f808addd08d17.setContent(html_86eae7aa3848ca40428d2da9e51845b2);
+                var html_7c2c5bf3a6150086a65459c3f4b49e5a = $(`<div id="html_7c2c5bf3a6150086a65459c3f4b49e5a" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>The Beg Rohu Summer School 2021</b>, Beg Rohu, France<br /><i>On the critical signatures of neural activity</i><br />June 3rd, 2021 (contributed poster)</p></div>`)[0];
+                popup_22c439cfb0af0c8f039e05d7ebfa4c23.setContent(html_7c2c5bf3a6150086a65459c3f4b49e5a);
             
         
 
-        marker_c91eb69f83da68aab55300a93ff4f9db.bindPopup(popup_87cd25824a9e04acf05f808addd08d17)
+        marker_0ddb0904218f0c60611155aa51f47c06.bindPopup(popup_22c439cfb0af0c8f039e05d7ebfa4c23)
         ;
 
         
     
     
-            var marker_1cf50341d99be25a3f353088577af7ee = L.marker(
+                marker_0ddb0904218f0c60611155aa51f47c06.setIcon(icon_4513370b9590a4b166b68804c222b708);
+            
+    
+            var marker_ac9d93d586a861e9136fe8c7ceda4d91 = L.marker(
+                [38.9812726, -77.1233587],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
+        
+    
+            var icon_039ef1b6ebcf234b0d7e432163808805 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a237ef4be8f8fa7acd3a9997248b893d = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
+
+        
+            
+                var html_56cc4166d13b4985b685981b42936a55 = $(`<div id="html_56cc4166d13b4985b685981b42936a55" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Brain Criticality Meeting 2022 (online)</b>, Bethesda, USA<br /><i>Criticality and network structure drive emergent oscillations in a stochastic whole-brain model</i><br />November 8th, 2022 (contributed poster)</p></div>`)[0];
+                popup_a237ef4be8f8fa7acd3a9997248b893d.setContent(html_56cc4166d13b4985b685981b42936a55);
+            
+        
+
+        marker_ac9d93d586a861e9136fe8c7ceda4d91.bindPopup(popup_a237ef4be8f8fa7acd3a9997248b893d)
+        ;
+
+        
+    
+    
+                marker_ac9d93d586a861e9136fe8c7ceda4d91.setIcon(icon_039ef1b6ebcf234b0d7e432163808805);
+            
+    
+            var marker_0afc9bd0fa1fe56cf120720c9e672dcc = L.marker(
                 [45.4371908, 12.3345898],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_c6aefbfa5b54e8bb08c5f4652a66f276 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_ec9a2e94e90fd0040c3b0829f7e3e39b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_1cf50341d99be25a3f353088577af7ee.setIcon(icon_c6aefbfa5b54e8bb08c5f4652a66f276);
         
     
-        var popup_a298871dc71682c1aa66febae85ef66a = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_ba1b878ec88e140b5c3019328427438d = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_9f34b8f8578a333f51fdd8e9102c0b5b = $(`<div id="html_9f34b8f8578a333f51fdd8e9102c0b5b" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Stochastic Models and Experiments in Ecology and Biology 2021</b>, Venice, Italy<br /><i>Modeling the emergence of scale-free fire out-breaks in Australia</i><br />June 23rd, 2021 (contributed poster)</p></div>`)[0];
-                popup_a298871dc71682c1aa66febae85ef66a.setContent(html_9f34b8f8578a333f51fdd8e9102c0b5b);
+                var html_d83806e5c653a7f8354e459c4c0d640a = $(`<div id="html_d83806e5c653a7f8354e459c4c0d640a" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Stochastic Models and Experiments in Ecology and Biology 2021</b>, Venice, Italy<br /><i>Modeling the emergence of scale-free fire out-breaks in Australia</i><br />June 23rd, 2021 (contributed poster)</p></div>`)[0];
+                popup_ba1b878ec88e140b5c3019328427438d.setContent(html_d83806e5c653a7f8354e459c4c0d640a);
             
         
 
-        marker_1cf50341d99be25a3f353088577af7ee.bindPopup(popup_a298871dc71682c1aa66febae85ef66a)
+        marker_0afc9bd0fa1fe56cf120720c9e672dcc.bindPopup(popup_ba1b878ec88e140b5c3019328427438d)
         ;
 
         
     
     
-            var marker_66409ddc60ecaedf4c4ea28b7805c375 = L.marker(
-                [52.510885, 13.3989367],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_0afc9bd0fa1fe56cf120720c9e672dcc.setIcon(icon_ec9a2e94e90fd0040c3b0829f7e3e39b);
+            
+    
+            var marker_ed880996adbdd078ad5bce21d38e00e0 = L.marker(
+                [46.5218269, 6.6327025],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_55349a15b98c05cf011eaea08359a846 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_d78bd66fe8dab74b9b88b9725696cb5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_66409ddc60ecaedf4c4ea28b7805c375.setIcon(icon_55349a15b98c05cf011eaea08359a846);
         
     
-        var popup_b16b1ee7680127ca1378beca200f6f57 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_e264f59b3641273834c09ab17953d777 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_0f8925ec8de37136bd6382b96189eeac = $(`<div id="html_0f8925ec8de37136bd6382b96189eeac" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Bernstein Conference 2022</b>, Berlin, Germany<br /><i>Disentangling the critical signatures of neural activity: avalanches, spatial correlations and information</i><br />September 15th, 2022 (contributed poster)<br /><br /><b>Bernstein Conference 2020 (online)</b>, Berlin, Germany<br /><i>Scaling and criticality in a phenomenological Renormalization Group</i><br />October 1st, 2020 (contributed poster)<br /><br /></p></div>`)[0];
-                popup_b16b1ee7680127ca1378beca200f6f57.setContent(html_0f8925ec8de37136bd6382b96189eeac);
+                var html_446468be3263c1c95699a52f583b8b84 = $(`<div id="html_446468be3263c1c95699a52f583b8b84" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>ENAC Research Day 2024</b>, Lausanne, Switzerland<br /><i>Landscape and habitat heterogeneity drive niche coexistence in dispersing ecological metacommunities</i><br />September 9th, 2024 (contributed poster)</p></div>`)[0];
+                popup_e264f59b3641273834c09ab17953d777.setContent(html_446468be3263c1c95699a52f583b8b84);
             
         
 
-        marker_66409ddc60ecaedf4c4ea28b7805c375.bindPopup(popup_b16b1ee7680127ca1378beca200f6f57)
+        marker_ed880996adbdd078ad5bce21d38e00e0.bindPopup(popup_e264f59b3641273834c09ab17953d777)
         ;
 
         
     
     
-            var marker_25fe964e12271d9914f92218099e062a = L.marker(
-                [38.9812725, -77.1233587],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_ed880996adbdd078ad5bce21d38e00e0.setIcon(icon_d78bd66fe8dab74b9b88b9725696cb5b);
+            
+    
+            var marker_2c52a73961e7605b66fdb1c643dfc83d = L.marker(
+                [46.1029536, 11.1297425],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_174f92140801b71c2236524732c11efc = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_14eb7301c9e24645f8b9da997082e122 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_25fe964e12271d9914f92218099e062a.setIcon(icon_174f92140801b71c2236524732c11efc);
         
     
-        var popup_2e8ab89a662b6c2620e4f6c37374cf31 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_4ae7764840d62820538da4ae7c8e6ac6 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_131217643e5c3fbfb2f174b76fd668cc = $(`<div id="html_131217643e5c3fbfb2f174b76fd668cc" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Brain Criticality Meeting 2022 (online)</b>, Bethesda, USA<br /><i>Criticality and network structure drive emergent oscillations in a stochastic whole-brain model</i><br />November 8th, 2022 (contributed poster)</p></div>`)[0];
-                popup_2e8ab89a662b6c2620e4f6c37374cf31.setContent(html_131217643e5c3fbfb2f174b76fd668cc);
+                var html_1a8165ed25b43be1a9ac053e203d30ac = $(`<div id="html_1a8165ed25b43be1a9ac053e203d30ac" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>First Italian Conference on Complex Systems</b>, Trento, Italy<br /><i>Scaling and Renormalization Group for the activity of neurons</i><br />July 2nd, 2019 (contributed poster)</p></div>`)[0];
+                popup_4ae7764840d62820538da4ae7c8e6ac6.setContent(html_1a8165ed25b43be1a9ac053e203d30ac);
             
         
 
-        marker_25fe964e12271d9914f92218099e062a.bindPopup(popup_2e8ab89a662b6c2620e4f6c37374cf31)
+        marker_2c52a73961e7605b66fdb1c643dfc83d.bindPopup(popup_4ae7764840d62820538da4ae7c8e6ac6)
         ;
 
         
     
     
-            var marker_bf12d6ac2cb28c9999a37a7528aacee8 = L.marker(
-                [45.7578137, 4.8320114],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
-        
-    
-            var icon_f026ab11fdd6e95b161ecbcd394b3fb6 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
-            );
-            marker_bf12d6ac2cb28c9999a37a7528aacee8.setIcon(icon_f026ab11fdd6e95b161ecbcd394b3fb6);
-        
-    
-        var popup_d444f6766f794d3b065f0bbf9a6bbce0 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
-
-        
+                marker_2c52a73961e7605b66fdb1c643dfc83d.setIcon(icon_14eb7301c9e24645f8b9da997082e122);
             
-                var html_d7a35ebc979eb65764a57ef1cc5127fa = $(`<div id="html_d7a35ebc979eb65764a57ef1cc5127fa" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Conference on Complex Systems 2021</b>, Lyon, France<br /><i>Modeling the emergence of scale-free fire outbreaks in Australia</i><br />October 26th, 2021 (contributed talk)<br /><br /><b>Conference on Complex Systems 2021</b>, Lyon, France<br /><i>Disentangling internal interactions from noisy environments through mutual information</i><br />October 26th, 2021 (contributed poster)<br /><br /><b>Conference on Complex Systems 2021</b>, Lyon, France<br /><i>Disentangling the role of external and intrinsic dynamics on the critical signatures of neural activity</i><br />October 25th, 2021 (contributed talk)<br /><br /></p></div>`)[0];
-                popup_d444f6766f794d3b065f0bbf9a6bbce0.setContent(html_d7a35ebc979eb65764a57ef1cc5127fa);
-            
-        
-
-        marker_bf12d6ac2cb28c9999a37a7528aacee8.bindPopup(popup_d444f6766f794d3b065f0bbf9a6bbce0)
-        ;
-
-        
     
-    
-            var marker_445cecc4b0c420eb6ba1d4e1ae26bf32 = L.marker(
-                [42.1368853, 13.610341],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
-        
-    
-            var icon_83c5956021b5402dcc33487f7baab23b = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
-            );
-            marker_445cecc4b0c420eb6ba1d4e1ae26bf32.setIcon(icon_83c5956021b5402dcc33487f7baab23b);
-        
-    
-        var popup_9d0b8c6927a7f56bb65882f20b865d79 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
-
-        
-            
-                var html_76a80de319414f700d1fc7c579977a80 = $(`<div id="html_76a80de319414f700d1fc7c579977a80" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Stochastic Models and Experiments in Ecology and Biology 2024</b>, L'Aquila, Italy<br /><i>Spatially disordered environments stabilize competitive metacommunities</i><br />May 29th, 2024 (contributed talk)</p></div>`)[0];
-                popup_9d0b8c6927a7f56bb65882f20b865d79.setContent(html_76a80de319414f700d1fc7c579977a80);
-            
-        
-
-        marker_445cecc4b0c420eb6ba1d4e1ae26bf32.bindPopup(popup_9d0b8c6927a7f56bb65882f20b865d79)
-        ;
-
-        
-    
-    
-            var marker_bdd88624a7f182e14fadebae6f816e83 = L.marker(
-                [39.5695818, 2.6500745],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
-        
-    
-            var icon_255d701a45b71fa61ea238467db65236 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
-            );
-            marker_bdd88624a7f182e14fadebae6f816e83.setIcon(icon_255d701a45b71fa61ea238467db65236);
-        
-    
-        var popup_78c7dbe4ae9855c05a1a5521a264e402 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
-
-        
-            
-                var html_0a303b6cff802e7f8b1700d8bb7a2553 = $(`<div id="html_0a303b6cff802e7f8b1700d8bb7a2553" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Conference on Complex Systems 2022</b>, Palma de Mallorca, Spain<br /><i>Information-driven transitions in optimal projections of underdamped dynamics</i><br />October 18th, 2022 (contributed talk)<br /><br /><b>Conference on Complex Systems 2022</b>, Palma de Mallorca, Spain<br /><i>Criticality and network structure drive emergent oscillations in a stochastic whole-brain model</i><br />October 17th, 2022 (contributed talk)<br /><br /></p></div>`)[0];
-                popup_78c7dbe4ae9855c05a1a5521a264e402.setContent(html_0a303b6cff802e7f8b1700d8bb7a2553);
-            
-        
-
-        marker_bdd88624a7f182e14fadebae6f816e83.bindPopup(popup_78c7dbe4ae9855c05a1a5521a264e402)
-        ;
-
-        
-    
-    
-            var marker_aaca23d4372c8126efa269c9658f3c03 = L.marker(
-                [35.6768601, 139.7638947],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
-        
-    
-            var icon_4f55da3216440003a7369149f85204e3 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
-            );
-            marker_aaca23d4372c8126efa269c9658f3c03.setIcon(icon_4f55da3216440003a7369149f85204e3);
-        
-    
-        var popup_1c41dbdfd33dca3677af412039aef4b1 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
-
-        
-            
-                var html_1fa5f58a4cb6aec54f287dfeb7d4142a = $(`<div id="html_1fa5f58a4cb6aec54f287dfeb7d4142a" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Statphys28</b>, Tokyo, Japan<br /><i>The architecture of information processing in biological systems</i><br />August 10th, 2023 (contributed talk)</p></div>`)[0];
-                popup_1c41dbdfd33dca3677af412039aef4b1.setContent(html_1fa5f58a4cb6aec54f287dfeb7d4142a);
-            
-        
-
-        marker_aaca23d4372c8126efa269c9658f3c03.bindPopup(popup_1c41dbdfd33dca3677af412039aef4b1)
-        ;
-
-        
-    
-    
-            var marker_734692860d1294449db4a7598241b5cc = L.marker(
-                [43.7697955, 11.2556404],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
-        
-    
-            var icon_ec086d6a3aa76eec0bc8b1e5efffa85c = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
-            );
-            marker_734692860d1294449db4a7598241b5cc.setIcon(icon_ec086d6a3aa76eec0bc8b1e5efffa85c);
-        
-    
-        var popup_9da9934f9be331a06215c6f931102f6f = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
-
-        
-            
-                var html_30623e32a8280c6db1ed1cb49893f22b = $(`<div id="html_30623e32a8280c6db1ed1cb49893f22b" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Statphys29</b>, Florence, Italy<br /><i>Tuning transduction from hidden observables to optimize information harvesting with a limited energy budget</i><br />July 14th, 2025 (contributed talk)</p></div>`)[0];
-                popup_9da9934f9be331a06215c6f931102f6f.setContent(html_30623e32a8280c6db1ed1cb49893f22b);
-            
-        
-
-        marker_734692860d1294449db4a7598241b5cc.bindPopup(popup_9da9934f9be331a06215c6f931102f6f)
-        ;
-
-        
-    
-    
-            var marker_4c8192dc3d62921712c230c5d85abca9 = L.marker(
+            var marker_a765fcbc3a23e82058fdc5f52a847ab8 = L.marker(
                 [34.4221319, -119.702667],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_9dc8a1b8d25a983c6b723c64ccadf275 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_97d046d8c3e77efff22b65d71f2f196f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_4c8192dc3d62921712c230c5d85abca9.setIcon(icon_9dc8a1b8d25a983c6b723c64ccadf275);
         
     
-        var popup_aa8cbafe5c064cdb3bff04d57a5b2b67 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_c033e03f7ea7d0bf4f52149a9e98da2b = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_80f6ad9486462528406dce5eedb38abb = $(`<div id="html_80f6ad9486462528406dce5eedb38abb" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Neurophysics of Active Sensing, KITP</b>, Santa Barbara, USA<br /><i>Inference of decision-making strategies with finite memory states</i><br />August 13th, 2025 (contributed talk)</p></div>`)[0];
-                popup_aa8cbafe5c064cdb3bff04d57a5b2b67.setContent(html_80f6ad9486462528406dce5eedb38abb);
+                var html_4c0d4ce9caf26cbab7eb78207e6f5e39 = $(`<div id="html_4c0d4ce9caf26cbab7eb78207e6f5e39" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Neurophysics of Active Sensing, KITP</b>, Santa Barbara, USA<br /><i>Inference of decision-making strategies with finite memory states</i><br />August 13th, 2025 (contributed talk)</p></div>`)[0];
+                popup_c033e03f7ea7d0bf4f52149a9e98da2b.setContent(html_4c0d4ce9caf26cbab7eb78207e6f5e39);
             
         
 
-        marker_4c8192dc3d62921712c230c5d85abca9.bindPopup(popup_aa8cbafe5c064cdb3bff04d57a5b2b67)
+        marker_a765fcbc3a23e82058fdc5f52a847ab8.bindPopup(popup_c033e03f7ea7d0bf4f52149a9e98da2b)
         ;
 
         
     
     
-            var marker_33e2ba47f0c84971d538482a78a6107e = L.marker(
+                marker_a765fcbc3a23e82058fdc5f52a847ab8.setIcon(icon_97d046d8c3e77efff22b65d71f2f196f);
+            
+    
+            var marker_b88b15d5b30927c1733c6fe799aac9b0 = L.marker(
+                [45.7578137, 4.8320114],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
+        
+    
+            var icon_4856895203f92eb39ba1e6bf7ed78ee7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3e4500188d39290ea5ddaed049f9d64 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
+
+        
+            
+                var html_06eda4f711ffca30304de1a6b6438430 = $(`<div id="html_06eda4f711ffca30304de1a6b6438430" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Conference on Complex Systems 2021</b>, Lyon, France<br /><i>Modeling the emergence of scale-free fire outbreaks in Australia</i><br />October 26th, 2021 (contributed talk)<br /><br /><b>Conference on Complex Systems 2021</b>, Lyon, France<br /><i>Disentangling internal interactions from noisy environments through mutual information</i><br />October 26th, 2021 (contributed poster)<br /><br /><b>Conference on Complex Systems 2021</b>, Lyon, France<br /><i>Disentangling the role of external and intrinsic dynamics on the critical signatures of neural activity</i><br />October 25th, 2021 (contributed talk)<br /><br /></p></div>`)[0];
+                popup_d3e4500188d39290ea5ddaed049f9d64.setContent(html_06eda4f711ffca30304de1a6b6438430);
+            
+        
+
+        marker_b88b15d5b30927c1733c6fe799aac9b0.bindPopup(popup_d3e4500188d39290ea5ddaed049f9d64)
+        ;
+
+        
+    
+    
+                marker_b88b15d5b30927c1733c6fe799aac9b0.setIcon(icon_4856895203f92eb39ba1e6bf7ed78ee7);
+            
+    
+            var marker_5600bfab3890b5e81e4e817af5f075e2 = L.marker(
                 [40.1108179, -88.1619746],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_a62f8d1ee90809495df157197776e6ce = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            var icon_269cdca36f32f71a4742a983ebfa2af3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_33e2ba47f0c84971d538482a78a6107e.setIcon(icon_a62f8d1ee90809495df157197776e6ce);
         
     
-        var popup_0203815b7f106db61fadd722abb141de = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_7ad69373131076523f140d098cbe16d6 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_a3a8c3c90d3592a86645eabf8b8d7d63 = $(`<div id="html_a3a8c3c90d3592a86645eabf8b8d7d63" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>International Physics of Living Systems (iPoLS) Annual Meeting</b>, Urbana-Champaign, USA<br /><i>Tuning transduction from hidden observables to optimize information harvesting with a limited energy budget</i><br />July 28th, 2025 (contributed talk)</p></div>`)[0];
-                popup_0203815b7f106db61fadd722abb141de.setContent(html_a3a8c3c90d3592a86645eabf8b8d7d63);
+                var html_d03a8102fff57573307d354d48f52865 = $(`<div id="html_d03a8102fff57573307d354d48f52865" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>International Physics of Living Systems (iPoLS) Annual Meeting</b>, Urbana-Champaign, USA<br /><i>Optimizing transduction of information from hidden observables in biological systems with a limited energy budget</i><br />July 28th, 2025 (contributed talk)</p></div>`)[0];
+                popup_7ad69373131076523f140d098cbe16d6.setContent(html_d03a8102fff57573307d354d48f52865);
             
         
 
-        marker_33e2ba47f0c84971d538482a78a6107e.bindPopup(popup_0203815b7f106db61fadd722abb141de)
+        marker_5600bfab3890b5e81e4e817af5f075e2.bindPopup(popup_7ad69373131076523f140d098cbe16d6)
         ;
 
         
     
     
-            var marker_f702c37f68f1ed8a011638f388320f65 = L.marker(
-                [45.6496485, 13.7772781],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_5600bfab3890b5e81e4e817af5f075e2.setIcon(icon_269cdca36f32f71a4742a983ebfa2af3);
+            
+    
+            var marker_6c619bd1ef3427b015112c32bbeeead4 = L.marker(
+                [43.7697955, 11.2556404],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_6cef4a5e6fb29adcc26694052bb6b3ae = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            var icon_e5123f908041cbaca3613acc591ff043 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_f702c37f68f1ed8a011638f388320f65.setIcon(icon_6cef4a5e6fb29adcc26694052bb6b3ae);
         
     
-        var popup_e3b995be03f08fcba689ebb903bdbecb = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_316b14db995d40e1a82839408a0f2000 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_b56e624cdfa8e8da538f30967dadba54 = $(`<div id="html_b56e624cdfa8e8da538f30967dadba54" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Quantitative Life Sciences section, ICTP</b>, Trieste, Italy<br /><i>Information propagation across timescales</i><br />April 4th, 2024 (invited talk)<br /><br /><b>Information processing and decision-making in biology, ICTP</b>, Trieste, Italy<br /><i>Tuning transduction from hidden observables to optimize information harvesting</i><br />March 11th, 2024 (invited talk)<br /><br /></p></div>`)[0];
-                popup_e3b995be03f08fcba689ebb903bdbecb.setContent(html_b56e624cdfa8e8da538f30967dadba54);
+                var html_d97cfdbee265f3e6205d6ea4e13f53d3 = $(`<div id="html_d97cfdbee265f3e6205d6ea4e13f53d3" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Statphys29</b>, Florence, Italy<br /><i>Tuning transduction from hidden observables to optimize information harvesting with a limited energy budget</i><br />July 14th, 2025 (contributed talk)</p></div>`)[0];
+                popup_316b14db995d40e1a82839408a0f2000.setContent(html_d97cfdbee265f3e6205d6ea4e13f53d3);
             
         
 
-        marker_f702c37f68f1ed8a011638f388320f65.bindPopup(popup_e3b995be03f08fcba689ebb903bdbecb)
+        marker_6c619bd1ef3427b015112c32bbeeead4.bindPopup(popup_316b14db995d40e1a82839408a0f2000)
         ;
 
         
     
     
-            var marker_a6a464ac3f25c693c57dd9e3f38ce861 = L.marker(
-                [51.0493286, 13.7381437],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_6c619bd1ef3427b015112c32bbeeead4.setIcon(icon_e5123f908041cbaca3613acc591ff043);
+            
+    
+            var marker_52fed8207826b7b762743dee396f9dfe = L.marker(
+                [35.6768601, 139.7638947],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_6204994188fe012ac895d372014c3940 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            var icon_de644214c75e1cf8d1fd752c119bff8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_a6a464ac3f25c693c57dd9e3f38ce861.setIcon(icon_6204994188fe012ac895d372014c3940);
         
     
-        var popup_69a34720f95c84b6e6df6f62651e87ce = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_d2808d009858e2ea5bf574496b84739d = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_b12829944aa33b3fa21091e90b567388 = $(`<div id="html_b12829944aa33b3fa21091e90b567388" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Information processing, noise and adaptation in living systems (SIGNAL24)</b>, Dresden, Germany<br /><i>Information propagation across timescales in multiscale systems</i><br />April 17th, 2024 (contributed talk)<br /><br /><b>Max Planck Institute for the Physics of Complex Systems</b>, Dresden, Germany<br /><i>Information theory in stochastic processes and complex systems</i><br />July 13th, 2022 (invited talk)<br /><br /></p></div>`)[0];
-                popup_69a34720f95c84b6e6df6f62651e87ce.setContent(html_b12829944aa33b3fa21091e90b567388);
+                var html_1ba23c7c058eddb60b9751710325d83b = $(`<div id="html_1ba23c7c058eddb60b9751710325d83b" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Statphys28</b>, Tokyo, Japan<br /><i>The architecture of information processing in biological systems</i><br />August 10th, 2023 (contributed talk)</p></div>`)[0];
+                popup_d2808d009858e2ea5bf574496b84739d.setContent(html_1ba23c7c058eddb60b9751710325d83b);
             
         
 
-        marker_a6a464ac3f25c693c57dd9e3f38ce861.bindPopup(popup_69a34720f95c84b6e6df6f62651e87ce)
+        marker_52fed8207826b7b762743dee396f9dfe.bindPopup(popup_d2808d009858e2ea5bf574496b84739d)
         ;
 
         
     
     
-            var marker_41fdbf8a9c32dcea178fc47699357e03 = L.marker(
-                [59.3251172, 18.0710935],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_52fed8207826b7b762743dee396f9dfe.setIcon(icon_de644214c75e1cf8d1fd752c119bff8a);
+            
+    
+            var marker_bfbe0eb253f1a73cafd5b927a80f99e2 = L.marker(
+                [39.5695818, 2.6500745],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_79f37944c33eabeb6d3b637dd7417730 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            var icon_c1230eb98432cde8c7d3d5355640c3c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_41fdbf8a9c32dcea178fc47699357e03.setIcon(icon_79f37944c33eabeb6d3b637dd7417730);
         
     
-        var popup_82d93df36dab47010348a4322437ff57 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_0421467626b2e5f32aa91dfa42a66ccd = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_52c28cd7a207d05489acfb186140b970 = $(`<div id="html_52c28cd7a207d05489acfb186140b970" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>BrainNet workshop, KTH</b>, Stockholm, Sweden<br /><i>What can criticality and phase transitions teach us about brain dynamics?</i><br />May 24th, 2022 (invited talk)</p></div>`)[0];
-                popup_82d93df36dab47010348a4322437ff57.setContent(html_52c28cd7a207d05489acfb186140b970);
+                var html_fc68113a77161bdd61626ca092dc6e03 = $(`<div id="html_fc68113a77161bdd61626ca092dc6e03" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Conference on Complex Systems 2022</b>, Palma de Mallorca, Spain<br /><i>Information-driven transitions in optimal projections of underdamped dynamics</i><br />October 18th, 2022 (contributed talk)<br /><br /><b>Conference on Complex Systems 2022</b>, Palma de Mallorca, Spain<br /><i>Criticality and network structure drive emergent oscillations in a stochastic whole-brain model</i><br />October 17th, 2022 (contributed talk)<br /><br /></p></div>`)[0];
+                popup_0421467626b2e5f32aa91dfa42a66ccd.setContent(html_fc68113a77161bdd61626ca092dc6e03);
             
         
 
-        marker_41fdbf8a9c32dcea178fc47699357e03.bindPopup(popup_82d93df36dab47010348a4322437ff57)
+        marker_bfbe0eb253f1a73cafd5b927a80f99e2.bindPopup(popup_0421467626b2e5f32aa91dfa42a66ccd)
         ;
 
         
     
     
-            var marker_4c0508147857b90d34c95558364e93d0 = L.marker(
+                marker_bfbe0eb253f1a73cafd5b927a80f99e2.setIcon(icon_c1230eb98432cde8c7d3d5355640c3c1);
+            
+    
+            var marker_7a475d34a3e248246c20f7ad9fc53093 = L.marker(
+                [42.1368853, 13.610341],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
+        
+    
+            var icon_b577a9d248c5f386a05c17295422ec75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00443a78d023eb7cf48f7168733be61d = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
+
+        
+            
+                var html_cd36a553211f210e30c97a4d736ffa5e = $(`<div id="html_cd36a553211f210e30c97a4d736ffa5e" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Stochastic Models and Experiments in Ecology and Biology 2024</b>, L'Aquila, Italy<br /><i>Spatially disordered environments stabilize competitive metacommunities</i><br />May 29th, 2024 (contributed talk)</p></div>`)[0];
+                popup_00443a78d023eb7cf48f7168733be61d.setContent(html_cd36a553211f210e30c97a4d736ffa5e);
+            
+        
+
+        marker_7a475d34a3e248246c20f7ad9fc53093.bindPopup(popup_00443a78d023eb7cf48f7168733be61d)
+        ;
+
+        
+    
+    
+                marker_7a475d34a3e248246c20f7ad9fc53093.setIcon(icon_b577a9d248c5f386a05c17295422ec75);
+            
+    
+            var marker_52bc8b8641391edf3ca0ff3091f5cea0 = L.marker(
                 [45.391408, 11.8058487],
-                {"markerSize": 100}
-            ).addTo(map_9f12fcff88954130cedad1107c6029fe);
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            var icon_b58e87d74aaa83ba336cda73b508326f = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            var icon_4965fcf53e527349b8ccf16c22b05c62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
             );
-            marker_4c0508147857b90d34c95558364e93d0.setIcon(icon_b58e87d74aaa83ba336cda73b508326f);
         
     
-        var popup_d32c3e991c5a26e5fecdc6565037d1d6 = L.popup({"maxHeight": 150, "maxWidth": 300, "minHeight": 100, "minWidth": 200});
+        var popup_2fcecb0c08bd9e9bc09946cd656e87a2 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
 
         
             
-                var html_d9a48b06ae373451990a2b69df526fcb = $(`<div id="html_d9a48b06ae373451990a2b69df526fcb" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>'Emergent dynamical patterns of disordered systems with applications to natural communities' workshop, University of Padova</b>, Padova, Italy<br /><i>Survival and coexistence in spatially explicit metapopulation models</i><br />December 18th, 2023 (invited talk)</p></div>`)[0];
-                popup_d32c3e991c5a26e5fecdc6565037d1d6.setContent(html_d9a48b06ae373451990a2b69df526fcb);
+                var html_cc8ff0dfce51482b402d1a2f8cfcba0d = $(`<div id="html_cc8ff0dfce51482b402d1a2f8cfcba0d" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Padova Neuroscience Center</b>, Padova, Italy<br /><i>Decoding behavior: inference of decision-making processes with interpretable agent models</i><br />November 14th, 2025 (invited talk)<br /><br /><b>'Emergent dynamical patterns of disordered systems with applications to natural communities' workshop, University of Padova</b>, Padova, Italy<br /><i>Survival and coexistence in spatially explicit metapopulation models</i><br />December 18th, 2023 (invited talk)<br /><br /></p></div>`)[0];
+                popup_2fcecb0c08bd9e9bc09946cd656e87a2.setContent(html_cc8ff0dfce51482b402d1a2f8cfcba0d);
             
         
 
-        marker_4c0508147857b90d34c95558364e93d0.bindPopup(popup_d32c3e991c5a26e5fecdc6565037d1d6)
+        marker_52bc8b8641391edf3ca0ff3091f5cea0.bindPopup(popup_2fcecb0c08bd9e9bc09946cd656e87a2)
         ;
 
         
     
     
-            tile_layer_b1fc2e197fbbb2c14d7bf4139d141157.addTo(map_9f12fcff88954130cedad1107c6029fe);
+                marker_52bc8b8641391edf3ca0ff3091f5cea0.setIcon(icon_4965fcf53e527349b8ccf16c22b05c62);
+            
+    
+            var marker_f21af956e42dc7258e89200a4f9477d6 = L.marker(
+                [45.6496485, 13.7772781],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
         
     
-            map_9f12fcff88954130cedad1107c6029fe.fitBounds(
+            var icon_da044dfef99f192b69a0656ccb2619db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee08ea4883a359c766d28175679554a4 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
+
+        
+            
+                var html_9dca094b8c966a201dad3b4ddd4e66d0 = $(`<div id="html_9dca094b8c966a201dad3b4ddd4e66d0" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Quantitative Life Sciences section, ICTP</b>, Trieste, Italy<br /><i>Information propagation across timescales</i><br />April 4th, 2024 (invited talk)<br /><br /><b>Information processing and decision-making in biology, ICTP</b>, Trieste, Italy<br /><i>Tuning transduction from hidden observables to optimize information harvesting</i><br />March 11th, 2024 (invited talk)<br /><br /></p></div>`)[0];
+                popup_ee08ea4883a359c766d28175679554a4.setContent(html_9dca094b8c966a201dad3b4ddd4e66d0);
+            
+        
+
+        marker_f21af956e42dc7258e89200a4f9477d6.bindPopup(popup_ee08ea4883a359c766d28175679554a4)
+        ;
+
+        
+    
+    
+                marker_f21af956e42dc7258e89200a4f9477d6.setIcon(icon_da044dfef99f192b69a0656ccb2619db);
+            
+    
+            var marker_049d4671be66cc794eaf844d0ce36cfa = L.marker(
+                [59.3251172, 18.0710935],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
+        
+    
+            var icon_efdb5b5a33556510780409ed8f6fa32e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af99eb0427a78398ff8bfef2f5e31f81 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
+
+        
+            
+                var html_9ff7afbb6eba5d4d1f8c79947e9bb5d1 = $(`<div id="html_9ff7afbb6eba5d4d1f8c79947e9bb5d1" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>BrainNet workshop, KTH</b>, Stockholm, Sweden<br /><i>What can criticality and phase transitions teach us about brain dynamics?</i><br />May 24th, 2022 (invited talk)</p></div>`)[0];
+                popup_af99eb0427a78398ff8bfef2f5e31f81.setContent(html_9ff7afbb6eba5d4d1f8c79947e9bb5d1);
+            
+        
+
+        marker_049d4671be66cc794eaf844d0ce36cfa.bindPopup(popup_af99eb0427a78398ff8bfef2f5e31f81)
+        ;
+
+        
+    
+    
+                marker_049d4671be66cc794eaf844d0ce36cfa.setIcon(icon_efdb5b5a33556510780409ed8f6fa32e);
+            
+    
+            var marker_0b440ef97ba4cf6c719694d795f5882b = L.marker(
+                [51.0493286, 13.7381437],
+                {
+  "markerSize": 100,
+}
+            ).addTo(map_a4476377e3083aca74bc83d4e62d739f);
+        
+    
+            var icon_3cd97947d9fe8790b61a8c90fe1bdb54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a19f3282571d0cb959c00f194f83b430 = L.popup({
+  "maxWidth": 300,
+  "minWidth": 200,
+  "maxHeight": 150,
+  "minHeight": 100,
+});
+
+        
+            
+                var html_b16f0a781262549da19f710657b5eeec = $(`<div id="html_b16f0a781262549da19f710657b5eeec" style="width: 100.0%; height: 100.0%;"><p style="font-size:1.3em; font-family: Avenir"><b>Information processing, noise and adaptation in living systems (SIGNAL24)</b>, Dresden, Germany<br /><i>Information propagation across timescales in multiscale systems</i><br />April 17th, 2024 (contributed talk)<br /><br /><b>Max Planck Institute for the Physics of Complex Systems</b>, Dresden, Germany<br /><i>Information theory in stochastic processes and complex systems</i><br />July 13th, 2022 (invited talk)<br /><br /></p></div>`)[0];
+                popup_a19f3282571d0cb959c00f194f83b430.setContent(html_b16f0a781262549da19f710657b5eeec);
+            
+        
+
+        marker_0b440ef97ba4cf6c719694d795f5882b.bindPopup(popup_a19f3282571d0cb959c00f194f83b430)
+        ;
+
+        
+    
+    
+                marker_0b440ef97ba4cf6c719694d795f5882b.setIcon(icon_3cd97947d9fe8790b61a8c90fe1bdb54);
+            
+    
+            tile_layer_8e55a9335a11e6a792ad7e537d5adc3f.addTo(map_a4476377e3083aca74bc83d4e62d739f);
+        
+    
+                marker_689ce1cecc46a0a81f0c2029cbd0a79a.setIcon(icon_437cd81657bb114f842ad7b9f6ee33e6);
+            
+    
+                marker_0fe90015756b4e84ccd2aa9ccc918e66.setIcon(icon_100493f52eb00f2956c697e4a417e988);
+            
+    
+                marker_0ddb0904218f0c60611155aa51f47c06.setIcon(icon_4513370b9590a4b166b68804c222b708);
+            
+    
+                marker_ac9d93d586a861e9136fe8c7ceda4d91.setIcon(icon_039ef1b6ebcf234b0d7e432163808805);
+            
+    
+                marker_0afc9bd0fa1fe56cf120720c9e672dcc.setIcon(icon_ec9a2e94e90fd0040c3b0829f7e3e39b);
+            
+    
+                marker_ed880996adbdd078ad5bce21d38e00e0.setIcon(icon_d78bd66fe8dab74b9b88b9725696cb5b);
+            
+    
+                marker_2c52a73961e7605b66fdb1c643dfc83d.setIcon(icon_14eb7301c9e24645f8b9da997082e122);
+            
+    
+                marker_a765fcbc3a23e82058fdc5f52a847ab8.setIcon(icon_97d046d8c3e77efff22b65d71f2f196f);
+            
+    
+                marker_b88b15d5b30927c1733c6fe799aac9b0.setIcon(icon_4856895203f92eb39ba1e6bf7ed78ee7);
+            
+    
+                marker_5600bfab3890b5e81e4e817af5f075e2.setIcon(icon_269cdca36f32f71a4742a983ebfa2af3);
+            
+    
+                marker_6c619bd1ef3427b015112c32bbeeead4.setIcon(icon_e5123f908041cbaca3613acc591ff043);
+            
+    
+                marker_52fed8207826b7b762743dee396f9dfe.setIcon(icon_de644214c75e1cf8d1fd752c119bff8a);
+            
+    
+                marker_bfbe0eb253f1a73cafd5b927a80f99e2.setIcon(icon_c1230eb98432cde8c7d3d5355640c3c1);
+            
+    
+                marker_7a475d34a3e248246c20f7ad9fc53093.setIcon(icon_b577a9d248c5f386a05c17295422ec75);
+            
+    
+                marker_52bc8b8641391edf3ca0ff3091f5cea0.setIcon(icon_4965fcf53e527349b8ccf16c22b05c62);
+            
+    
+                marker_f21af956e42dc7258e89200a4f9477d6.setIcon(icon_da044dfef99f192b69a0656ccb2619db);
+            
+    
+                marker_049d4671be66cc794eaf844d0ce36cfa.setIcon(icon_efdb5b5a33556510780409ed8f6fa32e);
+            
+    
+                marker_0b440ef97ba4cf6c719694d795f5882b.setIcon(icon_3cd97947d9fe8790b61a8c90fe1bdb54);
+            
+    
+            map_a4476377e3083aca74bc83d4e62d739f.fitBounds(
                 [[34.4221319, -119.702667], [59.3251172, 139.7638947]],
                 {}
             );

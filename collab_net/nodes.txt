@@ -47,12 +47,12 @@
 46	"Tuning transduction from hidden observables to optimize information harvesting"	4
 47	"Information propagation in Gaussian processes on multilayer networks"	4
 48	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
-49	"Multiscale nonlinear integration drives accurate encoding of input information"	3
-50	"Information interference driven by environmental activity"	4
-51	"Excitation-Inhibition balance controls information encoding in neural populations"	4
-52	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
-53	"Finite size scaling of survival statistics in metapopulation models"	4
-54	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
-55	"Optimal information gain at the onset of habituation to repeated stimuli"	4
-56	"Stochastic processes with multiple temporal scales: timescale separation and information"	3
-57	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
+49	"Information interference driven by environmental activity"	4
+50	"Excitation-Inhibition balance controls information encoding in neural populations"	4
+51	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
+52	"Finite size scaling of survival statistics in metapopulation models"	4
+53	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
+54	"Optimal information gain at the onset of habituation to repeated stimuli"	4
+55	"Stochastic processes with multiple temporal scales: timescale separation and information"	3
+56	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
+57	"Fast nonlinear integration drives accurate encoding of input information in large multiscale systems"	4
