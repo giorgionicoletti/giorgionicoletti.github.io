@@ -31,28 +31,30 @@
 29	"Alice Doimo"	2
 30	"Mattia Tambaro"	2
 31	"Claudia Checchetto"	2
-33	"Scaling and criticality in a phenomenological renormalization group"	4
-34	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
-35	"Mutual information disentangles interactions from changing environments"	4
-36	"Disentangling the critical signatures of neural activity"	4
-37	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
-38	"Information-driven transitions in projections of underdamped dynamics"	4
-39	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
-40	"The emergence of scale-free fires in Australia"	4
-41	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
-42	"Prenatal experience with language shapes the brain"	4
-43	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
-44	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
-45	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
-46	"Tuning transduction from hidden observables to optimize information harvesting"	4
-47	"Information propagation in Gaussian processes on multilayer networks"	4
-48	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
-49	"Information interference driven by environmental activity"	4
-50	"Excitation-Inhibition balance controls information encoding in neural populations"	4
-51	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
-52	"Finite size scaling of survival statistics in metapopulation models"	4
-53	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
-54	"Optimal information gain at the onset of habituation to repeated stimuli"	4
-55	"Stochastic processes with multiple temporal scales: timescale separation and information"	3
-56	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
-57	"Fast nonlinear integration drives accurate encoding of input information in large multiscale systems"	4
+32	"Ivan Di Terlizzi"	2
+34	"Scaling and criticality in a phenomenological renormalization group"	4
+35	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
+36	"Mutual information disentangles interactions from changing environments"	4
+37	"Disentangling the critical signatures of neural activity"	4
+38	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
+39	"Information-driven transitions in projections of underdamped dynamics"	4
+40	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
+41	"The emergence of scale-free fires in Australia"	4
+42	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
+43	"Prenatal experience with language shapes the brain"	4
+44	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
+45	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
+46	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
+47	"Tuning transduction from hidden observables to optimize information harvesting"	4
+48	"Information propagation in Gaussian processes on multilayer networks"	4
+49	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
+50	"Information interference driven by environmental activity"	4
+51	"Excitation-Inhibition balance controls information encoding in neural populations"	4
+52	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
+53	"Finite size scaling of survival statistics in metapopulation models"	4
+54	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
+55	"Optimal information gain at the onset of habituation to repeated stimuli"	4
+56	"Stochastic processes with multiple temporal scales: timescale separation and information"	3
+57	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
+58	"Fast nonlinear integration drives accurate encoding of input information in large multiscale systems"	4
+59	"Balancing information and dissipation with partially observed fluctuating signals"	3
