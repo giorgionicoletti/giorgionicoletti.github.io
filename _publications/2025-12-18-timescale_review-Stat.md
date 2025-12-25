@@ -1,14 +1,15 @@
 ---
 title: "Stochastic processes with multiple temporal scales: timescale separation and information"
-collection: preprint
-permalink: /publication/2025-09-05-timescale_review-arXiv
-excerpt: 'preprint'
-date: 2025-09-05
+collection: publications
+permalink: /publication/2025-12-18-timescale_review-Stat
+excerpt: 'Journal article'
+date: 2025-12-18
 year: '2025'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
-venue: 'arXiv:2509.04946 (2025)'
+venue: 'Journal of Statistical Mechanics: Theory and Experiment 2025 (12), 124004'
 preprinturl: 'https://arxiv.org/abs/2509.04946'
-citation: 'Giorgio Nicoletti, Daniel M. Busiello. Stochastic processes with multiple temporal scales: timescale separation and information. arXiv:2509.04946 (2025)'
+paperurl: 'https://doi.org/10.1088/1742-5468/ae27b9'
+citation: 'Giorgio Nicoletti, Daniel M. Busiello. Stochastic processes with multiple temporal scales: timescale separation and information. Journal of Statistical Mechanics: Theory and Experiment 2025 (12), 124004'
 ---
 
 ## Abstract
