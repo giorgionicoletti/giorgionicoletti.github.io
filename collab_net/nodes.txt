@@ -61,3 +61,4 @@
 60	"Balancing information and dissipation with partially observed fluctuating signals"	3
 61	"Stochastic processes with multiple temporal scales: timescale separation and information"	4
 62	"Information-directed sampling for bandits: a primer"	3
+63	"Decoding behavior with minimal and interpretable agent models"	3
