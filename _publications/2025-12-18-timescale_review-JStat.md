@@ -1,7 +1,7 @@
 ---
 title: "Stochastic processes with multiple temporal scales: timescale separation and information"
 collection: publications
-permalink: /publication/2025-12-18-timescale_review-Stat
+permalink: /publication/2025-12-18-timescale_review-JStat
 excerpt: 'Journal article'
 date: 2025-12-18
 year: '2025'
