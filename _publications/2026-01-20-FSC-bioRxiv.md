@@ -7,7 +7,7 @@ date: 2026-01-20
 year: '2026'
 authors: 'Giorgio Nicoletti, Antonio Celani'
 venue: 'bioRxiv 2026.01.20.700580 (2026)'
-preprinturl: 'https://arxiv.org/abs/2512.20096'
+preprinturl: 'https://www.biorxiv.org/content/10.64898/2026.01.20.700580v1.abstract'
 citation: 'Giorgio Nicoletti, Antonio Celani. Decoding behavior with minimal and interpretable agent models. bioRxiv 2026.01.20.700580 (2026)'
 ---
 
