@@ -6,7 +6,7 @@ excerpt: 'Journal article'
 date: 2025-12-18
 year: '2025'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
-venue: 'Journal of Statistical Mechanics: Theory and Experiment 2025 (12), 124004'
+venue: 'Journal of Statistical Mechanics: Theory and Experiment 2025 (12), 124004 (2025)
 preprinturl: 'https://arxiv.org/abs/2509.04946'
 paperurl: 'https://doi.org/10.1088/1742-5468/ae27b9'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Stochastic processes with multiple temporal scales: timescale separation and information. Journal of Statistical Mechanics: Theory and Experiment 2025 (12), 124004'

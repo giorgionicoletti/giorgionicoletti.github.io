@@ -23,19 +23,19 @@
 21	"Prajwal Padmanabha"	2
 22	"Sandro Azaele"	2
 23	"Andrea Rinaldo"	2
-24	"Clelia Corridori"	2
-25	"Merrit Romeike"	2
-26	"Christa Buecker"	2
-27	"Graziano Martello"	2
-28	"Davide Bernardi"	2
-29	"Alice Doimo"	2
-30	"Mattia Tambaro"	2
-31	"Claudia Checchetto"	2
-32	"Ivan Di Terlizzi"	2
-33	"Annika Hirling"	2
-34	"Antonio Celani"	2
-35	"Marco Zenari"	2
-36	"Elisa Marini"	2
+24	"Davide Bernardi"	2
+25	"Alice Doimo"	2
+26	"Mattia Tambaro"	2
+27	"Claudia Checchetto"	2
+28	"Ivan Di Terlizzi"	2
+29	"Antonio Celani"	2
+30	"Marco Zenari"	2
+31	"Elisa Marini"	2
+32	"Annika Hirling"	2
+33	"Clelia Corridori"	2
+34	"Merrit Romeike"	2
+35	"Christa Buecker"	2
+36	"Graziano Martello"	2
 38	"Scaling and criticality in a phenomenological renormalization group"	4
 39	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
 40	"Mutual information disentangles interactions from changing environments"	4
@@ -48,21 +48,21 @@
 47	"Prenatal experience with language shapes the brain"	4
 48	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
 49	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
-50	"Unveiling gene perturbation effects through Gene Regulatory Networks inference from single-cell transcriptomic data"	3
-51	"Tuning transduction from hidden observables to optimize information harvesting"	4
-52	"Information propagation in Gaussian processes on multilayer networks"	4
-53	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
-54	"Information interference driven by environmental activity"	4
-55	"Excitation-Inhibition balance controls information encoding in neural populations"	4
-56	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
-57	"Finite size scaling of survival statistics in metapopulation models"	4
-58	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
-59	"Optimal information gain at the onset of habituation to repeated stimuli"	4
-60	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
-61	"Fast nonlinear integration drives accurate encoding of input information in large multiscale systems"	4
-62	"Balancing information and dissipation with partially observed fluctuating signals"	3
-63	"Stochastic processes with multiple temporal scales: timescale separation and information"	4
-64	"Information-directed sampling for bandits: a primer"	3
-65	"Decoding behavior with minimal and interpretable agent models"	3
-66	"Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics"	3
-67	"Pulse desynchronization of neural populations by targeting the centroid of the limit cycle in phase space"	3
+50	"Tuning transduction from hidden observables to optimize information harvesting"	4
+51	"Information propagation in Gaussian processes on multilayer networks"	4
+52	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
+53	"Information interference driven by environmental activity"	4
+54	"Excitation-Inhibition balance controls information encoding in neural populations"	4
+55	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
+56	"Finite size scaling of survival statistics in metapopulation models"	4
+57	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
+58	"Optimal information gain at the onset of habituation to repeated stimuli"	4
+59	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
+60	"Fast nonlinear integration drives accurate encoding of input information in large multiscale systems"	4
+61	"Balancing information and dissipation with partially observed fluctuating signals"	3
+62	"Stochastic processes with multiple temporal scales: timescale separation and information"	4
+63	"Decoding behavior with minimal and interpretable agent models"	3
+64	"Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics"	3
+65	"Pulse desynchronization of neural populations by targeting the centroid of the limit cycle in phase space"	3
+66	"Information-directed sampling for bandits: a primer"	4
+67	"Unveiling gene perturbation effects through gene regulatory networks inference from single-cell transcriptomic data"	4
