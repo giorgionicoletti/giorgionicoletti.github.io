@@ -114,7 +114,7 @@ With Amos Maritan (University of Padova), Andrea Rinaldo (EPFL) and Prajwal Padm
 <h3>Collaboration network</h3>
 <p>This is my collaboration network: the color of each node specifies either a <span style="color:#d6d2d2;font-weight:600;">co-author</span>, a <span style="color:#79addc;font-weight:600;">preprint</span> or <span style="color:#9e1910;font-weight:600;">journal article</span>. Click on a node for more information.</p>
 
- <iframe src="/collab_net/network.html" height="300" width="100%" style="border: none"></iframe>
+ <iframe src="/collab_net/network.html" height="500" width="100%" style="border: none"></iframe>
 
 <h3>Talks & contributions</h3>
 The markers on the map represent a conference, workshop, or institute where I presented my work, either <span style="color:#a23336;font-weight:600;">invited talks</span> or <span style="color:#065b92;font-weight:600;">contributed talks and posters</span>. Click on a marker for more information.

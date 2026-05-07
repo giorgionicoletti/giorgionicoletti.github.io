@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 
 This is a my collaboration network: the color of each node specifies either a <span style="color:#d6d2d2;font-weight:600;">co-author</span>, a <span style="color:#79addc;font-weight:600;">preprint</span> or <span style="color:#9e1910;font-weight:600;">journal article</span>. Click on a node for more information.
- <iframe src="/collab_net/network.html" height="300" width="100%" style="border: none"></iframe>
+ <iframe src="/collab_net/network.html" height="500" width="100%" style="border: none"></iframe>
 <br><br>
 
 {% for post in site.publications reversed %}
