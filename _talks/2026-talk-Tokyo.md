@@ -1,5 +1,5 @@
 ---
-title: "The architecture of information processing in biological systems"
+title: "Processing information from partially observed signals in biological systems with energetic constraints"
 collection: talks
 type: "Contributed poster"
 permalink:
