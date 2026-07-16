@@ -37,34 +37,41 @@
 35	"Christa Buecker"	2
 36	"Graziano Martello"	2
 37	"Simon A Levin"	2
-39	"Scaling and criticality in a phenomenological renormalization group"	4
-40	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
-41	"Mutual information disentangles interactions from changing environments"	4
-42	"Disentangling the critical signatures of neural activity"	4
-43	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
-44	"Information-driven transitions in projections of underdamped dynamics"	4
-45	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
-46	"The emergence of scale-free fires in Australia"	4
-47	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
-48	"Prenatal experience with language shapes the brain"	4
-49	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
-50	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
-51	"Tuning transduction from hidden observables to optimize information harvesting"	4
-52	"Information propagation in Gaussian processes on multilayer networks"	4
-53	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
-54	"Information interference driven by environmental activity"	4
-55	"Excitation-Inhibition balance controls information encoding in neural populations"	4
-56	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
-57	"Finite size scaling of survival statistics in metapopulation models"	4
-58	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
-59	"Optimal information gain at the onset of habituation to repeated stimuli"	4
-60	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
-61	"Fast nonlinear integration drives accurate encoding of input information in large multiscale systems"	4
-62	"Balancing information and dissipation with partially observed fluctuating signals"	3
-63	"Stochastic processes with multiple temporal scales: timescale separation and information"	4
-64	"Decoding behavior with minimal and interpretable agent models"	3
-65	"Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics"	3
-66	"Pulse desynchronization of neural populations by targeting the centroid of the limit cycle in phase space"	3
-67	"Information-directed sampling for bandits: a primer"	4
-68	"Unveiling gene perturbation effects through gene regulatory networks inference from single-cell transcriptomic data"	4
-69	"Rare but Resilient: Dispersal diversity buffers species vulnerability"	3
+38	"Andrea Marchetti"	2
+39	"Enrico Bertuzzo"	2
+40	"Francesca Bassani"	2
+41	"Sara Bonetti"	2
+43	"Scaling and criticality in a phenomenological renormalization group"	4
+44	"Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation"	4
+45	"Mutual information disentangles interactions from changing environments"	4
+46	"Disentangling the critical signatures of neural activity"	4
+47	"Criticality and network structure drive emergent oscillations in a stochastic whole-brain model"	4
+48	"Information-driven transitions in projections of underdamped dynamics"	4
+49	"Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities"	4
+50	"The emergence of scale-free fires in Australia"	4
+51	"A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets"	3
+52	"Prenatal experience with language shapes the brain"	4
+53	"Emergent encoding of dispersal network topologies in spatial metapopulation models"	4
+54	"Information propagation in multilayer systems with higher-order interactions across timescales"	4
+55	"Tuning transduction from hidden observables to optimize information harvesting"	4
+56	"Information propagation in Gaussian processes on multilayer networks"	4
+57	"Landscape and environmental heterogeneity support coexistence in competitive metacommunities"	4
+58	"Information interference driven by environmental activity"	4
+59	"Excitation-Inhibition balance controls information encoding in neural populations"	4
+60	"A novel metric for species vulnerability and coexistence in spatially-extended ecosystems"	3
+61	"Finite size scaling of survival statistics in metapopulation models"	4
+62	"The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking"	3
+63	"Optimal information gain at the onset of habituation to repeated stimuli"	4
+64	"Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination"	3
+65	"Fast nonlinear integration drives accurate encoding of input information in large multiscale systems"	4
+66	"Balancing information and dissipation with partially observed fluctuating signals"	3
+67	"Stochastic processes with multiple temporal scales: timescale separation and information"	4
+68	"Decoding behavior with minimal and interpretable agent models"	3
+69	"Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics"	3
+70	"Pulse desynchronization of neural populations by targeting the centroid of the limit cycle in phase space"	3
+71	"Information-directed sampling for bandits: a primer"	4
+72	"Unveiling gene perturbation effects through gene regulatory networks inference from single-cell transcriptomic data"	4
+73	"Rare but Resilient: Dispersal diversity buffers species vulnerability"	3
+74	"Emergence of information interference in stochastic systems with non-diagonal noise and switching environments"	3
+75	"Universal thermokinetic decomposition of short-time information fluctuations"	3
+76	"Generalized scaling of blue metabolism in river basins"	4

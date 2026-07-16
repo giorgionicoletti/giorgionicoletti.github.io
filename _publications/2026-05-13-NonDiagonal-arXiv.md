@@ -1,0 +1,15 @@
+---
+title: "Emergence of information interference in stochastic systems with non-diagonal noise and switching environments"
+collection: preprint
+permalink: /publication/2026-05-13-NonDiagonal-arXiv
+excerpt: 'preprint'
+date: 2026-05-13
+year: '2026'
+authors: 'Giorgio Nicoletti, Andrea Marchetti, Daniel M. Busiello'
+venue: 'arXiv:2605.13556 (2026)'
+preprinturl: 'https://arxiv.org/abs/2605.13556'
+citation: 'Giorgio Nicoletti, Andrea Marchetti, Daniel M. Busiello. Emergence of information interference in stochastic systems with non-diagonal noise and switching environments. arXiv:2605.13556 (2026)'
+---
+
+## Abstract
+Stochastic forces in natural systems are rarely isotropic. From hydrodynamically coupled colloids to chemical reaction networks, noise contributions are inherently correlated. Together with internal interactions and changing environments, they shape the dependencies between the degrees of freedom of real-world systems, as quantified by their mutual information. In this work, we focus on linearized stochastic systems with both non-diagonal noise matrices and stochastically switching environments. We study how their presence leads to the emergence of information interference, so that the total mutual information cannot be decomposed as the sum of the contributions from deterministic interactions, noise anisotropy, and environmental switching alone. We identify two distinct sources of information interference: a static term, arising from the simultaneous presence of deterministic coupling and noise anisotropy; and a dynamic term, emerging from the interplay between internal processes and environmental switches. We then apply this framework to different physical systems. In the presence of switching temperatures, the mutual information disentangles exactly into internal and environmental contributions. When the noise anisotropy arises instead from hydrodynamic interactions, we find that the presence of a shared fluid can either mask or enhance the information stemming from a non-conservative force depending on its degree of non-reciprocity. Finally, in a fuel-driven chemical reaction network, we show that information interference is controlled by the non-equilibrium driving. These results establish a general information-theoretic perspective on how anisotropic noise and environmental variability shape statistical dependencies in stochastic systems.
