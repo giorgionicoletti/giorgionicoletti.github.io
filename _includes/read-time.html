@@ -1,7 +1,9 @@
 {% if post.read_time %}
-  {% assign words = post.content | strip_html | number_of_words %}
+  {% assign read_time_content = post.content | split: "<!-- read-time-cutoff -->" | first %}
+  {% assign words = read_time_content | strip_html | number_of_words %}
 {% elsif page.read_time %}
-  {% assign words = page.content | strip_html | number_of_words %}
+  {% assign read_time_content = page.content | split: "<!-- read-time-cutoff -->" | first %}
+  {% assign words = read_time_content | strip_html | number_of_words %}
 {% endif %}
 
 {% if site.words_per_minute %}
