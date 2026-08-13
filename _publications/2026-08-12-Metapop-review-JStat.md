@@ -1,14 +1,15 @@
 ---
 title: "Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics"
-collection: preprint
-permalink: /publication/2026-02-06-Metapop-review-arXiv
-excerpt: 'preprint'
-date: 2026-02-06
+collection: publications
+permalink: /publication/2026-08-12-Metapop-review-JStat
+excerpt: 'Journal article'
+date: 2026-08-12
 year: '2026'
 authors: 'Davide Bernardi, Alice Doimo, Giorgio Nicoletti, Prajwal Padmanabha, Andrea Rinaldo, Samir Suweis, Sandro Azaele, Amos Maritan'
-venue: 'arXiv:2602.06640 (2026)'
+venue: 'Journal of Statistical Mechanics (2026), 084003 (2026)'
+paperurl: 'https://doi.org/10.1088/1742-5468/ae727d'
 preprinturl: 'https://arxiv.org/abs/2602.06640'
-citation: 'Davide Bernardi, Alice Doimo, Giorgio Nicoletti, Prajwal Padmanabha, Andrea Rinaldo, Samir Suweis, Sandro Azaele, Amos Maritan. Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics. arXiv:2602.06640 (2026)'
+citation: 'Davide Bernardi, Alice Doimo, Giorgio Nicoletti, Prajwal Padmanabha, Andrea Rinaldo, Samir Suweis, Sandro Azaele, Amos Maritan. Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics. Journal of Statistical Mechanics (2026), 084003 (2026)'
 ---
 
 ## Abstract
