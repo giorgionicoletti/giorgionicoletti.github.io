@@ -171,6 +171,7 @@ You can download my full CV [here](/files/CV_Nicoletti_2026-08-13.pdf){:target="
   {% endfor %}</ul>
 
 ## Attended schools and workshops
+* [Brains, Minds and Machines](https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/brains-minds-and-machines){:target="_blank"}<!--_-->, *Woods Hole, MA, USA*, 7th - 18th August 2023
 * [Emergence of Information in Molecular Systems](https://www.munich-iapbp.de/molinfo){:target="_blank"}<!--_-->, *Munich, Germany*, 22nd July - 2nd August 2024
 * [Winter Workshop on Complex Systems 2022](https://wwcs2022.github.io/){:target="_blank"}<!--_-->, *Arc-et-Senans, France*, 24th - 28th January 2022
 * [The Beg Rohu Summer School “Statistical Mechanics and Emergent
