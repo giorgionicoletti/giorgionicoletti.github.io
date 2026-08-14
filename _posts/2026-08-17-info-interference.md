@@ -2,7 +2,7 @@
 title: 'Adding up, or getting in the way?'
 date: 2026-08-17
 permalink: /posts/2026/08/17/info-interference/
-published: false
+published: true
 tags:
   - information theory
   - stochastic processes
