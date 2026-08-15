@@ -56,19 +56,19 @@ $$
 V(x_1,x_2) = \sum_\mu U(x_\mu) + V_\text{int}(x_1,x_2), \qquad F_\mu = -\partial_\mu V,
 $$
 
-with the environment switching the diffusion coefficient between discrete values $D_i$ at rates $W_{i\to j}$. At fixed environment the stationary distribution is Boltzmann-like, $P^\text{st}_i(\mathbf{x}) \propto e^{-V(\mathbf{x})/D_i}$, and in the slow-switching limit the system sits in a *mixture* over environmental states, $p_\text{slow}(\mathbf{x}) = \sum_i \pi_i P_i^\text{st}(\mathbf{x})$. The mutual information then splits as
+with the environment switching the diffusion coefficient between discrete values $$D_i$$ at rates $$W_{i\to j}$$. At fixed environment the stationary distribution is Boltzmann-like, $$P^\text{st}_i(\mathbf{x}) \propto e^{-V(\mathbf{x})/D_i}$$, and in the slow-switching limit the system sits in a *mixture* over environmental states, $$p_\text{slow}(\mathbf{x}) = \sum_i \pi_i P_i^\text{st}(\mathbf{x})$$. The mutual information then splits as
 
 $$
 I = I_\text{env} + I_\text{int} + \Xi ,
 $$
 
-where $I_\text{env}$ depends only on the environmental parameters, $I_\text{int}$ only on the interaction parameters, and $\Xi$ — the information interference — on both. $\Xi$ is not itself a mutual information and carries no fixed sign. It is bounded by the entropy of the switching process,
+where $$I_\text{env}$$ depends only on the environmental parameters, $$I_\text{int}$$ only on the interaction parameters, and $$\Xi$$ — the information interference — on both. $$\Xi$$ is not itself a mutual information and carries no fixed sign. It is bounded by the entropy of the switching process,
 
 $$
 \sum_i \pi_i I^i_{12} - H_\text{jumps} \;\le\; I_{12} \;\le\; \sum_i \pi_i I^i_{12} + 2H_\text{jumps},
 $$
 
-and the reason linear interactions are special is that they make every $P^\text{st}_i$ Gaussian, for which these bounds are saturated exactly and $\Xi$ vanishes. A nonlinear potential — a quartic $U$, say — makes the components non-Gaussian, the saturation is lost, and $\Xi \ne 0$. Its sign depends on whether the interaction and the environment reshape the distribution along the same directions or along different ones. The same paper also treats multiplicative noise, $\dot x_\mu = -x_\mu/\tau + \gamma_{i(t)}\sqrt{2T(x_\mu)}\,\xi_\mu$ with $T(x_\mu) = T_0 + x_\mu \Delta T$, which breaks detailed balance and increases the environmental information with the size of the non-equilibrium term; and it shows that a continuously varying environment can be integrated out into an effective space-dependent diffusion coefficient $\hat D^2(\mathbf{x}) = \int dD\, D^2 p(D\vert \mathbf{x})$, i.e. an effective inhomogeneous medium rather than an effective coupling.
+and the reason linear interactions are special is that they make every $$P^\text{st}_i$$ Gaussian, for which these bounds are saturated exactly and $$\Xi$$ vanishes. A nonlinear potential — a quartic $$U$$, say — makes the components non-Gaussian, the saturation is lost, and $$\Xi \ne 0$$. Its sign depends on whether the interaction and the environment reshape the distribution along the same directions or along different ones. The same paper also treats multiplicative noise, $$\dot x_\mu = -x_\mu/\tau + \gamma_{i(t)}\sqrt{2T(x_\mu)}\,\xi_\mu$$ with $$T(x_\mu) = T_0 + x_\mu \Delta T$$, which breaks detailed balance and increases the environmental information with the size of the non-equilibrium term; and it shows that a continuously varying environment can be integrated out into an effective space-dependent diffusion coefficient $$\hat D^2(\mathbf{x}) = \int dD\, D^2 p(D\vert \mathbf{x})$$, i.e. an effective inhomogeneous medium rather than an effective coupling.
 
 The second paper replaces the switching temperature with a shared active bath entering additively,
 
@@ -77,7 +77,7 @@ $$
 \tau \dot y = -y + g F_y(x,y) + \sqrt{2D_y\tau}\,\xi_y(t) + \gamma\,\eta(t),
 $$
 
-with the *same* $\eta$ in both equations, an Ornstein–Uhlenbeck process with $\langle \eta(t)\eta(t')\rangle = D_\eta e^{-\vert t-t'\vert/\tau_\eta}$. The relevant control parameters are the timescale ratio $\alpha = \tau_\eta/\tau$ and $D_\gamma = D_\eta\gamma^2$. For linear interactions, $F_x = y$ and $F_y = x$, the problem is solvable and the sign of $\Xi_{xy}$ follows the sign of $g$: the shared bath correlates the particles positively, so $g>0$ reinforces it and $g<0$ opposes it, with a critical $\alpha$ at which $\Xi_{xy}$ exactly cancels $I^\text{int}_{xy} + I^\text{env}_{xy}$ and the total mutual information vanishes. For $F_x = \tanh(y)$, $F_y = \tanh(x)$ this no longer holds: the tanh saturates at large $\vert g\vert$, reducing the interactions to constant drifts, while $I^\text{env}_{xy}$ keeps growing with $\alpha$ — so the interference can change sign as a function of the timescales even at fixed $g>0$.
+with the *same* $$\eta$$ in both equations, an Ornstein–Uhlenbeck process with $$\langle \eta(t)\eta(t')\rangle = D_\eta e^{-\vert t-t'\vert/\tau_\eta}$$. The relevant control parameters are the timescale ratio $$\alpha = \tau_\eta/\tau$$ and $$D_\gamma = D_\eta\gamma^2$$. For linear interactions, $$F_x = y$$ and $$F_y = x$$, the problem is solvable and the sign of $$\Xi_{xy}$$ follows the sign of $$g$$: the shared bath correlates the particles positively, so $$g>0$$ reinforces it and $$g<0$$ opposes it, with a critical $$\alpha$$ at which $$\Xi_{xy}$$ exactly cancels $$I^\text{int}_{xy} + I^\text{env}_{xy}$$ and the total mutual information vanishes. For $$F_x = \tanh(y)$$, $$F_y = \tanh(x)$$ this no longer holds: the tanh saturates at large $$\vert g\vert$$, reducing the interactions to constant drifts, while $$I^\text{env}_{xy}$$ keeps growing with $$\alpha$$ — so the interference can change sign as a function of the timescales even at fixed $$g>0$$.
 
 ---
 
