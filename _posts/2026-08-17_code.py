@@ -103,23 +103,39 @@ plt.rcParams.update({
     "axes.facecolor": "white",
 })
 
-fig = plt.figure(figsize=(10, 7.4))
-gs_top = fig.add_gridspec(2, 2, height_ratios=[0.48, 1], width_ratios=[1, 0.48],
-                          hspace=0.05, wspace=0.26, top=1, bottom=0.59)
-gs_bot = fig.add_gridspec(2, 2, height_ratios=[0.48, 1], width_ratios=[1, 0.48],
-                          hspace=0.05, wspace=0.26, top=0.57, bottom=0.17)
+# Narrower than it looks like it wants to be, on purpose: on a phone the text
+# renders at fontsize / figure-width-inches, so 7in is ~40% larger type than 10in.
+# Each block is title+subtitle (1.3in) over plots (1.7in) = 3.0in, separated by
+# a 0.9in gap. That gap has to beat every gap *inside* a block — including the
+# bar tick labels, which hang below their axes — or the two panels don't read
+# as two panels.
+fig = plt.figure(figsize=(7.2, 7.4))
+gs_top = fig.add_gridspec(2, 2, height_ratios=[1.3, 1.7], width_ratios=[1, 0.56],
+                          hspace=0.06, wspace=0.30, top=1.0, bottom=0.595)
+gs_bot = fig.add_gridspec(2, 2, height_ratios=[1.3, 1.7], width_ratios=[1, 0.56],
+                          hspace=0.06, wspace=0.30, top=0.473, bottom=0.068)
 
-def title_block(ax, title, line1, line2):
+def title_block(ax, title, *lines):
+    """Title plus short subtitle lines, set as one tightly-led block.
+
+    Short lines matter: the narrower the widest text, the narrower the figure
+    can be, and text size on a phone scales as fontsize / figure-width-inches.
+    Title and subtitle sit close together on purpose — the gap *between* the
+    two panels has to be the biggest gap in the figure, or the grouping reads
+    wrong.
+    """
     ax.axis("off"); ax.set_ylim(0, 1)
-    ax.text(0, 0.62, title, transform=ax.transAxes, fontsize=19, color=INK, va="top", zorder = np.inf)
-    ax.text(0, 0.27, line1, transform=ax.transAxes, fontsize=12, color=MUTE, va="top", zorder = np.inf)
-    ax.text(0, 0.04, line2, transform=ax.transAxes, fontsize=12, color=MUTE, va="top", zorder = np.inf)
+    ax.text(0, 1.0, title, transform=ax.transAxes, fontsize=19, color=INK, va="top")
+    ax.text(0, 0.70, "\n".join(lines), transform=ax.transAxes,
+            fontsize=11, color=MUTE, va="top", linespacing=1.4)
 
 def traj(ax, x1, x2):
     ax.patch.set_visible(False)   # don't paint over text spilling from the title axes
     ax.plot(td, x1[::K], color=C1, lw=2.4, solid_capstyle="round")
     ax.plot(td, x2[::K], color=C2, lw=2.4, alpha=0.9, solid_capstyle="round")
-    m = max(np.abs(x1).max(), np.abs(x2).max()) * 1.12
+    # from the subsampled data actually drawn, so the curve really does reach
+    # the limit and no phantom headroom opens up under the subtitle
+    m = max(np.abs(x1[::K]).max(), np.abs(x2[::K]).max()) * 1.04
     ax.set_xlim(0, T); ax.set_ylim(-m, m)
     ax.set_xticks([]); ax.set_yticks([])
     for s in ax.spines.values():
@@ -134,7 +150,7 @@ def bars(ax, g, ymax):
            color=[BAR1, BAR2, WARM], zorder=3)
     ax.axhline(i_con + i_env, color=MUTE, lw=1.1, ls=(0, (4, 3)), zorder=2)
     ax.text(-0.55, i_con + i_env - 0.03 * ymax, "if they added up",
-            ha="left", va="top", fontsize=9.5, color=MUTE, style="italic")
+            ha="left", va="top", fontsize=8.5, color=MUTE, style="italic")
     # a zero bar must read as "exactly nothing", not as a missing bar
     if i_tot < 1e-9:
         ax.plot([2 - 0.29, 2 + 0.29], [0, 0], color=WARM, lw=3.0,
@@ -143,7 +159,7 @@ def bars(ax, g, ymax):
                 fontsize=9.5, color=WARM, style="italic")
     ax.set_xlim(-0.62, 2.62); ax.set_ylim(0, ymax)
     ax.set_xticks([0, 1, 2])
-    ax.set_xticklabels(["connection", "room", "both"], fontsize=9.5, color=MUTE)
+    ax.set_xticklabels(["connection", "room", "both"], fontsize=8.5, color=MUTE)
     ax.tick_params(axis="x", length=0, pad=7)
     ax.set_yticks([])
     for side in ("top", "right", "left"):
@@ -157,16 +173,20 @@ ymax = mutual_info(G_POS, D_gamma) * 1.22
 # ---------------- panel 1: they agree ---------------------------------------
 title_block(fig.add_subplot(gs_top[0, :]),
             "When the two causes agree",
-            "The connection pulls the particles together, and the room pushes them the same way at the same time.",
-            "Together they carry far more information than the two would if you simply added them up.")
+            "The connection pulls the particles together, and the",
+            "room pushes them the same way at the same time.",
+            "Together they carry far more information than the",
+            "two would if you simply added them up.")
 traj(fig.add_subplot(gs_top[1, 0]), xa, ya)
 bars(fig.add_subplot(gs_top[1, 1]), G_POS, ymax)
 
 # ---------------- panel 2: they disagree ------------------------------------
 title_block(fig.add_subplot(gs_bot[0, :]),
             "When they disagree",
-            "Everything stays the same, except that now the connection pushes the particles apart, opposite to the room.",
-            "The two cancel exactly. Both causes are there, and yet the particles look completely independent.")
+            "Everything stays the same, except that now the",
+            "connection pushes the particles apart, not together.",
+            "The two cancel exactly. Both causes are there, and",
+            "yet the particles look completely independent.")
 ax_t2 = fig.add_subplot(gs_bot[1, 0])
 traj(ax_t2, xd, yd)
 bars(fig.add_subplot(gs_bot[1, 1]), G_NEG, ymax)
@@ -178,7 +198,7 @@ leg = ax_t2.legend(frameon=False, loc="upper center", fontsize=12, ncol=2,
 for txt in leg.get_texts():
     txt.set_color(MUTE)
 
-fig.savefig("../images/2026-08-01-plot.png", dpi=300,
+fig.savefig("../images/2026-08-17-plot.png", dpi=300,
             bbox_inches="tight", facecolor="white")
 print("saved")
 print(f"  agree   (g={G_POS:+.2f}): I_con={mutual_info(G_POS,0):.4f}  "
