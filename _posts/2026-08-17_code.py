@@ -173,20 +173,18 @@ ymax = mutual_info(G_POS, D_gamma) * 1.22
 # ---------------- panel 1: they agree ---------------------------------------
 title_block(fig.add_subplot(gs_top[0, :]),
             "When the two causes agree",
-            "The connection pulls the particles together, and the",
-            "room pushes them the same way at the same time.",
-            "Together they carry far more information than the",
-            "two would if you simply added them up.")
+            "The interaction pulls the particles together and the room does the same.",
+            "Together they carry far more information than they would alone.",
+            )
 traj(fig.add_subplot(gs_top[1, 0]), xa, ya)
 bars(fig.add_subplot(gs_top[1, 1]), G_POS, ymax)
 
 # ---------------- panel 2: they disagree ------------------------------------
 title_block(fig.add_subplot(gs_bot[0, :]),
             "When they disagree",
-            "Everything stays the same, except that now the",
-            "connection pushes the particles apart, not together.",
-            "The two cancel exactly. Both causes are there, and",
-            "yet the particles look completely independent.")
+            "Same as above, except that now the interaction pushes the particles apart.",
+            "The two sources of information cancel, leaving the particles independent.",
+            )
 ax_t2 = fig.add_subplot(gs_bot[1, 0])
 traj(ax_t2, xd, yd)
 bars(fig.add_subplot(gs_bot[1, 1]), G_NEG, ymax)
