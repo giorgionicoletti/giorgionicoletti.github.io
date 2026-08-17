@@ -111,11 +111,11 @@ plt.rcParams.update({
 # as two panels.
 fig = plt.figure(figsize=(7.2, 7.4))
 gs_top = fig.add_gridspec(2, 2, height_ratios=[1.3, 1.7], width_ratios=[1, 0.56],
-                          hspace=0.06, wspace=0.30, top=1.0, bottom=0.595)
+                          hspace=-0.36, wspace=0.30, top=1.0, bottom=0.695)
 gs_bot = fig.add_gridspec(2, 2, height_ratios=[1.3, 1.7], width_ratios=[1, 0.56],
-                          hspace=0.06, wspace=0.30, top=0.473, bottom=0.068)
+                          hspace=-0.36, wspace=0.30, top=0.603, bottom=0.298)
 
-def title_block(ax, title, *lines):
+def title_block(ax, title, p1, p2, *lines):
     """Title plus short subtitle lines, set as one tightly-led block.
 
     Short lines matter: the narrower the widest text, the narrower the figure
@@ -125,8 +125,8 @@ def title_block(ax, title, *lines):
     wrong.
     """
     ax.axis("off"); ax.set_ylim(0, 1)
-    ax.text(0, 1.0, title, transform=ax.transAxes, fontsize=19, color=INK, va="top")
-    ax.text(0, 0.70, "\n".join(lines), transform=ax.transAxes,
+    ax.text(0, p1, title, transform=ax.transAxes, fontsize=19, color=INK, va="top")
+    ax.text(0, p2, "\n".join(lines), transform=ax.transAxes,
             fontsize=11, color=MUTE, va="top", linespacing=1.4)
 
 def traj(ax, x1, x2):
@@ -173,21 +173,27 @@ ymax = mutual_info(G_POS, D_gamma) * 1.22
 # ---------------- panel 1: they agree ---------------------------------------
 title_block(fig.add_subplot(gs_top[0, :]),
             "When the two causes agree",
+            1.0, 0.75,
             "The interaction pulls the particles together and the room does the same.",
-            "Together they carry far more information than they would alone.",
+            "Together they carry far more information than they would alone."
             )
-traj(fig.add_subplot(gs_top[1, 0]), xa, ya)
-bars(fig.add_subplot(gs_top[1, 1]), G_POS, ymax)
+ax_t1 = fig.add_subplot(gs_top[1, 0])
+ax_b1 = fig.add_subplot(gs_top[1, 1])
+traj(ax_t1, xa, ya)
+bars(ax_b1, G_POS, ymax)
 
 # ---------------- panel 2: they disagree ------------------------------------
-title_block(fig.add_subplot(gs_bot[0, :]),
+ax_tx2 = fig.add_subplot(gs_bot[0, :])
+title_block(ax_tx2,
             "When they disagree",
+            1.0, 0.75,
             "Same as above, except that now the interaction pushes the particles apart.",
-            "The two sources of information cancel, leaving the particles independent.",
+            "The two sources of information cancel, leaving the particles independent."
             )
 ax_t2 = fig.add_subplot(gs_bot[1, 0])
+ax_b2 = fig.add_subplot(gs_bot[1, 1])
 traj(ax_t2, xd, yd)
-bars(fig.add_subplot(gs_bot[1, 1]), G_NEG, ymax)
+bars(ax_b2, G_NEG, ymax)
 
 ax_t2.plot([], [], color=C1, lw=3.0, label="particle 1")
 ax_t2.plot([], [], color=C2, lw=3.0, label="particle 2")
@@ -196,8 +202,20 @@ leg = ax_t2.legend(frameon=False, loc="upper center", fontsize=12, ncol=2,
 for txt in leg.get_texts():
     txt.set_color(MUTE)
 
+ax_t1.set_position([ax_t1.get_position().x0, ax_t1.get_position().y0 + 0.01,
+                    ax_t1.get_position().width, 1.7 / 7.4])
+ax_b1.set_position([ax_b1.get_position().x0, ax_b1.get_position().y0 + 0.01,
+                    ax_b1.get_position().width, 1.7 / 7.4])
+
+ax_t2.set_position([ax_t2.get_position().x0, ax_t2.get_position().y0 + 0.01,
+                    ax_t2.get_position().width, 1.7 / 7.4])
+ax_b2.set_position([ax_b2.get_position().x0, ax_b2.get_position().y0 + 0.01,
+                    ax_b2.get_position().width, 1.7 / 7.4])
+ax_tx2.set_position([ax_tx2.get_position().x0, ax_tx2.get_position().y0 + 0.02,
+                     ax_tx2.get_position().width, 1.3 / 7.4])
 fig.savefig("../images/2026-08-17-plot.png", dpi=300,
             bbox_inches="tight", facecolor="white")
+
 print("saved")
 print(f"  agree   (g={G_POS:+.2f}): I_con={mutual_info(G_POS,0):.4f}  "
       f"I_env={mutual_info(0,D_gamma):.4f}  I_both={mutual_info(G_POS,D_gamma):.4f}")
