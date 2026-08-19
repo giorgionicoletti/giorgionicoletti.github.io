@@ -73,7 +73,10 @@ and the reason linear interactions are special is that they make every $$P^\text
 The second paper replaces the switching temperature with a shared active bath entering additively,
 
 $$
-\tau \dot x = -x + g F_x(x,y) + \sqrt{2D_x\tau}\,\xi_x(t) + \gamma\,\eta(t), \qquad
+\tau \dot x = -x + g F_x(x,y) + \sqrt{2D_x\tau}\,\xi_x(t) + \gamma\,\eta(t)
+$$
+
+$$
 \tau \dot y = -y + g F_y(x,y) + \sqrt{2D_y\tau}\,\xi_y(t) + \gamma\,\eta(t),
 $$
 
