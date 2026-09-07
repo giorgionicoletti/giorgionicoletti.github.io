@@ -251,6 +251,10 @@ function describe(d) {
   if (d.type === "author") return `<b>${d.label}</b><span class="sub">${d.n} paper${d.n > 1 ? "s" : ""} together</span>`;
   return `<b>${d.label}</b><span class="sub">${d.type === "preprint" ? "Preprint" : "Journal article"}${d.venue ? " · " + d.venue : ""}</span>`;
 }
+function reset() {
+  node.classed("dim", false); link.classed("dim", false); label.classed("dim", false);
+  tip.style("opacity", 0);
+}
 node
   .on("mouseenter", (ev, d) => {
     const nb = neighbours.get(d.id);
@@ -265,11 +269,19 @@ node
     tip.style("left", Math.min(x + 14, window.innerWidth - tw - 8) + "px")
        .style("top", Math.min(y + 14, window.innerHeight - th - 8) + "px");
   })
-  .on("mouseleave", () => {
-    node.classed("dim", false); link.classed("dim", false); label.classed("dim", false);
-    tip.style("opacity", 0);
-  })
-  .on("click", (ev, d) => { if (d.url) window.open(d.url, "_blank", "noopener"); });
+  .on("mouseleave", reset)
+  .on("click", (ev, d) => {
+    ev.stopPropagation();
+    // on touch screens there is no mouseleave, so clear the highlight before
+    // leaving the page, otherwise it is still there when the visitor comes back
+    reset();
+    if (d.url) window.open(d.url, "_blank", "noopener");
+  });
+
+// tapping the background or returning to the page also clears any highlight
+svg.on("click", reset);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) reset(); });
+window.addEventListener("pageshow", reset);
 
 // resize (orientation change, responsive layout): refit the same layout
 window.addEventListener("resize", () => {
