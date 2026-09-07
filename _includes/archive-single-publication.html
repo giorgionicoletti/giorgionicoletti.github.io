@@ -1,68 +1,42 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <div class="textbox">
-    <span style="display:block; margin-top:-4em; visibility: hidden">text</span>
+{% assign is_preprint = false %}
+{% if post.paperurl == nil or post.paperurl == "" %}{% assign is_preprint = true %}{% endif %}
+
+<div class="card {% if is_preprint %}card--preprint{% else %}card--journal{% endif %}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" style = "color: info-color">{{ title }}</a>
-      {% elsif post.preprinturl %}
-        <a href="{{ post.preprinturl }}" style="color: #79addc">{{ title }}</a>
+    <h2 class="card__title" itemprop="headline">
+      {% if is_preprint %}
+        <a href="{{ post.preprinturl }}" target="_blank" rel="noopener">{{ title }}</a>
+      {% else %}
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ title }}</a>
       {% endif %}
     </h2>
 
-    {% if post.date %}<p class="page__meta" style = "text-align: right;"><i class="fa fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description" style = "text-align: right; margin-bottom:0px"><i>{{ post.venue }}</i></p>{% endif %}
-    {% if post.paperurl and post.preprinturl %}
-      <p class="archive__item-excerpt" itemprop="description" style = "text-align: right; margin-bottom:0px">
-        <a href="{{ post.preprinturl }}" target="_blank">Preprint link <i class="fas fa-external-link-alt"></i></a>
-      </p>
-    {% endif %}
-    <p class="archive__item-excerpt" itemprop="description">  <span style="color: #9BA1A6;font-weight:600">Authors: </span>
-    {% assign authors = post.authors | split: ', ' %}
-    {% for author in authors %}
-      {% if forloop.last == false %}
-        {% if author contains 'Giorgio Nicoletti' %}
-          <b>{{ author }}</b>,
-        {% else %}
-          <span style="color: #9BA1A6">{{ author }}, </span>
-        {% endif %}
-      {% else %}
-        {% if author contains 'Giorgio Nicoletti' %}
-          <b>{{ author }}</b>
-        {% else %}
-          <span style="color: #9BA1A6">{{ author }}</span>
-        {% endif %}
-      {% endif %}
-      {% endfor %}
+    <p class="card__meta">
+      {% if is_preprint %}<span class="chip chip--preprint">Preprint</span>{% else %}<span class="chip chip--journal">Journal</span>{% endif %}
+      <span class="sep">·</span>{{ post.date | date: '%B %Y' }}
+      {% if post.venue %}<span class="sep">·</span><i>{{ post.venue }}</i>{% endif %}
     </p>
 
+    <p class="card__authors" itemprop="author">
+      {% assign authors = post.authors | split: ', ' %}
+      {% for author in authors %}{% if author contains 'Giorgio Nicoletti' %}<span class="me">{{ author }}</span>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+
+    <div class="card__actions">
+      {% if post.paperurl and post.paperurl != "" %}
+        <a class="action" href="{{ post.paperurl }}" target="_blank" rel="noopener">Journal<i class="fas fa-external-link-alt"></i></a>
+      {% endif %}
+      {% if post.preprinturl and post.preprinturl != "" %}
+        <a class="action" href="{{ post.preprinturl }}" target="_blank" rel="noopener">{% if post.preprinturl contains "arxiv" %}arXiv{% elsif post.preprinturl contains "biorxiv" %}bioRxiv{% else %}Preprint{% endif %}<i class="fas fa-external-link-alt"></i></a>
+      {% endif %}
+    </div>
   </article>
-  <span style="display:block; margin-top:-2em; margin-left:-2em; visibility: hidden">text</span>
 </div>
-</div>
-<span style="display:block; margin-top:-2em; visibility: hidden">text</span>

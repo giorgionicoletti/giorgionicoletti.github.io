@@ -62,7 +62,7 @@
     
             var map_35fe285cd6455b4aee844ed01e6dcbf8 = L.map(
                 "map_35fe285cd6455b4aee844ed01e6dcbf8",
-                {
+                { "zoomSnap": 0.5, "zoomDelta": 0.5, "minZoom": 1.5, "maxBounds": [[-85, -180], [85, 180]], "maxBoundsViscosity": 1.0,
                     center: [40.0, 40.0],
                     crs: L.CRS.EPSG3857,
                     ...{
@@ -80,13 +80,13 @@
         
     
             var tile_layer_1525212269e04e906d138b9c2f19ae24 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
   "maxZoom": 19,
   "maxNativeZoom": 19,
-  "noWrap": false,
-  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "noWrap": true,
+  "attribution": "Tiles \u0026copy; \u003ca href=\"https://www.esri.com/\"\u003eEsri\u003c/a\u003e \u0026mdash; Esri, DeLorme, NAVTEQ, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, and the GIS User Community",
   "subdomains": "",
   "detectRetina": false,
   "tms": false,

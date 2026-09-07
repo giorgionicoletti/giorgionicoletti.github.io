@@ -1,0 +1,18 @@
+# News & media coverage, newest first. Each entry has the paper title and a
+# list of coverage lines written as inline HTML (links allowed).
+- title: 'Excitation-Inhibition balance controls information encoding in neural populations'
+  items:
+    - '<a href="https://phys.org/news/2025-03-optimal-brain-requires-excitatory-inhibitory.html" target="_blank">Phys.org</a> featured article'
+- title: 'Tuning transduction from hidden observables to optimize information harvesting'
+  items:
+    - '<a href="https://physics.aps.org/articles/v17/143" target="_blank">Physics magazine viewpoint</a> by the American Physical Society'
+    - '<a href="https://phys.org/news/2024-10-theoretical-framework-biological.html" target="_blank">Phys.org</a> featured article'
+- title: 'Mutual information disentangles interactions from changing environments'
+  items:
+    - '<a href="https://physics.aps.org/articles/v14/162" target="_blank">Physics magazine viewpoint</a> by the American Physical Society'
+- title: 'Prenatal experience with language shapes the brain'
+  items:
+    - 'Coverage by several international news outlets, such as <a href="https://www.thetimes.co.uk/article/chatty-mums-boost-their-unborn-babies-language-skills-wjl2bxbzl" target="_blank">The Times</a>, <a href="https://elpais.com/salud-y-bienestar/2023-11-22/la-exposicion-al-habla-antes-de-nacer-puede-facilitar-el-aprendizaje-de-los-recien-nacidos.html" target="_blank">El Pais</a>, <a href="https://www.dailymail.co.uk/sciencetech/article-12783189/Why-pays-chatty-mum-Babies-start-learning-language-birth-study-finds.html" target="_blank">Daily Mail</a>, <a href="https://www.lefigaro.fr/sciences/l-acquisition-du-langage-chez-le-bebe-commence-avant-la-naissance-20231124" target="_blank">Le Figaro</a>, <a href="https://www.haaretz.co.il/science/2023-11-23/ty-article/.premium/0000018b-f8e0-d473-affb-f9e851a40000?gift=8e2c603a9be8400cb925edf53ce36268" target="_blank">Haarez</a>, <a href="https://www.corriere.it/salute/23_novembre_30/apprendimento-bambini-piccoli-piu-facile-quando-si-ascolta-lingua-grembo-materno-72cb8baa-8dea-11ee-80d7-6428e39ac8b7.shtml?refresh_ce" target="_blank">Corriere della Sera</a>, <a href="https://www.ansa.it/canale_scienza/notizie/biotech/2023/11/30/lapprendimento-del-linguaggio-inizia-nel-grembo-materno_2bb70f74-8efb-480a-8ef8-631f94fb44df.html" target="_blank">ANSA</a>, and more'
+    - 'Coverage by several popular science publications, such as <a href="https://www.newscientist.com/article/2404345-babies-may-start-to-learn-language-before-they-are-born/" target="_blank">New Scientist</a>, <a href="https://www.nature.com/articles/d43978-023-00181-x" target="_blank">Nature Italy</a>, <a href="https://www.lescienze.it/news/2023/11/23/news/linguaggio_mamma_cervello_neonati-14259373/" target="_blank">Le Scienze</a>, <a href="https://www.psypost.org/new-research-suggests-babies-start-learning-language-before-birth/" target="_blank">PsyPost</a>, <a href="https://www.sciencealert.com/what-your-baby-hears-before-theyre-born-really-can-shape-their-brain" target="_blank">Science Alert</a>, and more'
+    - 'Featuring in BBC''s <a href="https://www.thenakedscientists.com/podcasts/naked-scientists-podcast" target="_blank">The Naked Scientists</a> podcast'
+    - '<a href="https://www.aaas.org/news/babies-brains-are-primed-their-native-language-birth" target="_blank">Press release</a> by the American Association for the Advancement of Science (AAAS)'

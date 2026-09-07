@@ -1,48 +1,34 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <div class="textbox">
-    <span style="display:block; margin-top:-4em; visibility: hidden">text</span>
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
+{% assign ttype = post.type | downcase %}
+{% if ttype contains "invited" %}
+  {% assign kind = "invited" %}
+{% else %}
+  {% assign kind = "contributed" %}
+{% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+<div class="card card--{{ kind }}">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h2 class="card__title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+
+    <p class="card__meta">
+      <span class="chip chip--{{ kind }}">{{ post.type }}</span>
+      {% if post.date %}<span class="sep">·</span>{{ post.date | date: '%B %d, %Y' }}{% endif %}
+      {% if post.venue %}<span class="sep">·</span>{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}{% endif %}
+    </p>
+
+    {% if post.excerpt %}<div class="card__text" itemprop="description">{{ post.excerpt | markdownify }}</div>{% endif %}
   </article>
-  <span style="display:block; margin-top:-2.5em; visibility: hidden">text</span>
 </div>
-</div>
-<span style="display:block; margin-top:0.25em; visibility: hidden">text</span>

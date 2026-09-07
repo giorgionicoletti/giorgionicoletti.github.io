@@ -1,0 +1,472 @@
+/* ==========================================================================
+   Site-specific styles (cards, chips, highlights, CV, embeds)
+   --------------------------------------------------------------------------
+   Every colour used by page content lives in the custom properties below so
+   that a dark theme only has to redefine :root.
+   ========================================================================== */
+
+:root {
+  --accent:            #9e1910;
+  --accent-hover:      #7a130c;
+  --accent-soft:       rgba(158, 25, 16, 0.45);
+  --preprint:          #2f6b9a;   /* text-safe blue for preprints */
+  --preprint-node:     #5b9bd1;   /* node colour in the network */
+  --invited:           #a23336;
+  --contributed:       #065b92;
+  --coauthor:          #b9bec4;
+
+  --text:              #494e52;
+  --muted:             #6b7178;
+  --muted-2:           #9ba1a6;
+
+  --card-bg:           #ffffff;
+  --card-bg-hover:     #f8f9fa;
+  --card-border:       #e6e8eb;
+  --card-border-hover: #d3d7db;
+  --rule:              #e3e5e8;
+  --thumb-bg:          #ffffff;
+}
+
+/* ---------- links in running text: quiet, underlined, red on hover ------- */
+
+.page__content,
+.archive {
+  p a:not(.action):not(.chip),
+  li a:not(.action):not(.chip),
+  dd a {
+    color: var(--text);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-soft);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: var(--accent);
+      text-decoration-color: var(--accent);
+    }
+  }
+}
+
+/* ---------- section headings ------------------------------------------- */
+
+.page__content h2,
+.archive h2 {
+  margin-top: 2.2em;
+  padding-bottom: 0.35em;
+  border-bottom: 2px solid var(--rule);
+  font-size: 1.35em;
+}
+
+.page__content h2:first-child,
+.archive h1 + h2 {
+  margin-top: 1em;
+}
+
+.page__content h3,
+.archive h3 {
+  margin-top: 1.8em;
+  font-size: 1.1em;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+
+  > span { flex: 1; }
+}
+
+.section-toggle {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    transition: transform 0.35s ease;
+  }
+
+  &:hover {
+    background: var(--card-bg-hover);
+    border-color: var(--card-border);
+    color: var(--accent);
+  }
+
+  &[aria-expanded="false"] svg { transform: rotate(180deg); }
+}
+
+.section-body {
+  overflow: hidden;
+  transition: max-height 0.45s ease;
+}
+
+/* ---------- prose helpers ---------------------------------------------- */
+
+.prose {
+  text-align: left;
+
+  p { margin-bottom: 1em; }
+  strong { color: var(--text); font-weight: 600; }
+}
+
+.muted   { color: var(--muted); }
+.muted-2 { color: var(--muted-2); }
+
+.k-coauthor    { color: var(--muted);       font-weight: 600; }
+.k-preprint    { color: var(--preprint);    font-weight: 600; }
+.k-journal     { color: var(--accent);      font-weight: 600; }
+.k-invited     { color: var(--invited);     font-weight: 600; }
+.k-contributed { color: var(--contributed); font-weight: 600; }
+
+/* ---------- cards (the hover box used by every list item) --------------- */
+
+.card,
+.textbox {
+  position: relative;
+  margin: 0 0 1.1em;
+  padding: 16px 18px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  color: var(--text);
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background: var(--card-bg-hover);
+    border-color: var(--card-border-hover);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  }
+
+  .archive__item { margin: 0; }
+}
+
+.card--journal     { border-left: 3px solid var(--accent); }
+.card--preprint    { border-left: 3px solid var(--preprint); }
+.card--invited     { border-left: 3px solid var(--invited); }
+.card--contributed { border-left: 3px solid var(--contributed); }
+
+/* title colour follows the item type (preprints blue, contributed talks blue) */
+.card--preprint    .card__title a { color: var(--preprint); }
+.card--invited     .card__title a { color: var(--invited); }
+.card--contributed .card__title a { color: var(--contributed); }
+
+.card__title {
+  margin: 0 0 0.35em !important;
+  padding: 0;
+  border: 0;
+  font-size: 1.15em;
+  line-height: 1.35;
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.card__meta {
+  margin: 0 0 0.35em;
+  font-size: 0.8em;
+  color: var(--muted);
+  text-align: left;
+
+  .sep { margin: 0 0.4em; color: var(--muted-2); }
+  i    { font-style: italic; }
+}
+
+.card__authors {
+  margin: 0 0 0.2em;
+  font-size: 0.85em;
+  color: var(--muted);
+  line-height: 1.5;
+
+  .me { color: var(--text); font-weight: 600; }
+}
+
+.card__text {
+  margin: 0.4em 0 0;
+  font-size: 0.95em;
+
+  p:last-child { margin-bottom: 0; }
+}
+
+.card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.7em;
+}
+
+.action {
+  display: inline-block;
+  padding: 2px 9px;
+  border: 1px solid var(--card-border-hover);
+  border-radius: 4px;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none !important;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  i { margin-left: 0.3em; font-size: 0.85em; }
+
+  &:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+}
+
+.chip {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 0.66em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.6;
+  color: #fff;
+  background: var(--muted);
+}
+
+.chip--journal     { background: var(--accent); }
+.chip--preprint    { background: var(--preprint); }
+.chip--invited     { background: var(--invited); }
+.chip--contributed { background: var(--contributed); }
+
+/* ---------- research highlights ---------------------------------------- */
+
+.highlight {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.highlight__thumb {
+  flex: 0 0 116px;
+  width: 116px;
+  height: 116px;
+  padding: 4px;
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  background: var(--thumb-bg);
+  object-fit: contain;
+}
+
+.highlight__body { flex: 1; min-width: 0; }
+
+.highlight__title {
+  margin: 0 0 0.3em !important;
+  padding: 0;
+  border: 0;
+  font-size: 1.05em;
+  line-height: 1.35;
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.highlight__meta {
+  margin: 0 0 0.35em;
+  font-size: 0.82em;
+  color: var(--muted);
+}
+
+.highlight__question {
+  margin: 0;
+  font-size: 0.9em;
+  font-style: italic;
+  color: var(--text);
+}
+
+@media (max-width: 600px) {
+  .highlight { align-items: flex-start; gap: 12px; }
+  .highlight__thumb { flex-basis: 84px; width: 84px; height: 84px; }
+}
+
+/* ---------- news & media ----------------------------------------------- */
+
+.news__title {
+  margin: 0 0 0.3em !important;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.news__list {
+  margin: 0;
+  padding-left: 1.1em;
+  font-size: 0.88em;
+  color: var(--muted);
+
+  li { margin-bottom: 0.15em; }
+}
+
+/* ---------- embedded widgets (network, map) ----------------------------- */
+
+.embed {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 8px;
+  margin: 0.5em 0 1.5em;
+}
+
+.embed--network { aspect-ratio: 16 / 10; min-height: 320px; }
+.embed--map     { aspect-ratio: 5 / 2;   min-height: 240px; }
+
+/* ---------- curriculum ------------------------------------------------- */
+
+.cv-list {
+  margin: 0.5em 0 1em;
+}
+
+.cv-entry {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 1.5em;
+}
+
+.cv-entry__when {
+  flex: 0 0 160px;
+  text-align: right;
+  font-size: 0.95em;
+  color: var(--muted);
+}
+
+.cv-entry__logo {
+  display: block;
+  height: 34px;
+  width: auto;
+  max-width: 150px;
+  margin: 8px 0 0 auto;
+  object-fit: contain;
+}
+
+.cv-entry__what {
+  flex: 1;
+  line-height: 1.55;
+
+  .role { font-weight: 600; color: var(--text); }
+  .at   { color: var(--muted); }
+}
+
+@media (max-width: 600px) {
+  .cv-entry { flex-direction: column; gap: 6px; }
+  .cv-entry__when { flex-basis: auto; text-align: left; }
+  .cv-entry__logo { margin: 6px 0 0; }
+}
+
+.cv-pubs,
+.cv-talks,
+.cv-teaching {
+  padding-left: 1.2em;
+
+  li { margin-bottom: 0.7em; line-height: 1.5; }
+
+  .cv-item__title {
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+
+  .cv-item__sub { color: var(--muted); font-size: 0.95em; }
+}
+
+/* ---------- blog listing ----------------------------------------------- */
+
+.post-meta {
+  margin: 0 0 0.6em;
+  font-size: 0.8em;
+  color: var(--muted);
+
+  .sep { margin: 0 0.4em; color: var(--muted-2); }
+}
+
+/* ---------- sidebar: drop the "Follow" button, show links inline on small
+   screens instead of behind a popover -------------------------------------- */
+
+.author__urls-wrapper button { display: none; }
+
+@media (max-width: 1023px) {
+  .author__urls-wrapper { cursor: default; }
+
+  .author__urls {
+    display: block !important;
+    position: static;
+    margin: 6px 0 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: auto;
+
+    &:before { display: none; }
+
+    li {
+      display: inline-block;
+      margin: 0 12px 4px 0;
+      white-space: nowrap;
+    }
+  }
+}
+
+/* ---------- specificity overrides for headings inside cards/lists ------- */
+
+.page__content .card__title,
+.archive .card__title,
+.page__content .highlight__title,
+.archive .highlight__title,
+.page__content .news__title,
+.archive .news__title {
+  margin-top: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.page__content .card__title,
+.archive .card__title { font-size: 1.15em; }
+
+.page__content .highlight__title,
+.archive .highlight__title { font-size: 1.05em; }
+
+.page__content .news__title,
+.archive .news__title { font-size: 1em; }
+
+.page__content li a.cv-item__title,
+.archive li a.cv-item__title {
+  color: var(--accent);
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+/* ---------- misc ------------------------------------------------------- */
+
+.page__content .archive__item-title { margin-top: 0; }
+
+.download-line { color: var(--muted); }

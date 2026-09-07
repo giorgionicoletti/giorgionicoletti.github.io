@@ -1,0 +1,11 @@
+{% comment %} News & media coverage cards, data in _data/news.yml {% endcomment %}
+<div class="news">
+{% for n in site.data.news %}
+  <div class="card">
+    <h3 class="news__title">{{ n.title }}</h3>
+    <ul class="news__list">
+      {% for item in n.items %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>

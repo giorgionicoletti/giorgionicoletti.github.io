@@ -1,0 +1,13 @@
+{% comment %}
+  Collapsible section heading.
+  Usage: {% include section-head.html title="News" target="news" %}
+  Add collapsible=false to render a plain heading without the toggle.
+{% endcomment %}
+<h2 class="section-head" id="{{ include.target }}-head">
+  <span>{{ include.title }}</span>
+  {% unless include.collapsible == false %}
+  <button class="section-toggle" type="button" data-target="{{ include.target }}" aria-expanded="true" aria-controls="{{ include.target }}" aria-label="Collapse section">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.59 16.41L20 15l-8-8-8 8 1.41 1.41L12 9.83z"/></svg>
+  </button>
+  {% endunless %}
+</h2>

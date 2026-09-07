@@ -11,164 +11,111 @@ redirect_from:
 You can download my full CV [here](/files/CV_Nicoletti_2026-08-13.pdf){:target="_blank"}<!--_--> (last updated on August 2026).
 
 ## Research experience
-<font size="5">
-<table>
-<tr>
-    <td width="22%"><div align="right">2024 - present<br>
-	  <img src='/images/ictp_logo.png' style="padding-top:7px;display:block;margin-right:10px;" width="130"></div>
-    </td>
-    <td width="80%">Postdoctoral researcher<br>
+
+<div class="cv-list">
+
+<div class="cv-entry">
+  <div class="cv-entry__when">2024 - present<img class="cv-entry__logo" src="/images/ictp_logo.png" alt="ICTP"></div>
+  <div class="cv-entry__what">
+    <span class="role">Postdoctoral researcher</span><br>
     International Center for Theoretical Physics, Trieste, Italy<br>
-    <span style="font-weight:600">@</span> Quantitative Life Sciencies<br>
-   </td>
-  </tr>
+    <span class="at">@</span> Quantitative Life Sciences
+  </div>
+</div>
 
-  <td></td>
-
-<tr>
-    <td width="22%"><div align="right">2023 - 2024<br>
-	  <img src='/images/epfl_logo.png' style="padding-top:7px;display:block;margin-right:10px;" width="130"></div>
-    </td>
-    <td width="80%">Postdoctoral researcher<br>
+<div class="cv-entry">
+  <div class="cv-entry__when">2023 - 2024<img class="cv-entry__logo" src="/images/epfl_logo.png" alt="EPFL"></div>
+  <div class="cv-entry__what">
+    <span class="role">Postdoctoral researcher</span><br>
     École Polytechnique Fédérale de Lausanne, Switzerland<br>
-    <span style="font-weight:600">@</span> ECHO laboratory<br>
-   </td>
-  </tr>
+    <span class="at">@</span> ECHO laboratory
+  </div>
+</div>
 
-  <td></td>
-
-
- <!-- <tr>
-    <td width="22%"><div align="right">Apr - Nov 2023<br>
-	  <img src='/images/FINAL_liph-logo_red_text.png' style="padding-top:7px;display: block;margin-right:7px;" width="150"></div>
-    </td>
-    <td width="80%">
-    Research grant<br>
-    Department of Physics and Department of Mathematics, University of Padova, Italy<br>
-    <span style="font-weight:600">@</span> Laboratory of Interdisciplinary Physics<br>
-   </td>
-  </tr>
-
-  <td></td> -->
-
-
-  <tr>
-    <td width="22%"><div align="right">Sept - Dec 2022<br>
-    <img src='/images/tubingen.png' style="padding-top:5px; display: block; margin-right:10px;" width="150"></div>
-    </td>
-    <td width="80%">
-    Visiting Ph.D. student <br>
+<div class="cv-entry">
+  <div class="cv-entry__when">Sept - Dec 2022<img class="cv-entry__logo" src="/images/tubingen.png" alt="University of Tübingen"></div>
+  <div class="cv-entry__what">
+    <span class="role">Visiting Ph.D. student</span><br>
     AI Research Center, University of Tübingen, Germany<br>
-    <span style="font-weight:600">@</span> Self-organization and optimality in neuronal networks<br>
-   </td>
-  </tr>
+    <span class="at">@</span> Self-organization and optimality in neuronal networks
+  </div>
+</div>
 
-  <td></td>
-
-  <tr>
-    <td width="22%"><div align="right">June - July 2022<br>
-	  <img src='/images/mpipks.png' style="padding-top:4px; display: block; margin-right:0px;" width="150"></div>
-    </td>
-    <td width="80%">Visiting Ph.D. student<br>
+<div class="cv-entry">
+  <div class="cv-entry__when">June - July 2022<img class="cv-entry__logo" src="/images/mpipks.png" alt="MPI-PKS"></div>
+  <div class="cv-entry__what">
+    <span class="role">Visiting Ph.D. student</span><br>
     Max Planck Institute for the Physics of Complex Systems, Germany<br>
-	  <span style="font-weight:600">@</span> Division of Biological Physics<br>
-   </td>
-  </tr>
-</table>
-</font>
+    <span class="at">@</span> Division of Biological Physics
+  </div>
+</div>
 
+</div>
 
 ## Education
-<font size="5">
-<table>
-  <tr>
-    <td width="22%"><div align="right">Oct 2019 - Apr 2023<br>
-	  <img src='/images/FINAL_liph-logo_red_text.png' style="padding-top:7px;display: block;margin-right:7px;" width="150"></div>
-    </td>
-    <td width="80%">Ph.D in Physics <i>cum laude</i>, University of Padova<br>
-       <span style="font-weight:600">Thesis:</span> <i>Information and criticality in complex stochastic systems</i><br>
-	     <span style="font-weight:600">Supervisors:</span> Amos Maritan and Samir Suweis
-   </td>
-  </tr>
 
-  <td></td>
+<div class="cv-list">
 
-  <tr>
-    <td width="22%"><div align="right">Oct 2017 - Sept 2019<br>
-		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
-		<td width="80%">Master's degree in Physics, University of Padova<br>
-      <span style="font-weight:600">Thesis:</span> <i>Scaling and renormalization group for models of neural activity</i><br>
-	    <span style="font-weight:600">Advisors:</span> Amos Maritan and Samir Suweis<br>
-      <span style="font-weight:600">Final grade:</span> 110/110 <i>cum laude</i> &nbsp; &nbsp; &nbsp;
-      <span style="font-weight:600">GPA:</span> 29.93/30
-    </td>
-  </tr>
+<div class="cv-entry">
+  <div class="cv-entry__when">Oct 2019 - Apr 2023<img class="cv-entry__logo" src="/images/FINAL_liph-logo_red_text.png" alt="LIPh"></div>
+  <div class="cv-entry__what">
+    <span class="role">Ph.D in Physics <i>cum laude</i>, University of Padova</span><br>
+    <b>Thesis:</b> <i>Information and criticality in complex stochastic systems</i><br>
+    <b>Supervisors:</b> Amos Maritan and Samir Suweis
+  </div>
+</div>
 
-  <td></td>
+<div class="cv-entry">
+  <div class="cv-entry__when">Oct 2017 - Sept 2019<img class="cv-entry__logo" src="/images/logo_800anni.png" alt="University of Padova"></div>
+  <div class="cv-entry__what">
+    <span class="role">Master's degree in Physics, University of Padova</span><br>
+    <b>Thesis:</b> <i>Scaling and renormalization group for models of neural activity</i><br>
+    <b>Advisors:</b> Amos Maritan and Samir Suweis<br>
+    <b>Final grade:</b> 110/110 <i>cum laude</i> &nbsp; &nbsp; <b>GPA:</b> 29.93/30
+  </div>
+</div>
 
-  <tr>
-    <td width="22%"><div align="right">Sept 2018 - Jan 2019<br>
-		<img src="/images/logo_paris.png" style="padding-top: 7px;display: block;margin-right:7px;" width="150"></div></td>
-		<td width="80%">Erasmus semester<br>
+<div class="cv-entry">
+  <div class="cv-entry__when">Sept 2018 - Jan 2019<img class="cv-entry__logo" src="/images/logo_paris.png" alt="Paris universities"></div>
+  <div class="cv-entry__what">
+    <span class="role">Erasmus semester</span><br>
     Sorbonne University, Paris Diderot University, Paris-Sud University<br>
-    <span style="font-weight:600">ECTS GPA:</span> A/A
-    </td>
-  </tr>
+    <b>ECTS GPA:</b> A/A
+  </div>
+</div>
 
-  <td></td>
+<div class="cv-entry">
+  <div class="cv-entry__when">Oct 2014 - July 2017<img class="cv-entry__logo" src="/images/logo_800anni.png" alt="University of Padova"></div>
+  <div class="cv-entry__what">
+    <span class="role">Bachelor's degree in Physics, University of Padova</span><br>
+    <b>Thesis:</b> <i>A Bayesian interpretation of quantum probability</i><br>
+    <b>Advisor:</b> Pieralberto Marchetti<br>
+    <b>Final grade:</b> 110/110 <i>cum laude</i> &nbsp; &nbsp; <b>GPA:</b> 29.19/30
+  </div>
+</div>
 
-  <tr>
-    <td width="22%"><div align="right">Oct 2014 - July 2017<br>
-		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
-		<td width="80%">Bachelor's degree in Physics, University of Padova<br>
-      <span style="font-weight:600">Thesis:</span> <i>A Bayesian interpretation of quantum probability</i><br>
-	    <span style="font-weight:600">Advisor:</span> Pieralberto Marchetti<br>
-      <span style="font-weight:600">Final grade:</span> 110/110 <i>cum laude</i> &nbsp; &nbsp; &nbsp;
-      <span style="font-weight:600">GPA:</span> 29.19/30
-    </td>
-  </tr>
-</table>
-</font>
+</div>
 
 <!---
 ## Funding
-<font size="5">
-<table>
-  <tr>
-    <td width="22%"><div align="right">Jan 2023 - Nov 2023<br>
-		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
-    <td width="80%">
-	  <span style="font-weight:600">Research grant, Department of Mathematics, University of Padova</span><br>
-    <span style="font-weight:600">Project: </span><i>Mathematical models for complex living systems: critical emergent phenomena from network interaction and optimization</i><br>
-    <span style="font-weight:600">Amount: </span> € 23,889.84 <br>
-   </td>
-  </tr>
-<td></td>
-  <tr>
-    <td width="22%"><div align="right">Oct 2019 - Dec 2022<br>
-		<img src="/images/logo_800anni.png" style="padding-top: 4px;display: block;margin-right:7px;" width="150"></div></td>
-    <td width="80%">
-	  <span style="font-weight:600">Doctoral fellowship, University of Padova</span><br>
-    <span style="font-weight:600">Amount: </span> ≈ € 70,000.00 <br>
-   </td>
-  </tr>
-</table>
-</font>
+- Jan 2023 - Nov 2023: Research grant, Department of Mathematics, University of Padova. Project: Mathematical models for complex living systems: critical emergent phenomena from network interaction and optimization. Amount: € 23,889.84
+- Oct 2019 - Dec 2022: Doctoral fellowship, University of Padova. Amount: ≈ € 70,000.00
 -->
 
 ## Publications & preprints
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv-pub.html %}
-  {% endfor %}</ul>
 
+<ul class="cv-pubs">{% for post in site.publications reversed %}
+  {% include archive-single-cv-pub.html %}
+{% endfor %}</ul>
 
 ## Organized conferences
 * [Robustness, Adaptability and Critical Transitions in Living Systems Satellite](https://liphlab.github.io/REACT2021){:target="_blank"}<!--_-->, *Conference on Complex Systems 2021, Lyon, France*, 27th October 2021
 
 ## Talks, presentations and posters
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+
+<ul class="cv-talks">{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
 
 ## Attended schools and workshops
 * [Brains, Minds and Machines](https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/brains-minds-and-machines){:target="_blank"}<!--_-->, *Woods Hole, MA, USA*, 7th - 18th August 2023
@@ -200,6 +147,7 @@ Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:t
 
 
 ## Teaching
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+<ul class="cv-teaching">{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>

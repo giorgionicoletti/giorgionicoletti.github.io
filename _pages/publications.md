@@ -5,16 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
-This is a my collaboration network: the color of each node specifies either a <span style="color:#d6d2d2;font-weight:600;">co-author</span>, a <span style="color:#79addc;font-weight:600;">preprint</span> or <span style="color:#9e1910;font-weight:600;">journal article</span>. Click on a node for more information.
- <iframe src="/collab_net/network.html" height="500" width="100%" style="border: none"></iframe>
+You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}){:target="_blank"}. Titles link to the published version when there is one; every entry also has direct links to the journal and the preprint.
 
+This is my collaboration network. Each node is either a <span class="k-coauthor">co-author</span>, a <span class="k-preprint">preprint</span> or a <span class="k-journal">journal article</span>; the size of a co-author's node grows with the number of papers we wrote together. Hover on a node to see who or what it is, and click on it for more information.
 
-{% for post in site.publications reversed %}
+<iframe class="embed embed--network" src="/collab_net/network.html" title="Collaboration network"></iframe>
+
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign by_year = pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in by_year %}
+<h2>{{ year.name }}</h2>
+{% for post in year.items %}
   {% include archive-single-publication.html %}
+{% endfor %}
 {% endfor %}
