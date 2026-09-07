@@ -17,13 +17,14 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.location %}<p class="author__location"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li class="author__urls-location"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -37,7 +38,7 @@
       {% if author.googlescholar %}
       <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
-      <li><a href="https://www.webofscience.com/wos/author/record/GIW-7237-2022" target="_blank"><span style="display:inline-block; width: 13px;"><img src='/images/clarivate.png'></span> Web of Science</a></li>
+      <li><a href="https://www.webofscience.com/wos/author/record/GIW-7237-2022" target="_blank"><span class="wos-icon-wrap"><img src='/images/clarivate.png' class="wos-icon" alt=""></span> Web of Science</a></li>
 
       {% if author.github %}
       <li><a href="https://github.com/{{ author.github }}"><i class="fa-brands fa-square-github" aria-hidden="true"></i> Github</a></li>
@@ -127,7 +128,6 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
-    
     </ul>
   </div>
 </div>

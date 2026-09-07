@@ -2,6 +2,18 @@
 
 <!-- start custom head snippets -->
 
+<!-- theme: applied before first paint; dark unless the visitor chose light -->
+<script>
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem("theme"); } catch (e) {}
+    if (t !== "light" && t !== "dark") t = "dark";
+    document.documentElement.setAttribute("data-theme", t);
+    document.documentElement.style.colorScheme = t;
+  })();
+</script>
+<script src="{{ base_path }}/assets/js/theme.js" defer></script>
+
 <script src="https://kit.fontawesome.com/789e347151.js" crossorigin="anonymous"></script>
 
 <link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">

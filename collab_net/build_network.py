@@ -98,19 +98,32 @@ TEMPLATE = r"""<!DOCTYPE html>
     --preprint: #5b9bd1;
     --link: #d7dadd;
     --label: #6b7178;
+    --halo: #ffffff;
     --tip-bg: #ffffff;
     --tip-border: #d3d7db;
     --tip-text: #494e52;
     --bg: transparent;
+  }
+  [data-theme="dark"] {
+    --ego: #e9ebed;
+    --author: #5f666d;
+    --journal: #cf5145;
+    --preprint: #4f8fc7;
+    --link: #33383e;
+    --label: #a3a9b0;
+    --halo: #141618;
+    --tip-bg: #1b1e21;
+    --tip-border: #33383e;
+    --tip-text: #d7dade;
   }
   html, body { margin: 0; padding: 0; height: 100%; background: var(--bg);
     font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
   #chart { width: 100%; height: 100%; }
   svg { width: 100%; height: 100%; display: block; }
   .link { fill: none; stroke: var(--link); stroke-width: 1px; stroke-opacity: 0.8; }
-  .node { cursor: pointer; stroke: #fff; stroke-width: 1.2px; }
+  .node { cursor: pointer; stroke: var(--halo); stroke-width: 1.2px; }
   .node.ego { stroke-width: 2px; }
-  .label { font-size: 10px; fill: var(--label); pointer-events: none; paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; }
+  .label { font-size: 10px; fill: var(--label); pointer-events: none; paint-order: stroke; stroke: var(--halo); stroke-width: 3px; stroke-linejoin: round; }
   .label.ego { font-size: 11px; font-weight: 600; fill: var(--ego); }
   .node, .link, .label { transition: opacity 0.3s ease; }
   .dim { opacity: 0.12; }
@@ -129,6 +142,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <body>
 <div id="chart"></div>
 <div id="tip"></div>
+<script src="/assets/js/embed-theme.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 const graph = __DATA__;
@@ -241,7 +255,7 @@ place();
 const legend = svg.append("g").attr("class", "legend").attr("transform", `translate(${PAD + 4}, ${PAD + 6})`);
 [["author", "co-author"], ["journal", "journal article"], ["preprint", "preprint"]].forEach(([t, txt], i) => {
   const row = legend.append("g").attr("transform", `translate(0, ${i * 16})`);
-  row.append("circle").attr("r", 4.5).attr("fill", colour[t]).attr("stroke", "#fff");
+  row.append("circle").attr("r", 4.5).attr("fill", colour[t]).attr("stroke", "var(--halo)");
   row.append("text").attr("x", 10).attr("dy", "0.35em").text(txt);
 });
 

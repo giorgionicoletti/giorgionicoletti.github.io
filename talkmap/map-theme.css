@@ -1,0 +1,49 @@
+/* Dark rendering for the talk map (Leaflet). The tile pane is re-toned with a
+   CSS filter; markers, popups and controls are styled directly. */
+html, body { background: transparent; }
+
+[data-theme="dark"] .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.82) contrast(0.88) saturate(0.55);
+}
+
+[data-theme="dark"] .leaflet-container {
+  background: #141618;
+}
+
+[data-theme="dark"] .leaflet-control-zoom a {
+  background: #1b1e21;
+  color: #d7dade;
+  border-color: #2a2e33;
+}
+
+[data-theme="dark"] .leaflet-control-zoom a:hover {
+  background: #23272b;
+}
+
+[data-theme="dark"] .leaflet-bar {
+  border-color: #2a2e33;
+}
+
+[data-theme="dark"] .leaflet-control-attribution {
+  background: rgba(20, 22, 24, 0.8);
+  color: #9ba1a7;
+}
+
+[data-theme="dark"] .leaflet-control-attribution a {
+  color: #c2c7cc;
+}
+
+[data-theme="dark"] .leaflet-popup-content-wrapper,
+[data-theme="dark"] .leaflet-popup-tip {
+  background: #1b1e21;
+  color: #d7dade;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .leaflet-popup-content a {
+  color: #e6675c;
+}
+
+[data-theme="dark"] .leaflet-container a.leaflet-popup-close-button {
+  color: #9ba1a7;
+}
