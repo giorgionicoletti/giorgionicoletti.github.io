@@ -132,7 +132,12 @@ TEMPLATE = r"""<!DOCTYPE html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 const graph = __DATA__;
-const W = 900, H = 560, PAD = 14;
+// the drawing is sized to its frame: one SVG unit is one CSS pixel, so nodes
+// and labels keep a readable size on a phone and the layout fills a portrait
+// frame as well as a landscape one
+let W = Math.max(280, window.innerWidth), H = Math.max(280, window.innerHeight);
+const PAD = 14;
+const narrow = () => W < 500;
 const colour = { ego: "var(--ego)", author: "var(--author)", journal: "var(--journal)", preprint: "var(--preprint)" };
 const radius = d => d.type === "ego" ? 12 : d.type === "author" ? 3.5 + 1.9 * Math.sqrt(d.n) : 5;
 
@@ -148,13 +153,14 @@ graph.links.forEach(l => { neighbours.get(l.source).add(l.target); neighbours.ge
 // well-connected people get room, and labelled nodes keep extra clearance
 const deg = new Map(graph.nodes.map(d => [d.id, 0]));
 graph.links.forEach(l => { deg.set(l.source, deg.get(l.source) + 1); deg.set(l.target, deg.get(l.target) + 1); });
-const labelled = d => d.type === "ego" || (d.type === "author" && d.n >= 4);
+const labelled = d => d.type === "ego" || (d.type === "author" && d.n >= (narrow() ? 6 : 4));
+const aspect = W / H;
 const sim = d3.forceSimulation(graph.nodes)
   .randomSource(d3.randomLcg(0.42))
   .force("link", d3.forceLink(graph.links).id(d => d.id).distance(l => 18 + radius(l.source) + radius(l.target)).strength(0.5))
   .force("charge", d3.forceManyBody().strength(d => -25 - 22 * Math.sqrt(deg.get(d.id))))
-  .force("x", d3.forceX(W / 2).strength(0.02))
-  .force("y", d3.forceY(H / 2).strength(0.035))
+  .force("x", d3.forceX(W / 2).strength(0.028 / Math.sqrt(aspect)))
+  .force("y", d3.forceY(H / 2).strength(0.028 * Math.sqrt(aspect)))
   .force("collide", d3.forceCollide(d => radius(d) + (labelled(d) ? 18 : 2.5)).iterations(2))
   .stop();
 
@@ -264,6 +270,15 @@ node
     tip.style("opacity", 0);
   })
   .on("click", (ev, d) => { if (d.url) window.open(d.url, "_blank", "noopener"); });
+
+// resize (orientation change, responsive layout): refit the same layout
+window.addEventListener("resize", () => {
+  const w = Math.max(280, window.innerWidth), h = Math.max(280, window.innerHeight);
+  if (Math.abs(w - W) < 2 && Math.abs(h - H) < 2) return;
+  W = w; H = h;
+  svg.attr("viewBox", [0, 0, W, H]);
+  fit(); place();
+});
 
 // drag: move only the grabbed node; the rest of the layout stays put
 node.call(d3.drag()

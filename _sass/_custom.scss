@@ -339,6 +339,11 @@
 .embed--network { aspect-ratio: 16 / 10; min-height: 320px; }
 .embed--map     { aspect-ratio: 5 / 2;   min-height: 240px; }
 
+@media (max-width: 600px) {
+  .embed--network { aspect-ratio: 4 / 5; }
+  .embed--map     { aspect-ratio: 4 / 3; }
+}
+
 /* ---------- curriculum ------------------------------------------------- */
 
 .cv-list {
