@@ -722,6 +722,7 @@ table {
 }
 
 .pub-filter {
+  --pill: var(--area, var(--accent));
   display: inline-flex;
   align-items: center;
   gap: 0.45em;
@@ -745,13 +746,27 @@ table {
 
   &:hover { color: var(--accent); border-color: var(--accent); }
 
+  /* the selected area shows in its own colour; "All" keeps the site accent.
+     A tint rather than a solid fill, so the label stays readable whatever
+     the hue: white on the amber would not be. */
   &.is-active {
     color: #fff;
     background: var(--accent-fill);
     border-color: var(--accent-fill);
     .count { background: rgba(255, 255, 255, 0.18); color: #fff; }
   }
+
+  &.is-active[data-theme]:not([data-theme="all"]) {
+    color: var(--pill);
+    border-color: var(--pill);
+    background: var(--bg-elev);
+    background: color-mix(in srgb, var(--pill) 16%, transparent);
+
+    .count { background: color-mix(in srgb, var(--pill) 22%, transparent); color: var(--pill); }
+  }
 }
+
+[data-theme="dark"] .pub-filter { --pill: var(--area-dark, var(--area, var(--accent))); }
 
 .year-group[hidden] { display: none; }
 .pub-list .card[hidden] { display: none; }

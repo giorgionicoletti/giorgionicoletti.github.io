@@ -16,7 +16,7 @@ This is my collaboration network, with the papers coloured by research area and 
 <div class="pub-filters" role="group" aria-label="Filter by research area">
   <button class="pub-filter is-active" type="button" data-theme="all" aria-pressed="true">All <span class="count">{{ site.publications.size }}</span></button>
   {% for t in site.data.themes %}{% assign n = site.publications | where_exp: "p", "p.theme contains t.key" %}
-  <button class="pub-filter" type="button" data-theme="{{ t.key }}" aria-pressed="false">{{ t.title }} <span class="count">{{ n.size }}</span></button>{% endfor %}
+  <button class="pub-filter" type="button" data-theme="{{ t.key }}" aria-pressed="false" style="--area: {{ t.colour }}; --area-dark: {{ t.colour_dark | default: t.colour }}">{{ t.title }} <span class="count">{{ n.size }}</span></button>{% endfor %}
 </div>
 
 <div class="pub-list">
