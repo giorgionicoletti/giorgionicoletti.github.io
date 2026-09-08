@@ -183,7 +183,7 @@ document.addEventListener("themechange", () => { node.attr("fill", fill); drawLe
 // ?switch=off hides the corner control: that copy is steered by the filters
 // on the publications page and always colours by research area
 const showSwitch = new URLSearchParams(location.search).get("switch") !== "off";
-let mode = showSwitch ? "type" : "area";   // "type": journal / preprint, "area": research area
+let mode = "type";   // "type": journal / preprint, "area": research area
 const fill = d => {
   // under a filter a paper is drawn in the colour of the area that was picked,
   // so a paper tagged with two areas takes the right one either way
@@ -412,7 +412,11 @@ window.addEventListener("message", ev => {
   if (!ev.data || !("area" in ev.data)) return;
   const k = ev.data.area;
   filterKey = (k && themeColour[k]) ? k : null;
-  if (filterKey && mode !== "area") { mode = "area"; drawLegend(); }
+  // colour by research area only while an area is picked; "All" goes back to
+  // journal versus preprint. The copy with the switch keeps whatever the
+  // visitor chose there.
+  if (!showSwitch) mode = filterKey ? "area" : "type";
+  drawLegend();
   applyEmphasis();
 });
 

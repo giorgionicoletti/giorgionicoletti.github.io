@@ -84,6 +84,8 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
   background: var(--bg);
   a { color: var(--accent); margin: 0 0.8rem; &:hover { color: var(--accent-hover); } }
   .visible-links a:before { background: var(--accent); }
+  /* the theme made the first item bold because it used to be the site name */
+  .visible-links li:first-child { font-weight: inherit; }
   button { background-color: var(--accent); }
   .hidden-links {
     background: var(--bg-elev);
@@ -145,6 +147,12 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
 @media (max-width: 1023px) {
   .masthead .theme-toggle:not(.theme-toggle--menu) { display: none; }
   .masthead__menu { padding-right: 0; }
+
+  /* the name lives in the profile block below, so the bar carries only the
+     menu button: keep it slim rather than leaving a tall empty strip */
+  .masthead__inner-wrap { padding: 0.35em 1em; }
+  .greedy-nav { min-width: 0; min-height: 38px; }
+  .greedy-nav button { height: 38px; top: 50%; transform: translateY(-50%); }
 }
 
 .author__name { color: var(--text); }

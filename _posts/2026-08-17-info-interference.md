@@ -8,6 +8,7 @@ tags:
   - stochastic processes
   - statistical physics
 excerpt: 'Let''s get back to where we left off and keep in mind our two examples: two particles in a room, each being pushed around by the same environment, but also connected to each other; or two people, each hearing the same news cycle, but also talking to each other. The question was whether you could tell the difference between the two sources of correlation: the environment and the connection. And the answer was yes, if the connection is simple enough. But what makes a connection "simple enough"? And what happens when it isn''t?'
+theme: information
 ---
 
 *This post is about two papers: [Mutual information in changing environments](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.014153){:target="_blank"}, published in **Physical Review E** in 2022, and [Information interference driven by environmental activity](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043275){:target="_blank"}, published in **Physical Review Research** in 2024.*
