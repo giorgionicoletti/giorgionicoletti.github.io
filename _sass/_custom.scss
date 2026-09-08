@@ -98,6 +98,9 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
     .navicon:before,
     .navicon:after { background: var(--accent); }
 
+    /* open: the middle bar has to disappear or the X reads as a star */
+    &.close .navicon { background: transparent; }
+
     &:hover { border-color: var(--accent); background: var(--card-bg-hover); }
   }
   .hidden-links {
