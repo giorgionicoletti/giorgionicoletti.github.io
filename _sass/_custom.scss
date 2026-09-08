@@ -79,10 +79,10 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
 
 .masthead { background: var(--bg); border-bottom-color: var(--rule); }
 .masthead__inner-wrap { position: relative; }
-.masthead__menu { padding-right: 40px; }
 .greedy-nav {
   background: var(--bg);
   a { color: var(--accent); margin: 0 0.8rem; &:hover { color: var(--accent-hover); } }
+  .visible-links { margin: 0 auto; }
   .visible-links a:before { background: var(--accent); }
   /* the theme made the first item bold because it used to be the site name */
   .visible-links li:first-child { font-weight: inherit; }
@@ -97,10 +97,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
 }
 
 .theme-toggle {
-  position: absolute;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -121,8 +117,25 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
 [data-theme="dark"] .theme-toggle .theme-toggle__sun  { display: none; }
 [data-theme="dark"] .theme-toggle .theme-toggle__moon { display: block; }
 
-/* on small screens the switch lives in the hamburger menu (added by theme.js) */
-.greedy-nav .hidden-links .theme-toggle--menu {
+/* the switch is the last item of the nav, so the greedy navigation folds it
+   into the hamburger menu by itself when the bar runs out of room */
+/* the theme lays out every button inside the nav as the hamburger, so the
+   switch has to opt out of that */
+.greedy-nav .theme-toggle {
+  position: static;
+  right: auto;
+  top: auto;
+  transform: none;
+  background: var(--card-bg);
+  color: var(--muted);
+  border: 1px solid var(--card-border);
+  &:hover { color: var(--accent); border-color: var(--accent); background: var(--card-bg-hover); }
+}
+.greedy-nav .visible-links .theme-toggle { height: 30px; }
+.greedy-nav .visible-links .theme-toggle-item { vertical-align: middle; padding-left: 0.6rem; }
+.greedy-nav .visible-links .theme-toggle__label { display: none; }
+
+.greedy-nav .hidden-links .theme-toggle {
   position: static;
   transform: none;
   display: flex;
@@ -145,8 +158,6 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
 }
 
 @media (max-width: 1023px) {
-  .masthead .theme-toggle:not(.theme-toggle--menu) { display: none; }
-  .masthead__menu { padding-right: 0; }
 
   /* the name lives in the profile block below, so the bar carries only the
      menu button: keep it slim rather than leaving a tall empty strip */

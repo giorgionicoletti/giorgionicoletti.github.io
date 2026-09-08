@@ -30,22 +30,7 @@
     return document.documentElement.getAttribute("data-theme") || "dark";
   }
 
-  function addMenuItem() {
-    var hidden = document.querySelector("#site-nav .hidden-links");
-    if (!hidden || hidden.querySelector(".theme-toggle--menu")) return;
-    var src = document.querySelector(".masthead .theme-toggle");
-    var li = document.createElement("li");
-    li.className = "masthead__menu-item theme-menu-item";
-    var b = document.createElement("button");
-    b.type = "button";
-    b.className = "theme-toggle theme-toggle--menu";
-    b.innerHTML = (src ? src.innerHTML : "") + '<span class="theme-toggle__label"></span>';
-    li.appendChild(b);
-    hidden.appendChild(li);   // stays last: the greedy nav only ever moves the first item back
-  }
-
   document.addEventListener("DOMContentLoaded", function () {
-    addMenuItem();
     apply(current());
     document.querySelectorAll(".theme-toggle").forEach(function (b) {
       b.addEventListener("click", function () {
