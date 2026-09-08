@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2025-07-28
 year: '2025'
 authors: 'Giorgio Nicoletti, Matteo Bruzzone, Samir Suweis, Marco Dal Maschio, Daniel M. Busiello'
+venue_short: 'eLife'
 venue: 'eLife 13:RP99767 (2025)'
 preprinturl: 'https://arxiv.org/abs/2301.12812'
 paperurl: 'https://doi.org/10.7554/eLife.99767.3'
 citation: 'Giorgio Nicoletti, Matteo Bruzzone, Samir Suweis, Marco Dal Maschio, Daniel M. Busiello. Optimal information gain at the onset of habituation to repeated stimuli. eLife 13:RP99767 (2025).'
+theme: [behaviour, information]
 ---
 
 ## Abstract

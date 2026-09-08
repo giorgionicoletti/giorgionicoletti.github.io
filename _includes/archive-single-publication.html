@@ -9,7 +9,7 @@
 {% assign is_preprint = false %}
 {% if post.paperurl == nil or post.paperurl == "" %}{% assign is_preprint = true %}{% endif %}
 
-<div class="card {% if is_preprint %}card--preprint{% else %}card--journal{% endif %}">
+<div class="card {% if is_preprint %}card--preprint{% else %}card--journal{% endif %}"{% if post.theme %} data-theme="{% if post.theme.first %}{{ post.theme | join: " " }}{% else %}{{ post.theme }}{% endif %}"{% endif %}>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     <h2 class="card__title" itemprop="headline">
       {% if is_preprint %}
@@ -20,7 +20,7 @@
     </h2>
 
     <p class="card__meta">
-      {% if is_preprint %}<span class="chip chip--preprint">Preprint</span>{% else %}<span class="chip chip--journal">Journal</span>{% endif %}
+      {% if is_preprint %}<span class="chip chip--preprint">{{ post.venue_short | default: "Preprint" }}</span>{% else %}<span class="chip chip--journal">{{ post.venue_short | default: "Journal" }}</span>{% endif %}
       <span class="sep">·</span>{{ post.date | date: '%B %Y' }}
       {% if post.venue %}<span class="sep">·</span><i>{{ post.venue }}</i>{% endif %}
     </p>

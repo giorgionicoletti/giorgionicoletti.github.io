@@ -1,0 +1,35 @@
+# Research areas. The key must match the `theme:` field in _publications/*.md
+# and _posts/*.md. Cards on the home page, filters on the publications page
+# and the "area" colouring of the collaboration network are all built from
+# this file and those fields.
+# colour is used on the light theme, colour_dark on the dark theme (network, timeline, cards).
+# Optional per area: image (and image_dark for the dark theme) shown as a banner on the card.
+- key: information
+  title: "Information in stochastic systems"
+  question: "How do noisy systems harvest, propagate and pay for information?"
+  topics: "Statistical physics, information theory, stochastic processes, stochastic thermodynamics"
+  image: "/images/areas/information.svg"
+  image_dark: "/images/areas/information-dark.svg"
+  anchor: "/research/#information-head"
+  colour: "#c9922c"
+  colour_dark: "#d9a441"
+
+- key: behaviour
+  title: "Brains, behaviour and learning"
+  question: "How do neurons, brains and agents encode information and make decisions?"
+  topics: "Neural dynamics, criticality, cognition, reinforcement learning"
+  image: "/images/areas/behaviour.svg"
+  image_dark: "/images/areas/behaviour-dark.svg"
+  anchor: "/research/#neuro-head"
+  colour: "#1f3f7a"
+  colour_dark: "#4e66a1"
+
+- key: ecology
+  title: "Spatial ecology"
+  question: "How do landscapes and dispersal shape the survival and coexistence of species?"
+  topics: "Metapopulations, metacommunities, disordered systems, river networks"
+  image: "/images/areas/ecology.svg"
+  image_dark: "/images/areas/ecology-dark.svg"
+  anchor: "/research/#ecology-head"
+  colour: "#3f8a5c"
+  colour_dark: "#5aa877"

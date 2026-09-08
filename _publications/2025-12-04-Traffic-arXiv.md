@@ -6,9 +6,11 @@ excerpt: 'preprint'
 date: 2025-12-04
 year: '2025'
 authors: 'Giorgio Nicoletti, Ivan Di Terlizzi, Daniel M. Busiello'
+venue_short: 'arXiv'
 venue: 'arXiv:2512.04877 (2025)'
 preprinturl: 'https://arxiv.org/abs/2512.04877'
 citation: 'Giorgio Nicoletti, Ivan Di Terlizzi, Daniel M. Busiello. Balancing information and dissipation with partially observed fluctuating signals. arXiv:2512.04877 (2025)'
+theme: information
 ---
 
 ## Abstract

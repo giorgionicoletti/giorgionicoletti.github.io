@@ -6,11 +6,13 @@ excerpt: 'Journal article'
 date: 2022-06-24
 year: '2022'
 authors: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Stefano Vassanelli, Samir Suweis'
+venue_short: 'Sci. Rep.'
 venue: 'Scientific Reports 12, 10770 (2022)'
 preprinturl: 'https://arxiv.org/abs/2105.05070'
 paperurl: 'https://www.nature.com/articles/s41598-022-13686-0'
 
 citation: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Stefano Vassanelli, Samir Suweis. Disentangling the critical signatures of neural activity. Sci. Rep. 12, 10770 (2022).'
+theme: [behaviour, information]
 ---
 
 ## Abstract

@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2024-10-22
 year: '2024'
 authors: 'Giorgio Nicoletti, Prajwal Padmanabha, Davide Bernardi, Samir Suweis, Sandro Azaele, Andrea Rinaldo, Amos Maritan'
+venue_short: 'PNAS'
 venue: 'Proceedings of the National Academy of Sciences 121 (44) e2410932121 (2024)'
 preprinturl: 'https://arxiv.org/abs/2404.09908'
 paperurl: 'https://www.pnas.org/doi/full/10.1073/pnas.2410932121'
 citation: 'Prajwal Padmanabha*, Giorgio Nicoletti*, Davide Bernardi*, Samir Suweis, Sandro Azaele, Andrea Rinaldo, Amos Maritan. Landscape and environmental heterogeneity support coexistence in competitive metacommunities. PNAS 121 (44) e2410932121 (2024) (* equal contribution).'
+theme: ecology
 ---
 
 ## Abstract

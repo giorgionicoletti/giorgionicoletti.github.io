@@ -1,0 +1,24 @@
+{% comment %} Publications over time, one dot per paper coloured by its first research area; legend = the areas. Desktop only. {% endcomment %}
+{% include base_path %}
+<div class="timeline-block">
+  <iframe class="embed embed--timeline" src="/research_timeline/timeline.html" title="Publications over time, by research area"></iframe>
+  <ul class="area-key">
+  {% for t in site.data.themes %}
+    {% assign pubs = site.publications | where_exp: "p", "p.theme contains t.key" %}
+    <li class="area-key__item" data-theme="{{ t.key }}" style="--area: {{ t.colour }}; --area-dark: {{ t.colour_dark | default: t.colour }}">
+      <span class="area-key__dot"></span>
+      <a class="area-key__title" href="#{{ t.anchor | split: '#' | last }}">{{ t.title }}</a>
+      <a class="area-key__count" href="{{ base_path }}/publications/?theme={{ t.key }}" title="Publications in this area">{{ pubs.size }}</a>
+    </li>
+  {% endfor %}
+  {% assign tagged = site.publications | where_exp: "p", "p.theme" %}
+  {% assign untagged = site.publications.size | minus: tagged.size %}
+  {% if untagged > 0 %}
+    <li class="area-key__item area-key__item--other">
+      <span class="area-key__dot"></span>
+      <span class="area-key__title">Other</span>
+      <span class="area-key__count" title="Publications outside these areas">{{ untagged }}</span>
+    </li>
+  {% endif %}
+  </ul>
+</div>

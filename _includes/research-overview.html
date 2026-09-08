@@ -1,0 +1,21 @@
+{% comment %} Bird's-eye view: publications over time coloured by area, with compact area cards. Data: _data/themes.yml + the theme: field of publications. {% endcomment %}
+{% include base_path %}
+<div class="areas">
+{% for t in site.data.themes %}
+  {% assign pubs = site.publications | where_exp: "p", "p.theme contains t.key" %}
+  <div class="card area" data-theme="{{ t.key }}" style="--area: {{ t.colour }}; --area-dark: {{ t.colour_dark | default: t.colour }}">
+    {% if t.image %}
+    <a class="area__banner" href="{{ base_path }}{{ t.anchor }}" tabindex="-1" aria-hidden="true">
+      <img class="area__thumb area__thumb--light" src="{{ t.image }}" alt="">
+      <img class="area__thumb area__thumb--dark" src="{{ t.image_dark | default: t.image }}" alt="">
+    </a>
+    {% endif %}
+    <h3 class="area__title"><a href="{{ base_path }}{{ t.anchor }}">{{ t.title }}</a></h3>
+    <p class="area__question">{{ t.question }}</p>
+    <p class="area__foot">
+      <a class="action" href="{{ base_path }}/publications/?theme={{ t.key }}">{{ pubs.size }} paper{% if pubs.size != 1 %}s{% endif %}</a>
+      <a class="action" href="{{ base_path }}{{ t.anchor }}">Read more</a>
+    </p>
+  </div>
+{% endfor %}
+</div>

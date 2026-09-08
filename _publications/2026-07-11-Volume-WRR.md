@@ -6,9 +6,11 @@ excerpt: 'Journal article'
 date: 2026-07-11
 year: '2026'
 authors: 'Giorgio Nicoletti, Enrico Bertuzzo, Prajwal Padmanabha, Francesca Bassani, Sara Bonetti, Amos Maritan, Andrea Rinaldo'
+venue_short: 'Water Resour. Res.'
 venue: 'Water Resources Research, 62, e2025WR041131 (2026)'
 paperurl: 'https://doi.org/10.1029/2025WR041131'
 citation: 'Giorgio Nicoletti, Enrico Bertuzzo, Prajwal Padmanabha, Francesca Bassani, Sara Bonetti, Amos Maritan, Andrea Rinaldo. Generalized scaling of blue metabolism in river basins. Water Resources Research 2026 (4), e2025WR041131 (2026)'
+theme: ecology
 ---
 
 ## Abstract

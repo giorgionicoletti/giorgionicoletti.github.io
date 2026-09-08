@@ -6,9 +6,11 @@ excerpt: 'preprint'
 date: 2026-03-16
 year: '2026'
 authors: 'Ramon Guevara, Marco Zenari, Giorgio Nicoletti, Elisa Marini, Samir Suweis, Sandro Azaele, Marco Formentin'
+venue_short: 'arXiv'
 venue: 'arXiv:2603.12878 (2026)'
 preprinturl: 'https://arxiv.org/abs/2603.12878'
 citation: 'Ramón Guevara, Marco Zenari, Giorgio Nicoletti, Elisa Marini, Samir Suweis, Sandro Azaele, Marco Formentin. Pulse desynchronization of neural populations by targeting the centroid of the limit cycle in phase space. arXiv:2603.12878 (2026)'
+theme: behaviour
 ---
 
 ## Abstract

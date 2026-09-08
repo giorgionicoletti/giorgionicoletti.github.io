@@ -6,6 +6,7 @@ excerpt: 'Journal article'
 date: 2026-04-15
 year: '2026'
 authors: 'Clelia Corridori, Merrit Romeike, Giorgio Nicoletti, Christa Buecker, Samir Suweis, Sandro Azaele, Graziano Martello'
+venue_short: 'PLOS Comput. Biol.'
 venue: 'PLOS Computational Biology 22 (4), e1014067 (2026)'
 paperurl: 'https://doi.org/10.1371/journal.pcbi.1014067'
 preprinturl: 'https://www.biorxiv.org/content/10.1101/2024.05.10.593314v1'

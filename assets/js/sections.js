@@ -28,3 +28,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+/* Research overview: hovering an area in the key highlights its dots in the timeline */
+document.addEventListener("DOMContentLoaded", function () {
+  var frame = document.querySelector("iframe.embed--timeline");
+  if (!frame) return;
+  var send = function (key) { try { frame.contentWindow.postMessage({ highlight: key }, window.location.origin); } catch (e) {} };
+  document.querySelectorAll(".area-key__item, .area[data-theme]").forEach(function (li) {
+    li.addEventListener("mouseenter", function () { send(li.dataset.theme); });
+    li.addEventListener("mouseleave", function () { send(null); });
+  });
+});

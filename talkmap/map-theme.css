@@ -24,13 +24,15 @@ html, body { background: transparent; }
   border-color: #2a2e33;
 }
 
-[data-theme="dark"] .leaflet-control-attribution {
-  background: rgba(20, 22, 24, 0.8);
-  color: #9ba1a7;
+/* Leaflet scopes its own rule as .leaflet-container .leaflet-control-attribution,
+   so the override has to be at least as specific to win */
+[data-theme="dark"] .leaflet-container .leaflet-control-attribution {
+  background: rgba(20, 22, 24, 0.82);
+  color: #b6bcc2;
 }
 
-[data-theme="dark"] .leaflet-control-attribution a {
-  color: #c2c7cc;
+[data-theme="dark"] .leaflet-container .leaflet-control-attribution a {
+  color: #d3d8dd;
 }
 
 [data-theme="dark"] .leaflet-popup-content-wrapper,

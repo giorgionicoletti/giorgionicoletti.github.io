@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2024-10-14
 year: '2024'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
+venue_short: 'J. Phys. Complex.'
 venue: 'Journal of Physics: Complexity 5 045004 (2024)'
 preprinturl: 'https://arxiv.org/abs/2405.01363'
 paperurl: 'https://iopscience.iop.org/article/10.1088/2632-072X/ad7f16'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Information propagation in Gaussian processes on multilayer networks. J. Phys. Complex. 5 045004 (2024)'
+theme: information
 ---
 
 ## Abstract

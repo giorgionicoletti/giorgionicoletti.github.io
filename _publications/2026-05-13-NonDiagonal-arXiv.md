@@ -6,9 +6,11 @@ excerpt: 'preprint'
 date: 2026-05-13
 year: '2026'
 authors: 'Giorgio Nicoletti, Andrea Marchetti, Daniel M. Busiello'
+venue_short: 'arXiv'
 venue: 'arXiv:2605.13556 (2026)'
 preprinturl: 'https://arxiv.org/abs/2605.13556'
 citation: 'Giorgio Nicoletti, Andrea Marchetti, Daniel M. Busiello. Emergence of information interference in stochastic systems with non-diagonal noise and switching environments. arXiv:2605.13556 (2026)'
+theme: information
 ---
 
 ## Abstract

@@ -6,9 +6,11 @@ excerpt: 'preprint'
 date: 2025-09-17
 year: '2025'
 authors: 'Giacomo Barzon, Daniel M. Busiello, Giorgio Nicoletti'
+venue_short: 'arXiv'
 venue: 'arXiv:2509.13867 (2025)'
 preprinturl: 'https://arxiv.org/abs/2509.13867'
 citation: 'Giacomo Barzon, Daniel M. Busiello, Giorgio Nicoletti. Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination. arXiv:2509.13867 (2025)'
+theme: [behaviour, information]
 ---
 
 ## Abstract

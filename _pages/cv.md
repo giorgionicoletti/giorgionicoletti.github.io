@@ -118,16 +118,10 @@ You can download my full CV [here](/files/CV_Nicoletti_2026-08-13.pdf){:target="
 {% endfor %}</ul>
 
 ## Attended schools and workshops
-* [Brains, Minds and Machines](https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/brains-minds-and-machines){:target="_blank"}<!--_-->, *Woods Hole, MA, USA*, 7th - 18th August 2023
-* [Emergence of Information in Molecular Systems](https://www.munich-iapbp.de/molinfo){:target="_blank"}<!--_-->, *Munich, Germany*, 22nd July - 2nd August 2024
-* [Winter Workshop on Complex Systems 2022](https://wwcs2022.github.io/){:target="_blank"}<!--_-->, *Arc-et-Senans, France*, 24th - 28th January 2022
-* [The Beg Rohu Summer School “Statistical Mechanics and Emergent
-Phenomena in Biology”](https://www.ipht.fr/Meetings/BegRohu2021/index.html){:target="_blank"}<!--_-->, *Beg Rohu, France*, 30th May - 12th June 2021
-* [Brain Connectivity Workshop](https://www.physicsoflife.org.uk/physics-of-brains.html){:target="_blank"}<!--_-->, *online*, 25th - 28th May 2021
-* [Winter School on Quantitative Systems Biology: Quantitative Approaches in Ecosystem Ecology](http://indico.ictp.it/event/9131/){:target="_blank"}<!--_-->, *online*, 30th November - 18th December 2020
-* [Youth in High-dimensions: Machine Learning, High-dimensional Statistics and Inference for the New Generation](http://indico.ictp.it/event/9409/){:target="_blank"}<!--_-->, *online*, 29th June - 3rd July 2020
-* [Computational and Theoretical Models in Neuroscience Summer School](https://liphlab.github.io/ContamiNeuro/){:target="_blank"}<!--_-->, *Venice, Italy*, 9th - 16th September 2019
-
+<ul class="cv-schools">{% assign schools = site.data.visits_and_schools | where: "type", "School" | sort: "date" | reverse %}{% for s in schools %}
+  <li>{% if s.url %}<a class="cv-item__title" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.venue }}</a>{% else %}<span class="cv-item__title">{{ s.venue }}</span>{% endif %}<br>
+  <span class="cv-item__sub"><i>{{ s.location }}</i>{% if s.date_text %}, {{ s.date_text }}{% endif %}</span></li>{% endfor %}
+</ul>
 
 ## Honors and awards
 * **[Giovanni Paladin Award](https://www.fisicastatistica.org/premio-giovanni-paladin){:target="_blank"}<!--_--> at the 29th International Conference on Statistical Physics** for the best PhD thesis in Statistical Physics, awarded by the Italian Society of Statistical Physics (SIFS) in 2025

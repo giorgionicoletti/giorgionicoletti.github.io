@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2024-12-13
 year: '2024'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
+venue_short: 'Phys. Rev. Research'
 venue: 'Physical Review Research 6, 043275 (2024)'
 paperurl: 'https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043275'
 preprinturl: 'https://arxiv.org/abs/2410.06057'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Information interference driven by environmental activity. Phys. Rev. Research 6, 043275 (2024)'
+theme: information
 ---
 
 ## Abstract

@@ -6,9 +6,11 @@ excerpt: 'preprint'
 date: 2025-07-11
 year: '2025'
 authors: 'Ramon Guevara, Mattia Tambaro, Marta Maschietto, Alessandro Leparulo, Claudia Checchetto, Giorgio Nicoletti, Benedetta Mariani, Samir Suweis, Stefano Vassanelli'
+venue_short: 'bioRxiv'
 venue: 'bioRxiv 2025.07.09.662963 (2025)'
 preprinturl: 'https://www.biorxiv.org/content/10.1101/2025.07.11.541471v1'
 citation: 'Ramon Guevara, Mattia Tambaro, Marta Maschietto, Alessandro Leparulo, Claudia Checchetto, Giorgio Nicoletti, Benedetta Mariani, Samir Suweis, Stefano Vassanelli. The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking. bioRxiv 2025.07.09.662963 (2025).'
+theme: behaviour
 ---
 
 ## Abstract

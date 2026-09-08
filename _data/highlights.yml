@@ -1,6 +1,7 @@
 # Research highlights shown on the home page and on the Research page.
 # Fields: title, url, image, meta, note_label + note_url (optional), question.
 - title: "Tuning transduction from hidden observables to optimize information harvesting"
+  theme: information
   url: "https://link.aps.org/pdf/10.1103/PhysRevLett.133.158401"
   image: "/images/PRL_transduction.jpg"
   meta: "Giorgio Nicoletti and D. M. Busiello, Physical Review Letters 133, 158401 (2024). Editors' Suggestion"
@@ -9,18 +10,21 @@
   question: "How can we extract information on hidden signals via transduction mechanisms?"
 
 - title: "Information propagation in multilayer systems with higher-order interactions across timescales"
+  theme: information
   url: "https://link.aps.org/pdf/10.1103/PhysRevX.14.021007"
   image: "/images/PRX_multiscale.png"
   meta: "Giorgio Nicoletti and D. M. Busiello, Physical Review X 14, 021007 (2024)"
   question: "How do timescales shape the information content of complex multiscale systems?"
 
 - title: "Landscape and environmental heterogeneity support coexistence in competitive metacommunities"
+  theme: ecology
   url: "https://www.pnas.org/doi/full/10.1073/pnas.2410932121"
   image: "/images/PNAS_multispecies.png"
   meta: "P. Padmanabha*, Giorgio Nicoletti*, D. Bernardi*, S. Suweis, S. Azaele, A. Rinaldo, A. Maritan, Proceedings of the National Academy of Sciences 121 (44), e2410932121 (2024)"
   question: "How can competitive ecological communities survive in complex spatial landscapes?"
 
 - title: "Prenatal experience with language shapes the brain"
+  theme: behaviour
   url: "https://www.science.org/doi/full/10.1126/sciadv.adj3524"
   image: "/images/SciAdv_eeg.png"
   meta: "B. Mariani, Giorgio Nicoletti, G. Barzon, M. C. Ortiz Barajas, M. Shukla, R. Guevara, S. Suweis, J. Gervain, Science Advances 9 (47) eadj3524 (2023)"

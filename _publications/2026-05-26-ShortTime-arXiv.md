@@ -6,9 +6,11 @@ excerpt: 'preprint'
 date: 2026-05-26
 year: '2026'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
+venue_short: 'arXiv'
 venue: 'arXiv:2605.29957 (2026)'
 preprinturl: 'https://arxiv.org/abs/2605.29957'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Universal thermokinetic decomposition of short-time information fluctuations. arXiv:2605.29957 (2026)'
+theme: information
 ---
 
 ## Abstract

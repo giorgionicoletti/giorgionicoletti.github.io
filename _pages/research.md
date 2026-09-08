@@ -5,9 +5,7 @@ author_profile: true
 permalink: /research/
 ---
 
-{% include section-head.html title="Research Highlights" target="highlights" collapsible=false %}
-
-{% include highlights.html %}
+{% include research-timeline.html %}
 
 {% include section-head.html title="Emergence of Information in Biological and Living Systems" target="information" %}
 <div id="information" class="section-body prose" markdown="1">
@@ -38,9 +36,4 @@ With Samir Suweis (University of Padova) and several experimental collaborators,
 
 Our work has focused on understanding the emergence of spatiotemporal patterns in brain dynamics, such as the **formation of scale-free neural avalanches** and **long-range temporal and spatial correlations**. We have highlighted how slow drivers of neural activity are necessary for the onset of neural avalanches, and how scale-free neural correlations emerge from LFP recordings in the brain of rodents. We have recovered similar results in whole-brain models on the human connectome, showing how brain-wide oscillations are tightly linked to phase transitions. Finally, we have shown that strong temporal correlations in EEG recordings of newborns are linked to the prenatal experience with language, suggesting that the brain is already shaped by the maternal language before birth.
 
-</div>
-
-{% include section-head.html title="News & Media Coverage" target="news" %}
-<div id="news" class="section-body">
-{% include news.html %}
 </div>

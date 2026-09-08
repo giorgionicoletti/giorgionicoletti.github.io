@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2021-08-30
 year: '2021'
 authors: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Roberto Oboe, Alessandro Leparulo, Samir Suweis, Stefano Vassanelli'
+venue_short: 'Front. Syst. Neurosci.'
 venue: 'Frontiers in Systems Neuroscience 15:709677'
 paperurl: 'https://doi.org/10.3389/fnsys.2021.709677'
 preprinturl: 'https://www.biorxiv.org/content/10.1101/2021.05.13.444047v1'
 citation: 'Benedetta Mariani, Giorgio Nicoletti, Marta Bisio, Marta Maschietto, Oboe Roberto, Alessandro Leparulo, Samir Suweis, Stefano Vassanelli. Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation. Front. Syst. Neurosci. 15:709677 (2021).'
+theme: behaviour
 ---
 
 ## Abstract

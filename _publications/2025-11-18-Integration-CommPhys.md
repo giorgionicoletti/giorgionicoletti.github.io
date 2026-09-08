@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2025-11-18
 year: '2025'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
+venue_short: 'Commun. Phys.'
 venue: 'Communications Physics 8, 437 (2025)'
 preprinturl: 'https://arxiv.org/abs/arXiv:2411.11710'
 paperurl: 'https://doi.org/10.1038/s42005-025-02339-z'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Fast nonlinear integration drives accurate encoding of input information in large multiscale systems. Communications Physics 8, 437 (2025)'
+theme: information
 ---
 
 ## Abstract

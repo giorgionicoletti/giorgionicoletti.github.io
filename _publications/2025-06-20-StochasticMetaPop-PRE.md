@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2025-06-20
 year: '2025'
 authors: 'Alice Doimo, Giorgio Nicoletti, Davide Bernardi, Prajwal Padmanabha'
+venue_short: 'PRE'
 venue: 'Physical Review E 111, 064415 (2025)'
 preprinturl: 'https://arxiv.org/abs/2412.18448'
 paperurl: 'https://doi.org/10.1103/6tfm-qnln'
 citation: 'Alice Doimo, Giorgio Nicoletti, Davide Bernardi, Prajwal Padmanabha. Finite size scaling of survival statistics in metapopulation models. Phys. Rev. E 111, 064415 (2025)'
+theme: ecology
 ---
 
 ## Abstract

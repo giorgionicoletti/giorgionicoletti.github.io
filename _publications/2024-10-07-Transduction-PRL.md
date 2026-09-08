@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2024-10-07
 year: '2024'
 authors: 'Giorgio Nicoletti, Daniel M. Busiello'
+venue_short: 'PRL'
 venue: 'Physical Review Letters 133, 158401 (2024)'
 preprinturl: 'https://arxiv.org/abs/2403.04709'
 paperurl: 'https://doi.org/10.1103/PhysRevLett.133.158401'
 citation: 'Giorgio Nicoletti, Daniel M. Busiello. Tuning transduction from hidden observables to optimize information harvesting. Phys. Rev. Lett. 133, 158401 (2024)'
+theme: information
 ---
 
 ## Abstract

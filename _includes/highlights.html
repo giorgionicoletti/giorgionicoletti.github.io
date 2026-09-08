@@ -1,7 +1,8 @@
 {% comment %} Research highlight cards, data in _data/highlights.yml {% endcomment %}
 <div class="highlights">
 {% for h in site.data.highlights %}
-  <div class="card highlight">
+  {% assign t = site.data.themes | where: "key", h.theme | first %}
+  <div class="card highlight"{% if t %} data-theme="{{ t.key }}" style="--area: {{ t.colour }}; --area-dark: {{ t.colour_dark | default: t.colour }}"{% endif %}>
     <img class="highlight__thumb" src="{{ h.image }}" alt="">
     <div class="highlight__body">
       <h3 class="highlight__title"><a href="{{ h.url }}" target="_blank" rel="noopener">{{ h.title }}</a></h3>

@@ -1,0 +1,99 @@
+# Schools, workshops and research visits.
+#
+# This file is the single source for both the "Attended schools and workshops"
+# list on the CV page and the school/visit pins on the talk map. They are kept
+# out of the talks collection so that the Talks page still lists only talks,
+# presentations and posters.
+#
+# type      : "School" or "Visit" — decides the pin colour and the CV section
+# venue     : the school or institution, as it should appear
+# title     : what it was (shown in italics in the map popup)
+# location  : geocoded by _talks/talkmap.ipynb; "Online" is skipped on the map
+# date      : ISO start date, used for sorting and for the map popup
+# date_text : how the period reads on the CV
+# url       : optional link
+
+- type: "School"
+  venue: "Emergence of Information in Molecular Systems"
+  title: "Summer school"
+  location: "Munich, Germany"
+  date: 2024-07-22
+  date_text: "22nd July - 2nd August 2024"
+  url: "https://www.munich-iapbp.de/molinfo"
+
+- type: "School"
+  venue: "Brains, Minds and Machines"
+  title: "Summer school"
+  location: "Woods Hole, MA, USA"
+  date: 2026-08-07
+  date_text: "7th - 28th August 2026"
+  url: "https://www.mbl.edu/education/advanced-research-training-courses/course-offerings/brains-minds-and-machines"
+
+- type: "School"
+  venue: "Winter Workshop on Complex Systems 2022"
+  title: "Winter workshop"
+  location: "Arc-et-Senans, France"
+  date: 2022-01-24
+  date_text: "24th - 28th January 2022"
+  url: "https://wwcs2022.github.io/"
+
+- type: "School"
+  venue: "The Beg Rohu Summer School “Statistical Mechanics and Emergent Phenomena in Biology”"
+  title: "Summer school"
+  location: "Beg Rohu, France"
+  date: 2021-05-30
+  date_text: "30th May - 12th June 2021"
+  url: "https://www.ipht.fr/Meetings/BegRohu2021/index.html"
+
+- type: "School"
+  venue: "Brain Connectivity Workshop"
+  title: "Workshop"
+  location: "Online"
+  date: 2021-05-25
+  date_text: "25th - 28th May 2021"
+  url: "https://www.physicsoflife.org.uk/physics-of-brains.html"
+
+- type: "School"
+  venue: "Winter School on Quantitative Systems Biology: Quantitative Approaches in Ecosystem Ecology"
+  title: "Winter school"
+  location: "Online"
+  date: 2020-11-30
+  date_text: "30th November - 18th December 2020"
+  url: "http://indico.ictp.it/event/9131/"
+
+- type: "School"
+  venue: "Youth in High-dimensions: Machine Learning, High-dimensional Statistics and Inference for the New Generation"
+  title: "Workshop"
+  location: "Online"
+  date: 2020-06-29
+  date_text: "29th June - 3rd July 2020"
+  url: "http://indico.ictp.it/event/9409/"
+
+- type: "School"
+  venue: "Computational and Theoretical Models in Neuroscience Summer School"
+  title: "Summer school"
+  location: "Venice, Italy"
+  date: 2019-09-09
+  date_text: "9th - 16th September 2019"
+  url: "https://liphlab.github.io/ContamiNeuro/"
+
+- type: "Visit"
+  venue: "AI Research Center, University of Tübingen"
+  title: "Visiting Ph.D. student"
+  location: "Tübingen, Germany"
+  date: 2022-09-01
+  date_text: "Sept - Dec 2022"
+
+- type: "Visit"
+  venue: "Max Planck Institute for the Physics of Complex Systems"
+  title: "Visiting Ph.D. student"
+  location: "Dresden, Germany"
+  date: 2022-06-01
+  date_text: "June - July 2022"
+
+- type: "Visit"
+  venue: "Okinawa Institute of Science and Technology"
+  title: "Visiting Scientist"
+  location: "Onna, Okinawa, Japan"
+  date: 2026-03-18
+  date_text: "Mar 2026"

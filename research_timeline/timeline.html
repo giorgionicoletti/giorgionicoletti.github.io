@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publications over time</title>
+<style>
+  :root { --text: #494e52; --muted: #6b7178; --rule: #e3e5e8; --other: #b9bec4; --halo: #ffffff;
+          --tip-bg: #ffffff; --tip-border: #d3d7db; }
+  [data-theme="dark"] { --text: #d7dade; --muted: #a3a9b0; --rule: #2a2e33; --other: #5f666d; --halo: #141618;
+          --tip-bg: #1b1e21; --tip-border: #33383e; }
+  html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: transparent;
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  #chart { width: 100%; height: 100%; }
+  svg { width: 100%; height: 100%; display: block; }
+  .axis line { stroke: var(--rule); }
+  .axis text { font-size: 10px; fill: var(--muted); }
+  .dot { cursor: pointer; stroke: var(--halo); stroke-width: 1.2px; transition: opacity 0.25s ease; }
+  .dim { opacity: 0.2; }
+  #tip { position: absolute; top: 0; left: 0; pointer-events: none; z-index: 2; max-width: 260px; padding: 7px 10px;
+    background: var(--tip-bg); border: 1px solid var(--tip-border); border-radius: 6px;
+    color: var(--text); font-size: 12px; line-height: 1.35; box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    opacity: 0; transition: opacity .2s ease; }
+  #tip b { display: block; margin-bottom: 2px; }
+  #tip .sub { color: var(--muted); }
+</style>
+</head>
+<body>
+<div id="chart"></div>
+<div id="tip"></div>
+<script src="/assets/js/embed-theme.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const data = {"themes": [{"key": "information", "title": "Information in stochastic systems", "question": "How do noisy systems harvest, propagate and pay for information?", "topics": "Statistical physics, information theory, stochastic processes, stochastic thermodynamics", "image": "/images/areas/information.svg", "image_dark": "/images/areas/information-dark.svg", "anchor": "/research/#information-head", "colour": "#c9922c", "colour_dark": "#d9a441"}, {"key": "behaviour", "title": "Brains, behaviour and learning", "question": "How do neurons, brains and agents encode information and make decisions?", "topics": "Neural dynamics, criticality, cognition, reinforcement learning", "image": "/images/areas/behaviour.svg", "image_dark": "/images/areas/behaviour-dark.svg", "anchor": "/research/#neuro-head", "colour": "#1f3f7a", "colour_dark": "#4e66a1"}, {"key": "ecology", "title": "Spatial ecology", "question": "How do landscapes and dispersal shape the survival and coexistence of species?", "topics": "Metapopulations, metacommunities, disordered systems, river networks", "image": "/images/areas/ecology.svg", "image_dark": "/images/areas/ecology-dark.svg", "anchor": "/research/#ecology-head", "colour": "#3f8a5c", "colour_dark": "#5aa877"}], "papers": [{"title": "Scaling and criticality in a phenomenological renormalization group", "date": "2020-05-07", "venue": "Phys. Rev. Research", "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023144", "type": "journal", "themes": ["behaviour"]}, {"title": "Neuronal Avalanches Across the Rat Somatosensory Barrel Cortex and the Effect of Single Whisker Stimulation", "date": "2021-08-30", "venue": "Front. Syst. Neurosci.", "url": "https://doi.org/10.3389/fnsys.2021.709677", "type": "journal", "themes": ["behaviour"]}, {"title": "Mutual information disentangles interactions from changing environments", "date": "2021-11-22", "venue": "PRL", "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.228301", "type": "journal", "themes": ["information"]}, {"title": "Disentangling the critical signatures of neural activity", "date": "2022-06-24", "venue": "Sci. Rep.", "url": "https://www.nature.com/articles/s41598-022-13686-0", "type": "journal", "themes": ["behaviour", "information"]}, {"title": "Criticality and network structure drive emergent oscillations in a stochastic whole-brain model", "date": "2022-07-05", "venue": "J. Phys. Complex.", "url": "https://iopscience.iop.org/article/10.1088/2632-072X/ac7a83", "type": "journal", "themes": ["behaviour"]}, {"title": "Information-driven transitions in projections of underdamped dynamics", "date": "2022-07-18", "venue": "PRE", "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.014118", "type": "journal", "themes": ["information"]}, {"title": "Mutual information in changing environments: Nonlinear interactions, out-of-equilibrium systems, and continuously-varying diffusivities", "date": "2022-07-29", "venue": "PRE", "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.106.014153", "type": "journal", "themes": ["information"]}, {"title": "The emergence of scale-free fires in Australia", "date": "2023-03-17", "venue": "iScience", "url": "https://doi.org/10.1016/j.isci.2023.106181", "type": "journal", "themes": ["ecology"]}, {"title": "A network-based method for extracting the organization of brain-wide circuits from reconstructed connectome datasets", "date": "2023-05-21", "venue": "bioRxiv", "url": "https://www.biorxiv.org/content/10.1101/2023.05.21.541471v1", "type": "preprint", "themes": ["behaviour"]}, {"title": "Prenatal experience with language shapes the brain", "date": "2023-11-22", "venue": "Sci. Adv.", "url": "https://www.science.org/doi/full/10.1126/sciadv.adj3524", "type": "journal", "themes": ["behaviour"]}, {"title": "Emergent encoding of dispersal network topologies in spatial metapopulation models", "date": "2023-11-06", "venue": "PNAS", "url": "https://doi.org/10.1073/pnas.2311548120", "type": "journal", "themes": ["ecology"]}, {"title": "Information propagation in multilayer systems with higher-order interactions across timescales", "date": "2024-04-08", "venue": "PRX", "url": "https://doi.org/10.1103/PhysRevX.14.021007", "type": "journal", "themes": ["information"]}, {"title": "Tuning transduction from hidden observables to optimize information harvesting", "date": "2024-10-07", "venue": "PRL", "url": "https://doi.org/10.1103/PhysRevLett.133.158401", "type": "journal", "themes": ["information"]}, {"title": "Information propagation in Gaussian processes on multilayer networks", "date": "2024-10-14", "venue": "J. Phys. Complex.", "url": "https://iopscience.iop.org/article/10.1088/2632-072X/ad7f16", "type": "journal", "themes": ["information"]}, {"title": "Landscape and environmental heterogeneity support coexistence in competitive metacommunities", "date": "2024-10-22", "venue": "PNAS", "url": "https://www.pnas.org/doi/full/10.1073/pnas.2410932121", "type": "journal", "themes": ["ecology"]}, {"title": "Information interference driven by environmental activity", "date": "2024-12-13", "venue": "Phys. Rev. Research", "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.043275", "type": "journal", "themes": ["information"]}, {"title": "Excitation-Inhibition balance controls information encoding in neural populations", "date": "2025-02-14", "venue": "PRL", "url": "https://doi.org/10.1103/PhysRevLett.134.068403", "type": "journal", "themes": ["behaviour", "information"]}, {"title": "A novel metric for species vulnerability and coexistence in spatially-extended ecosystems", "date": "2025-03-14", "venue": "arXiv", "url": "https://arxiv.org/abs/2503.10288", "type": "preprint", "themes": ["ecology"]}, {"title": "Finite size scaling of survival statistics in metapopulation models", "date": "2025-06-20", "venue": "PRE", "url": "https://doi.org/10.1103/6tfm-qnln", "type": "journal", "themes": ["ecology"]}, {"title": "The somatosensory barrel cortex controls the spindle thalamocortical oscillation by frequency locking", "date": "2025-07-11", "venue": "bioRxiv", "url": "https://www.biorxiv.org/content/10.1101/2025.07.11.541471v1", "type": "preprint", "themes": ["behaviour"]}, {"title": "Optimal information gain at the onset of habituation to repeated stimuli", "date": "2025-07-28", "venue": "eLife", "url": "https://doi.org/10.7554/eLife.99767.3", "type": "journal", "themes": ["behaviour", "information"]}, {"title": "Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination", "date": "2025-09-17", "venue": "arXiv", "url": "https://arxiv.org/abs/2509.13867", "type": "preprint", "themes": ["behaviour", "information"]}, {"title": "Fast nonlinear integration drives accurate encoding of input information in large multiscale systems", "date": "2025-11-18", "venue": "Commun. Phys.", "url": "https://doi.org/10.1038/s42005-025-02339-z", "type": "journal", "themes": ["information"]}, {"title": "Balancing information and dissipation with partially observed fluctuating signals", "date": "2025-12-04", "venue": "arXiv", "url": "https://arxiv.org/abs/2512.04877", "type": "preprint", "themes": ["information"]}, {"title": "Stochastic processes with multiple temporal scales: timescale separation and information", "date": "2025-12-18", "venue": "J. Stat. Mech.", "url": "https://doi.org/10.1088/1742-5468/ae27b9", "type": "journal", "themes": ["information"]}, {"title": "Pulse desynchronization of neural populations by targeting the centroid of the limit cycle in phase space", "date": "2026-03-16", "venue": "arXiv", "url": "https://arxiv.org/abs/2603.12878", "type": "preprint", "themes": ["behaviour"]}, {"title": "Information-directed sampling for bandits: a primer", "date": "2026-04-01", "venue": "J. Stat. Mech.", "url": "https://doi.org/10.1088/1742-5468/ae56f3", "type": "journal", "themes": ["behaviour", "information"]}, {"title": "Unveiling gene perturbation effects through gene regulatory networks inference from single-cell transcriptomic data", "date": "2026-04-15", "venue": "PLOS Comput. Biol.", "url": "https://doi.org/10.1371/journal.pcbi.1014067", "type": "journal", "themes": []}, {"title": "Rare but Resilient: Dispersal diversity buffers species vulnerability", "date": "2026-04-30", "venue": "arXiv", "url": "https://arxiv.org/abs/2604.26589", "type": "preprint", "themes": ["ecology"]}, {"title": "Emergence of information interference in stochastic systems with non-diagonal noise and switching environments", "date": "2026-05-13", "venue": "arXiv", "url": "https://arxiv.org/abs/2605.13556", "type": "preprint", "themes": ["information"]}, {"title": "Universal thermokinetic decomposition of short-time information fluctuations", "date": "2026-05-26", "venue": "arXiv", "url": "https://arxiv.org/abs/2605.29957", "type": "preprint", "themes": ["information"]}, {"title": "Generalized scaling of blue metabolism in river basins", "date": "2026-07-11", "venue": "Water Resour. Res.", "url": "https://doi.org/10.1029/2025WR041131", "type": "journal", "themes": ["ecology"]}, {"title": "Decoding behavior with minimal and interpretable agent models", "date": "2026-08-07", "venue": "PLOS Comput. Biol.", "url": "https://doi.org/10.1371/journal.pcbi.1014585", "type": "journal", "themes": ["behaviour"]}, {"title": "Habitat heterogeneity and dispersal network structure as drivers of metacommunity dynamics", "date": "2026-08-12", "venue": "J. Stat. Mech.", "url": "https://doi.org/10.1088/1742-5468/ae727d", "type": "journal", "themes": ["ecology"]}]};
+let W = Math.max(300, window.innerWidth), H = Math.max(80, window.innerHeight);
+const PAD = { l: 14, r: 14, t: 10, b: 22 };
+const R = 5;
+const isDark = () => document.documentElement.getAttribute("data-theme") === "dark";
+const colour = new Proxy({}, { get: (_, k) => { const t = data.themes.find(t => t.key === k); return t ? (isDark() && t.colour_dark ? t.colour_dark : t.colour) : undefined; } });
+const parse = d3.timeParse("%Y-%m-%d");
+const papers = data.papers.map(p => ({ ...p, t: parse(p.date), r: R, k: p.themes[0] || "" })).filter(p => p.t);
+
+const svg = d3.select("#chart").append("svg").attr("viewBox", [0, 0, W, H]).attr("preserveAspectRatio", "xMidYMid meet");
+const axis = svg.append("g").attr("class", "axis");
+const g = svg.append("g");
+const tip = d3.select("#tip");
+
+let x;
+function layout() {
+  const [t0, t1] = d3.extent(papers, p => p.t);
+  const y0 = new Date(t0.getFullYear(), 0, 1), y1 = new Date(t1.getFullYear() + 1, 0, 1);
+  x = d3.scaleTime().domain([y0, y1]).range([PAD.l, W - PAD.r]);
+  const cy = (PAD.t + H - PAD.b) / 2;
+  papers.forEach(p => { p.x = x(p.t); p.y = cy; });
+  // beeswarm: x is fixed by the date, y makes room
+  const sim = d3.forceSimulation(papers).randomSource(d3.randomLcg(0.3))
+    .force("x", d3.forceX(p => x(p.t)).strength(1))
+    .force("y", d3.forceY(cy).strength(H > 150 ? 0.02 : 0.08))
+    .force("collide", d3.forceCollide(p => p.r + 2).iterations(3)).stop();
+  for (let i = 0; i < 160; i++) sim.tick();
+  // the swarm only spreads as far as collisions push it, which leaves a tall
+  // frame half empty: stretch it vertically to fill the band instead
+  const lo = d3.min(papers, p => p.y), hi = d3.max(papers, p => p.y);
+  const band = (H - PAD.b - R) - (PAD.t + R);
+  const k = Math.min(band / Math.max(1, hi - lo), 2.2);
+  if (k > 1) papers.forEach(p => { p.y = cy + (p.y - (lo + hi) / 2) * k; });
+  papers.forEach(p => { p.y = Math.max(PAD.t + p.r, Math.min(H - PAD.b - p.r, p.y)); });
+}
+layout();
+
+const dot = g.selectAll("circle").data(papers).join("circle")
+  .attr("class", "dot").attr("r", p => p.r).attr("fill", p => colour[p.k] || "var(--other)");
+
+function place() {
+  dot.attr("cx", p => p.x).attr("cy", p => p.y);
+  axis.selectAll("*").remove();
+  axis.append("line").attr("x1", PAD.l).attr("x2", W - PAD.r).attr("y1", H - PAD.b).attr("y2", H - PAD.b);
+  const years = x.ticks(d3.timeYear.every(1));
+  const span = years.length > 1 ? x(years[1]) - x(years[0]) : W;
+  const step = span < 34 ? 2 : 1;                     // every other year when it is tight
+  const yr = axis.selectAll("g").data(years).join("g").attr("transform", d => `translate(${x(d)},${H - PAD.b})`);
+  yr.append("line").attr("y1", 0).attr("y2", 4);
+  yr.append("text")
+    .attr("x", d => Math.min((x(d3.timeYear.offset(d, 1)) - x(d)) / 2, W - PAD.r - x(d) - 14))
+    .attr("y", 15).attr("text-anchor", "middle")
+    .text(d => d.getFullYear())
+    .style("display", (d, i) => {
+      if (i % step) return "none";                    // thinned out
+      const mid = x(d) + Math.min((x(d3.timeYear.offset(d, 1)) - x(d)) / 2, W - PAD.r - x(d) - 14);
+      return (mid - 15 < PAD.l || mid + 15 > W - PAD.r) ? "none" : null;   // never clipped
+    });
+}
+place();
+
+function describe(p) {
+  const areas = p.themes.map(k => (data.themes.find(t => t.key === k) || {}).title).filter(Boolean).join(" · ");
+  return `<b>${p.title}</b><span class="sub">${p.venue} ${p.date.slice(0, 4)}${p.type === "preprint" ? " · preprint" : ""}</span>` +
+         (areas ? `<span class="sub">${areas}</span>` : "");
+}
+function reset() { dot.classed("dim", false); tip.style("opacity", 0); }
+dot.on("mouseenter", (ev, p) => { dot.classed("dim", q => q !== p); tip.html(describe(p)).style("opacity", 1); })
+  .on("mousemove", ev => {
+    const tw = tip.node().offsetWidth, th = tip.node().offsetHeight;
+    tip.style("left", Math.min(ev.clientX + 12, window.innerWidth - tw - 8) + "px")
+       .style("top", Math.max(4, Math.min(ev.clientY + 12, window.innerHeight - th - 8)) + "px");
+  })
+  .on("mouseleave", reset)
+  .on("click", (ev, p) => { ev.stopPropagation(); reset(); if (p.url) window.open(p.url, "_blank", "noopener"); });
+svg.on("click", reset);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) reset(); });
+window.addEventListener("pageshow", reset);
+
+// the parent page can ask to highlight one area (hovering a card)
+window.addEventListener("message", ev => {
+  if (!ev.data || !("highlight" in ev.data)) return;
+  const k = ev.data.highlight;
+  dot.classed("dim", p => k && p.k !== k);
+});
+
+document.addEventListener("themechange", () => dot.attr("fill", p => colour[p.k] || "var(--other)"));
+
+window.addEventListener("resize", () => {
+  const w = Math.max(300, window.innerWidth), h = Math.max(80, window.innerHeight);
+  if (Math.abs(w - W) < 2 && Math.abs(h - H) < 2) return;
+  W = w; H = h; svg.attr("viewBox", [0, 0, W, H]); layout(); place();
+});
+</script>
+</body>
+</html>

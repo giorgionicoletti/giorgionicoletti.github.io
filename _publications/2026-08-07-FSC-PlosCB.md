@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2026-08-07
 year: '2026'
 authors: 'Giorgio Nicoletti, Antonio Celani'
+venue_short: 'PLOS Comput. Biol.'
 venue: 'PLOS Computational Biology 22 (8) e1014585 (2026)'
 paperurl: 'https://doi.org/10.1371/journal.pcbi.1014585'
 preprinturl: 'https://www.biorxiv.org/content/10.64898/2026.01.20.700580v1.abstract'
 citation: 'Giorgio Nicoletti, Antonio Celani. Decoding behavior with minimal and interpretable agent models. PLOS Computational Biology 22 (8) e1014585 (2026)'
+theme: behaviour
 ---
 
 ## Abstract

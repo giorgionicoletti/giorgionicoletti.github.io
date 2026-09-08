@@ -6,10 +6,12 @@ excerpt: 'Journal article'
 date: 2025-02-14
 year: '2025'
 authors: 'Giacomo Barzon, Daniel M. Busiello, Giorgio Nicoletti'
+venue_short: 'PRL'
 venue: 'Physical Review Letters 134, 068403 (2025)'
 preprinturl: 'https://arxiv.org/abs/2406.03380'
 paperurl: 'https://doi.org/10.1103/PhysRevLett.134.068403'
 citation: 'Giacomo Barzon, Daniel M. Busiello, Giorgio Nicoletti. Excitation-Inhibition balance controls information encoding in neural populations. Phys. Rev. Lett. 134, 068403 (2025)'
+theme: [behaviour, information]
 ---
 
 ## Abstract
