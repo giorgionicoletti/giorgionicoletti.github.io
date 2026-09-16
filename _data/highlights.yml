@@ -1,13 +1,13 @@
 # Research highlights shown on the home page and on the Research page.
 # Fields: title, url, image, meta, note_label + note_url (optional), question.
-- title: "Tuning transduction from hidden observables to optimize information harvesting"
+- title: "Balancing information and dissipation with partially observed fluctuating signals"
   theme: information
-  url: "https://link.aps.org/pdf/10.1103/PhysRevLett.133.158401"
-  image: "/images/PRL_transduction.jpg"
-  meta: "Giorgio Nicoletti and D. M. Busiello, Physical Review Letters 133, 158401 (2024). Editors' Suggestion"
+  url: "https://journals.aps.org/prl/abstract/10.1103/8gx2-rbns"
+  image: "/images/PRL_balancing.png"
+  meta: "Giorgio Nicoletti, I. Di Terlizzi, D. M. Busiello, Physical Review Letters 137, 127101 (2026). Editors' Suggestion"
   note_label: "Physics Viewpoint"
-  note_url: "https://physics.aps.org/articles/v17/143"
-  question: "How can we extract information on hidden signals via transduction mechanisms?"
+  note_url: "https://physics.aps.org/articles/v19/121"
+  question: "How can a living system acquire information with limited energy consumption?"
 
 - title: "Information propagation in multilayer systems with higher-order interactions across timescales"
   theme: information
