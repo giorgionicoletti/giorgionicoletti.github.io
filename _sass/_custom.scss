@@ -187,6 +187,10 @@ h1, h2, h3, h4, h5, h6 { color: var(--text); }
 
 .author__name { color: var(--text); }
 .author__location { display: none; margin: 4px 0 0; font-size: 0.85em; color: var(--muted); }
+/* the theme paints every .fa in the profile list black; the location pin is
+   the one icon still using that class, so it vanished on the dark background */
+.social-icons .fa,
+.author__location .fa { color: inherit; }
 .author__bio, .author__urls, .author__urls a { color: var(--muted); }
 .author__urls a:hover { color: var(--accent); }
 .author__avatar img { border-color: var(--rule); }
