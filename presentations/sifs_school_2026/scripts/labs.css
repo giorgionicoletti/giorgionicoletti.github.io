@@ -1,0 +1,115 @@
+/* Interactive experiments inherit the accepted navy/Fira Sans lecture system. */
+.reveal .sifs-lab-launch {
+  position: absolute; right: 54px; bottom: 3px; z-index: 101;
+  padding: 3px 10px; border: 1px solid #6d9bbb; border-radius: 4px;
+  background: #123f69; color: white; font: 400 14px/20px 'Fira Sans', sans-serif;
+  letter-spacing: .01em; cursor: pointer;
+}
+.reveal .sifs-lab-launch:hover { background: #285f8d; }
+.reveal .sifs-lab-launch:focus-visible { outline: 2px solid #13b5f3; outline-offset: 2px; }
+body.sifs-lab-open { overflow: hidden; }
+#sifs-lab-dialog {
+  box-sizing: border-box; width: min(1240px, calc(100vw - 28px)); max-height: calc(100vh - 28px);
+  padding: 0; border: 1px solid #b8c7d7; border-radius: 8px;
+  color: #17283a; background: #fff; box-shadow: 0 20px 90px rgb(0 22 45 / 35%);
+  font: 400 17px/1.4 'Fira Sans', sans-serif; text-align: left;
+}
+#sifs-lab-dialog[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+#sifs-lab-dialog::backdrop { background: rgb(0 24 49 / 58%); }
+#sifs-lab-dialog * { box-sizing: border-box; }
+.sl-header { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 14px 22px; background: #002e5e; color: white; }
+#sifs-lab-dialog .sl-eyebrow { margin: 0 0 4px; color: #bdd6eb; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+#sifs-lab-dialog h2 { margin: 0; font: 400 25px/1.2 'Fira Sans', sans-serif; color: white; }
+#sifs-lab-dialog button { padding: 6px 11px; min-height: 34px; border: 1px solid #c0ccda; border-radius: 4px; background: white; color: #173d66; font: 400 15px/1.35 'Fira Sans', sans-serif; cursor: pointer; }
+#sifs-lab-dialog button:hover { background: #eaf2f9; border-color: #8cabca; }
+#sifs-lab-dialog button:focus-visible, #sifs-lab-dialog input:focus-visible { outline: 2px solid #0366c8; outline-offset: 2px; }
+#sifs-lab-dialog button[aria-pressed="true"] { background: #1d5d91; border-color: #1d5d91; color: white; }
+#sifs-lab-dialog button[hidden], #sl-error[hidden] { display: none; }
+#sifs-lab-dialog #sl-close { flex: 0 0 auto; border-color: #7199bd; background: #123f69; color: white; }
+#sifs-lab-dialog #sl-close span { font-size: 22px; margin-left: 8px; }
+.sl-body { min-height: 0; overflow: auto; padding: 14px 22px 16px; }
+#sl-question { margin: 0 0 12px; color: #002e5e; font-size: 20px; font-weight: 400; }
+.sl-control-area { display: grid; grid-template-columns: 1fr auto; gap: 11px 18px; padding-bottom: 12px; border-bottom: 1px solid #d9e2ec; }
+#sl-presets { display: flex; gap: 7px; flex-wrap: wrap; grid-column: 1; }
+#sl-controls { display: flex; flex-wrap: wrap; gap: 12px 28px; grid-column: 1; }
+.sl-control { display: grid; grid-template-columns: auto minmax(90px, 180px) auto; align-items: center; gap: 9px; font-size: 16px; }
+.sl-control input[type="range"] { width: 100%; margin: 0; accent-color: #1d5d91; cursor: ew-resize; }
+.sl-control input[type="checkbox"] { width: 18px; height: 18px; accent-color: #1d5d91; }
+.sl-control.sl-checkbox { grid-template-columns: auto 22px; }
+.sl-control output { min-width: 38px; color: #002e5e; font-weight: 500; font-variant-numeric: tabular-nums; }
+.sl-control select { font: inherit; padding: 5px; border: 1px solid #bdcbd9; background: white; color: #17283a; }
+.sl-actions { display: flex; flex-wrap: wrap; gap: 6px; align-content: start; align-items: start; justify-content: end; grid-column: 2; grid-row: 1 / 3; max-width: 205px; }
+#sl-metrics { display: flex; flex-wrap: wrap; gap: 13px 30px; padding: 13px 0 8px; }
+#sl-metrics > div { display: flex; align-items: baseline; gap: 10px; }
+#sl-metrics span { color: #5e7184; font-size: 15px; }
+#sl-metrics strong { font-weight: 500; font-size: 19px; color: #002e5e; font-variant-numeric: tabular-nums; }
+#sl-plots { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 14px 20px; }
+.sl-plot { min-width: 0; margin: 0; }
+.sl-plot.sl-wide { grid-column: 1 / -1; }
+#sifs-lab-dialog .sl-plot h3 { font: 500 17px/1.3 'Fira Sans', sans-serif; margin: 4px 0 4px; color: #173d66; }
+.sl-plot svg { display: block; width: 100%; height: auto; overflow: hidden; }
+.sl-plot figcaption { color: #627287; font-size: 14px; margin: 3px 0; line-height: 1.35; }
+#sl-explanation { margin-top: 12px; padding: 9px 0 0; border-top: 1px solid #d9e2ec; color: #173d66; font-size: 17px; }
+#sl-formula { font-size: 20px; color: #17191c; text-align: center; overflow-x: auto; }
+#sl-formula mjx-container[display="true"] { margin: .6em 0 !important; }
+.sl-footer { padding: 9px 22px 10px; border-top: 1px solid #d9e2ec; background: #f6f9fc; }
+#sifs-lab-dialog .sl-footer p { margin: 0; font-size: 13px; line-height: 1.4; color: #536b82; }
+#sifs-lab-dialog #sl-source { margin-top: 3px; color: #738395; font-size: 12px; }
+#sl-error { color: #800000; padding: 10px; background: #fff3f1; border: 1px solid #eac5be; }
+@media (max-width: 850px) {
+  #sl-plots { grid-template-columns: minmax(0,1fr); }
+  .sl-control-area { grid-template-columns: 1fr; }
+  .sl-actions { grid-column: 1; grid-row: auto; max-width: none; justify-content: start; }
+  #sifs-lab-dialog h2 { font-size: 21px; }
+}
+@media print { .sifs-lab-launch, #sifs-lab-dialog { display: none !important; } }
+
+/* Deliberately small inline manipulations; full plots open from the footer. */
+.sifs-inline-lab { box-sizing: border-box; color: #173d66; }
+.sifs-inline-ready > img, .sifs-inline-ready > p:has(img) { display: none !important; }
+.sl-inline-view svg { display: block; width: 100%; height: auto; }
+.sl-inline-controls { display: flex; align-items: center; justify-content: center; gap: 12px; }
+.sl-inline-controls label { display: flex; align-items: center; gap: 8px; white-space: nowrap; font: 400 16px/1.3 'Fira Sans', sans-serif; }
+.sl-inline-controls input { width: 105px; min-width: 0; margin: 0; accent-color: #1d5d91; }
+.sl-inline-controls output { min-width: 32px; font-variant-numeric: tabular-nums; }
+.sl-inline-controls button { font: 400 13px/1.3 'Fira Sans', sans-serif; color: #173d66; background: white; border: 1px solid #bdcbd9; border-radius: 3px; padding: 4px 6px; cursor: pointer; }
+.sl-inline-controls :focus-visible { outline: 2px solid #0366c8; outline-offset: 2px; }
+.sl-inline-caption { font: 400 14px/1.25 'Fira Sans', sans-serif; text-align: center; }
+.sl-inline-lag { width: 330px; }
+.sl-inline-lag .sl-inline-view svg { height: 210px; }
+.sl-inline-lag .sl-inline-controls { gap: 8px; margin-top: 5px; }
+.sl-inline-lag .sl-inline-controls input { width: 105px; }
+.sl-inline-averaging { position: absolute; top: 535px; left: 100px; width: 1080px; height: 78px; border-top: 1px solid #d9e2ec; }
+.sl-inline-averaging .sl-inline-view { width: 620px; margin: 0 auto; }
+.sl-inline-averaging .sl-inline-controls input { width: 170px; }
+@media print { .sl-inline-controls { pointer-events: none; } }
+
+/* Embedded teaching views occupy the existing body, never the footer. */
+.reveal .sifs-embedded { position:absolute; left:48px; top:169px; width:1184px; height:492px; box-sizing:border-box; background:white; text-align:center; }
+.reveal section:has(> .sifs-embedded.visible) > :not(h2):not(.example-badge):not(.ictp-logo):not(:has(> .ictp-logo)):not(.source):not(.deck-slide-number):not(.sifs-lab-launch):not(.sifs-embedded):not(.derivation-badge):not(.derivation-navigation):not(.notes),
+.reveal section:has(> .sifs-paper-stage.visible):not(:has(> .sifs-embedded.visible)) > :not(h2):not(.example-badge):not(.ictp-logo):not(:has(> .ictp-logo)):not(.source):not(.deck-slide-number):not(.sifs-lab-launch):not(.sifs-paper-stage):not(.derivation-badge):not(.derivation-navigation):not(.notes) { opacity:0 !important; pointer-events:none !important; }
+.reveal .embedded-equation { height:42px; font-size:23px; display:flex; align-items:center; justify-content:center; }
+.reveal .embedded-plots { display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:center; height:292px; }
+.reveal .embedded-plots figure { margin:0; min-width:0; }
+.reveal .embedded-plot-title { font-size:19px; color:var(--navy-2); line-height:1.2; margin-bottom:5px; }
+.reveal .embedded-plots svg { display:block; width:100%; height:265px; overflow:visible; }
+.reveal .embedded-metrics { display:flex; justify-content:center; align-items:center; gap:24px; min-height:30px; font-size:17px; color:#51575d; }
+.reveal .embedded-metrics strong { color:var(--navy); font-weight:500; }
+.reveal .embedded-controls { display:flex; gap:24px; align-items:center; justify-content:center; min-height:58px; font-size:17px; }
+.reveal .embedded-controls label { display:flex; align-items:center; gap:9px; }
+.reveal .embedded-controls input[type=range] { width:140px; accent-color:var(--navy-2); }
+.reveal .embedded-controls input[type=checkbox] { width:19px; height:19px; accent-color:var(--navy-2); }
+.reveal .embedded-controls output { min-width:36px; color:var(--navy); }
+.reveal .embedded-controls select { max-width:280px; font:inherit; background:white; color:var(--ink); border:1px solid #b0bac3; padding:4px; }
+.reveal .embedded-controls button { font:inherit; border:1px solid #a7b6c3; border-radius:3px; background:white; color:var(--navy); padding:4px 10px; cursor:pointer; }
+.reveal .embedded-status { min-height:20px; font-size:16px; color:#59636c; }
+.reveal .embedded-warning { color:var(--burgundy); }
+.reveal .embedded-note { font-size:17px; color:#59616a; line-height:1.25; margin:7px auto 0; max-width:1140px; }
+.reveal .embedded-comparison { position:absolute; width:1px; height:1px; pointer-events:none; }
+.reveal .sifs-paper-stage { position:absolute; left:48px; top:174px; width:1184px; height:492px; background:white; text-align:center; }
+.reveal .paper-stage-heading { font-size:24px; color:var(--navy); margin-bottom:10px; }
+.reveal .sifs-paper-stage img { display:block; width:100%; height:335px; object-fit:contain; margin:0 auto 9px; }
+.reveal .paper-stage-caption { font-size:20px; line-height:1.3; }
+.reveal .paper-stage-note { font-size:18px; line-height:1.3; color:#59616a; margin:12px 35px 0; }
+
+.reveal .sifs-embedded > p:has(.embedded-comparison) { position:absolute; top:0; left:0; margin:0; width:1px; height:1px; }

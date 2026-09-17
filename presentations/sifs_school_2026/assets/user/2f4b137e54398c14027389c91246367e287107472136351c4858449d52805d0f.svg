@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="440" height="235" viewBox="0 0 440 235" version="1.1" id="svg8">
+  <ns0:defs id="defs8" />
+  <ns0:rect width="440" height="235" fill="white" id="rect1" />
+  <ns0:text x="111.26593" y="20.435543" id="text8-7" style="font-size:19px;font-family:sans-serif;fill:#1d5d91;fill-opacity:1"><ns0:tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:Avenir;fill:#1d5d91;fill-opacity:1" id="tspan8">bulk ligand concentration</ns0:tspan></ns0:text>
+  <ns0:path d="M30 172H410" stroke="#6f747a" stroke-width="3" id="path1" />
+  <ns0:path d="M220 172H265" stroke="#002e5e" stroke-width="2" id="path2" />
+  <ns0:circle cx="83" cy="65" r="6" id="circle2" style="fill:#1d5d91" />
+  <ns0:circle cx="210" cy="37" r="6" id="circle3" style="fill:#1d5d91" />
+  <ns0:circle cx="345" cy="73" r="6" id="circle4" style="fill:#1d5d91" />
+  <ns0:g stroke="#1d5d91" fill="none" stroke-width="2" id="g5">
+    <ns0:path d="M95 65Q155 70 197 146M204 45Q184 90 215 142M335 75Q287 94 248 147" id="path4" />
+  </ns0:g>
+  <ns0:g fill="#1d5d91" id="g6">
+    <ns0:path d="M190 143l10 8-2-13zM209 140l9 8 1-13zM244 139l-1 14 11-7z" id="path5" />
+  </ns0:g>
+  <ns0:text x="308.47205" y="162.02823" id="text7" style="font-size:19px;font-family:sans-serif;fill:#6f747a;fill-opacity:1"><ns0:tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:Avenir" id="tspan9">membrane</ns0:tspan></ns0:text>
+  <ns0:text x="129.90491" y="208.35986" id="text8" style="font-size:19px;font-family:sans-serif;fill:#002e5e"><ns0:tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:Avenir" id="tspan10">unoccupied receptor</ns0:tspan></ns0:text>
+  <ns0:ellipse cx="220" cy="172" rx="45" ry="12" fill="#d9e8f4" stroke="#1d5d91" stroke-width="3" id="ellipse1" />
+  <ns0:text x="214.92993" y="177.1814" id="text6" style="font-size:19px;font-family:sans-serif;fill:#002e5e"><ns0:tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:Avenir" id="tspan11">s</ns0:tspan></ns0:text>
+  <ns0:text x="131.37302" y="112.11999" id="text6-5" style="font-size:19px;font-family:sans-serif;fill:#1d5d91;fill-opacity:1"><ns0:tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:Avenir;fill:#1d5d91;fill-opacity:1" id="tspan11-5">D</ns0:tspan></ns0:text>
+</ns0:svg>

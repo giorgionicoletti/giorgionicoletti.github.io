@@ -1,0 +1,74 @@
+.reveal .derivation-badge { position:absolute; top:636px; left:0; right:0; width:max-content; max-width:1100px; margin:0 auto; z-index:12; padding:7px 16px; border:1px solid var(--navy-2); border-radius:4px; background:var(--navy-2); color:white; font:400 18px/1.3 'Fira Sans',sans-serif; cursor:pointer; }
+.reveal .derivation-badge::after {content:" →";margin-left:9px;}
+.reveal .derivation-badge:hover,.reveal .derivation-badge:focus-visible { background:var(--navy); outline:2px solid #749cb9; outline-offset:2px; }
+.reveal .derivation-badge[hidden] { display:none; }
+.reveal .derivation-navigation { position:absolute; top:20px; right:112px; z-index:15; display:flex; align-items:center; gap:18px; color:white; font-size:17px; }
+.reveal .derivation-navigation button { color:white; background:transparent; border:1px solid #8ca9c1; border-radius:3px; padding:4px 9px; font:inherit; cursor:pointer; }
+.reveal .derivation-navigation button:hover { background:#27577c; }
+.reveal .bp-result-slide .bp-result-columns { display:grid; grid-template-columns:1fr 1fr; gap:54px; margin:42px 18px 0; align-items:start; }
+.reveal .bp-result-columns > div + div { border-left:1px solid #ccd2d7; padding-left:35px; }
+.reveal .bp-result-columns p { font-size:24px; line-height:1.35; }
+.reveal .bp-result-columns .math.display { font-size:27px; }
+.reveal .bp-result-equation { text-align:center; margin:32px auto 0; }
+.reveal .bp-result-equation .result-line { display:inline-block; padding:10px 20px; }
+.reveal .bp-result-slide .bp-result-limits { margin-top:26px; }
+.reveal .bp-result-limits p { font-size:22px; }
+.reveal .bp-result-limits .math.display { font-size:25px; }
+.reveal .bp-result-interpretation { position:absolute; left:50px; right:50px; top:526px; text-align:center; font-size:23px; line-height:1.4; color:var(--navy-2); }
+.derivation-overview { box-sizing:border-box; width:min(950px,90vw); max-height:85vh; padding:24px; border:1px solid #8197aa; border-radius:5px; color:#20374a; font:20px 'Fira Sans',sans-serif; }
+.derivation-overview::backdrop { background:#00172ecc; }
+.derivation-overview header { display:flex; justify-content:space-between; margin-bottom:15px; }
+.derivation-overview nav { display:grid; gap:5px; }
+.derivation-overview button { text-align:left; border:1px solid #d6dfe7; background:white; color:#20374a; padding:10px; font:inherit; cursor:pointer; }
+.derivation-overview button:hover { background:#edf3f8; }
+
+/* HTML-only overlay. The live calculation retains its 1280 × 720 coordinate
+   system, so editor geometry and source identities need no conversion. */
+html:not([data-sifs-output="pdf"]) .reveal.derivation-open > .slides > section.present {
+ scale:.88; transform-origin:50% 50%; outline:1px solid #aabbd0;
+ border-radius:8px; box-shadow:0 18px 75px #00132999; overflow:hidden;
+ transition:none!important;
+}
+html:not([data-sifs-output="pdf"]) .reveal section.optional-derivation {
+ background:linear-gradient(var(--navy),var(--navy)) top / 100% 72px no-repeat,linear-gradient(#edf2f6,#edf2f6) bottom / 100% 34px no-repeat,white;
+}
+html:not([data-sifs-output="pdf"]) .reveal section.optional-derivation::before {content:"DERIVATION";left:24px;font-size:23px;font-weight:400;}
+html:not([data-sifs-output="pdf"]) .reveal section.optional-derivation > p:has(.ictp-logo) {display:none;}
+html:not([data-sifs-output="pdf"]) .reveal section.optional-derivation .source {color:#465b70;}
+html:not([data-sifs-output="pdf"]) .reveal section.optional-derivation .deck-slide-number {display:none;}
+html:not([data-sifs-output="pdf"]) .reveal .derivation-navigation {right:22px;top:19px;gap:12px;font-size:18px;}
+html:not([data-sifs-output="pdf"]) .reveal .derivation-navigation [data-derivation-count] {margin-right:10px;color:#d2e2f0;font-size:17px;}
+html:not([data-sifs-output="pdf"]) .reveal .derivation-navigation button {min-height:35px;padding:5px 11px;}
+html:not([data-sifs-output="pdf"]) .reveal .derivation-navigation [data-derivation-close] {margin-left:8px;background:#f5f8fb;color:#002e5e;border-color:#f5f8fb;}
+.reveal > .derivation-backdrop {position:absolute;inset:0;z-index:20;overflow:hidden;}
+.reveal > .derivation-backdrop::after {content:"";position:absolute;inset:0;z-index:5;background:rgb(0 18 38 / 62%);}
+.reveal.derivation-open > .slides {z-index:30;pointer-events:none;}
+.reveal.derivation-open > .slides > section.present {pointer-events:auto;}
+
+html:not([data-sifs-output="pdf"]) .reveal section.optional-derivation .ictp-logo {display:none!important;}
+
+/* Leave a clear bottom row for the derivation button on its result slides. */
+.reveal section.bp-result-slide > .assumption-line {bottom:100px;}
+.reveal section#bp-averaging-result .embedded-plots {height:266px;}
+.reveal section#bp-averaging-result .embedded-plots svg {height:239px;}
+.reveal section#bp-averaging-result .embedded-controls {min-height:50px;}
+
+.reveal section#bp-calibration-result > .bp-result-interpretation {top:514px;}
+
+/* Shared result layout for optional calculations throughout the lecture. */
+.reveal .derivation-result-slide .bp-result-columns {margin-top:30px;}
+.reveal .derivation-result-slide .bp-result-columns p {font-size:23px;line-height:1.35;margin:15px 0;}
+.reveal .derivation-result-slide .bp-result-columns .math.display {font-size:25px;}
+.reveal .derivation-result-slide .bp-result-interpretation {top:530px;font-size:22px;line-height:1.3;}
+.reveal .derivation-result-slide .result-plot {height:218px;width:100%;object-fit:contain;margin:0;}
+.reveal .derivation-result-slide .embedded-plots,
+.reveal .has-derivation-result .embedded-plots {height:266px;}
+.reveal .derivation-result-slide .embedded-plots svg,
+.reveal .has-derivation-result .embedded-plots svg {height:239px;}
+.reveal .derivation-result-slide .embedded-controls,
+.reveal .has-derivation-result .embedded-controls {min-height:50px;}
+.reveal .has-derivation-result > .assumption-line {bottom:100px;}
+.reveal .has-derivation-result > .assumption-line {bottom:98px;}
+
+/* Pasted badges keep Pandoc text editable without moving the arrow to a new line. */
+.reveal .sifs-user-object.derivation-badge > p { display:inline; margin:0; }

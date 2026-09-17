@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="394.31952pt" height="117.11952pt" viewBox="0 0 394.31952 117.11952" version="1.1">
+ <ns0:defs>
+  <ns0:style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</ns0:style>
+ </ns0:defs>
+ <ns0:g id="figure_1">
+  <ns0:g id="patch_1">
+   <ns0:path d="M 0 117.11952  L 394.31952 117.11952  L 394.31952 0  L 0 0  z " style="fill: #ffffff" />
+  </ns0:g>
+  <ns0:g id="axes_1">
+   <ns0:g id="patch_2">
+    <ns0:path d="M 38.898516 73.858348  L 384.83952 73.858348  L 384.83952 5.76  L 38.898516 5.76  z " style="fill: #ffffff" />
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_1">
+    <ns0:g id="xtick_1">
+     <ns0:g id="line2d_1">
+      <ns0:defs>
+       <ns0:path id="maabe402ee2" d="M 0 0  L 0 3  " style="stroke: #6f747a; stroke-width: 0.8" />
+      </ns0:defs>
+      <ns0:g>
+       <ns0:use ns1:href="#maabe402ee2" x="38.898516" y="73.858348" style="fill: #6f747a; stroke: #6f747a; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_1">
+      <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6f747a" x="38.898516" y="89.475536" transform="rotate(-0 38.898516 89.475536)">0</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_2">
+     <ns0:g id="line2d_2">
+      <ns0:g>
+       <ns0:use ns1:href="#maabe402ee2" x="384.83952" y="73.858348" style="fill: #6f747a; stroke: #6f747a; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_2">
+      
+      <ns0:g style="fill: #6f747a" transform="translate(381.11952 89.475536)">
+       <ns0:text>
+        <ns0:tspan x="0" y="-0.25" style="font-style: oblique; font-size: 12px; font-family: 'DejaVu Sans'; fill: #6f747a">T</ns0:tspan>
+       </ns0:text>
+      </ns0:g>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="text_3">
+     <ns0:text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17191c" x="211.869018" y="107.756004" transform="rotate(-0 211.869018 107.756004)">time</ns0:text>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_2">
+    <ns0:g id="ytick_1">
+     <ns0:g id="line2d_3">
+      <ns0:defs>
+       <ns0:path id="mf36975b362" d="M 0 0  L -3 0  " style="stroke: #6f747a; stroke-width: 0.8" />
+      </ns0:defs>
+      <ns0:g>
+       <ns0:use ns1:href="#mf36975b362" x="38.898516" y="66.178083" style="fill: #6f747a; stroke: #6f747a; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_4">
+      <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #6f747a" x="32.398516" y="70.736677" transform="rotate(-0 32.398516 70.736677)">0</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_2">
+     <ns0:g id="line2d_4">
+      <ns0:g>
+       <ns0:use ns1:href="#mf36975b362" x="38.898516" y="14.976318" style="fill: #6f747a; stroke: #6f747a; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_5">
+      <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #6f747a" x="32.398516" y="19.534912" transform="rotate(-0 32.398516 19.534912)">1</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="text_6">
+     
+     <ns0:g style="fill: #17191c" transform="translate(17.16 53.384174) rotate(-90)">
+      <ns0:text>
+       <ns0:tspan x="0" y="-0.625" style="font-style: oblique; font-size: 15px; font-family: 'DejaVu Sans'; fill: #17191c">R</ns0:tspan>
+       <ns0:tspan x="15.358887" y="-0.625" style="font-style: oblique; font-size: 15px; font-family: 'DejaVu Sans'; fill: #17191c">t</ns0:tspan>
+       <ns0:tspan x="9.506836" y="-0.625" style="font-size: 15px; font-family: 'DejaVu Sans'; fill: #17191c">(</ns0:tspan>
+       <ns0:tspan x="21.240234" y="-0.625" style="font-size: 15px; font-family: 'DejaVu Sans'; fill: #17191c">)</ns0:tspan>
+      </ns0:text>
+     </ns0:g>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="line2d_5">
+    <ns0:path d="M 38.898516 14.976318  L 68.742241 14.976318  L 68.742241 66.178083  L 85.825606 66.178083  L 85.825606 14.976318  L 98.906772 14.976318  L 98.906772 66.178083  L 99.439376 66.178083  L 99.439376 14.976318  L 114.920422 14.976318  L 114.920422 66.178083  L 125.405423 66.178083  L 125.405423 14.976318  L 147.699629 14.976318  L 147.699629 66.178083  L 163.638796 66.178083  L 163.638796 14.976318  L 165.433111 14.976318  L 165.433111 66.178083  L 184.41176 66.178083  L 184.41176 14.976318  L 190.262405 14.976318  L 190.262405 66.178083  L 195.065699 66.178083  L 195.065699 14.976318  L 209.004286 14.976318  L 209.004286 66.178083  L 211.284413 66.178083  L 211.284413 14.976318  L 220.253718 14.976318  L 220.253718 66.178083  L 223.637044 66.178083  L 223.637044 14.976318  L 255.132349 14.976318  L 255.132349 66.178083  L 265.43087 66.178083  L 265.43087 14.976318  L 266.508092 14.976318  L 266.508092 66.178083  L 360.924489 66.178083  L 360.924489 14.976318  L 384.83952 14.976318  L 384.83952 14.976318  " clip-path="url(#pd38e57c61c)" style="fill: none; stroke: #17191c; stroke-width: 1.7; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="patch_3">
+    <ns0:path d="M 38.898516 73.858348  L 38.898516 5.76  " style="fill: none; stroke: #bfc3c7; stroke-width: 0.9; stroke-linejoin: miter; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="patch_4">
+    <ns0:path d="M 38.898516 73.858348  L 384.83952 73.858348  " style="fill: none; stroke: #bfc3c7; stroke-width: 0.9; stroke-linejoin: miter; stroke-linecap: square" />
+   </ns0:g>
+  </ns0:g>
+ </ns0:g>
+ <ns0:defs>
+  <ns0:clipPath id="pd38e57c61c">
+   <ns0:rect x="38.898516" y="5.76" width="345.941004" height="68.098348" />
+  </ns0:clipPath>
+ </ns0:defs>
+</ns0:svg>
