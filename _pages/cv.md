@@ -124,7 +124,7 @@ You can download my full CV [here](/files/CV_Nicoletti_2026-09-16.pdf){:target="
 </ul>
 
 ## Honors and awards
-* **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v19/121){:target="_blank"}<!--_-->** for the paper "Balancing information and dissipation with partially observed fluctuating signals"
+* **Editors' Suggestion, [Physics Viewpoint](https://physics.aps.org/articles/v19/121){:target="_blank"}<!--_-->, and [featured on the cover of Physical Review Letters](https://journals.aps.org/prl/issues/137/12){:target="_blank"}<!--_-->** for the paper "Balancing information and dissipation with partially observed fluctuating signals"
 * **[Giovanni Paladin Award](https://www.fisicastatistica.org/premio-giovanni-paladin){:target="_blank"}<!--_--> at the 29th International Conference on Statistical Physics** for the best PhD thesis in Statistical Physics, awarded by the Italian Society of Statistical Physics (SIFS) in 2025
 * **[Outstanding Reviewer Award](https://www.mdpi.com/journal/entropy/awards/2794){:target="_blank"}<!--_-->** for the journal Entropy in 2024
 * **Physical Review Letters Editors' Suggestion and [Physics Viewpoint](https://physics.aps.org/articles/v17/143){:target="_blank"}<!--_-->** for the paper "Tuning transduction from hidden observables to optimize information harvesting"

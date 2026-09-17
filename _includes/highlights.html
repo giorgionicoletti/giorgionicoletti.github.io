@@ -3,10 +3,10 @@
 {% for h in site.data.highlights %}
   {% assign t = site.data.themes | where: "key", h.theme | first %}
   <div class="card highlight"{% if t %} data-theme="{{ t.key }}" style="--area: {{ t.colour }}; --area-dark: {{ t.colour_dark | default: t.colour }}"{% endif %}>
-    <img class="highlight__thumb" src="{{ h.image }}" alt="">
+    <img class="highlight__thumb{% if h.image_portrait %} highlight__thumb--portrait{% endif %}" src="{{ h.image }}" alt="">
     <div class="highlight__body">
       <h3 class="highlight__title"><a href="{{ h.url }}" target="_blank" rel="noopener">{{ h.title }}</a></h3>
-      <p class="highlight__meta">{{ h.meta }}{% if h.note_url %}, <a href="{{ h.note_url }}" target="_blank" rel="noopener">{{ h.note_label }}</a>{% endif %}</p>
+      <p class="highlight__meta">{{ h.meta }}{% for n in h.notes %}, <a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.label }}</a>{% endfor %}</p>
       <p class="highlight__question">{{ h.question }}</p>
     </div>
   </div>

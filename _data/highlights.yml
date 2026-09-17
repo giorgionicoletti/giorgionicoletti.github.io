@@ -1,12 +1,17 @@
 # Research highlights shown on the home page and on the Research page.
-# Fields: title, url, image, meta, note_label + note_url (optional), question.
+# Fields: title, url, image, image_portrait (optional, for covers), meta,
+# notes (optional list of label + url), question.
 - title: "Balancing information and dissipation with partially observed fluctuating signals"
   theme: information
   url: "https://journals.aps.org/prl/abstract/10.1103/8gx2-rbns"
-  image: "/images/PRL_balancing.png"
+  image: "/images/PRL_cover.png"
+  image_portrait: true
   meta: "Giorgio Nicoletti, I. Di Terlizzi, D. M. Busiello, Physical Review Letters 137, 127101 (2026). Editors' Suggestion"
-  note_label: "Physics Viewpoint"
-  note_url: "https://physics.aps.org/articles/v19/121"
+  notes:
+    - label: "Physics Viewpoint"
+      url: "https://physics.aps.org/articles/v19/121"
+    - label: "Featured on the cover"
+      url: "https://journals.aps.org/prl/issues/137/12"
   question: "How can a living system acquire information with limited energy consumption?"
 
 - title: "Information propagation in multilayer systems with higher-order interactions across timescales"

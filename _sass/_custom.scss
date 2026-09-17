@@ -491,6 +491,10 @@ table {
   object-fit: contain;
 }
 
+/* journal covers are portrait: let the box follow the image instead of
+   letterboxing it inside the square */
+.highlight__thumb--portrait { height: 146px; }
+
 .highlight__body { flex: 1; min-width: 0; }
 
 .highlight__title {
@@ -528,6 +532,7 @@ table {
 @media (max-width: 600px) {
   .highlight { align-items: flex-start; gap: 12px; }
   .highlight__thumb { flex-basis: 84px; width: 84px; height: 84px; }
+  .highlight__thumb--portrait { height: 106px; }
 }
 
 /* ---------- research overview (timeline + compact area cards) ------------ */
