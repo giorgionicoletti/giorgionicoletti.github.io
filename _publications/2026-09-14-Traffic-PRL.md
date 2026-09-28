@@ -1,9 +1,9 @@
 ---
 title: "Balancing information and dissipation with partially observed fluctuating signals"
 collection: publications
-permalink: /publication/2026-12-04-Traffic-PRL
+permalink: /publication/2026-09-14-Traffic-PRL
 excerpt: 'Journal article'
-date: 2026-12-04
+date: 2026-09-14
 year: '2026'
 authors: 'Giorgio Nicoletti, Ivan Di Terlizzi, Daniel M. Busiello'
 venue_short: 'PRL'
