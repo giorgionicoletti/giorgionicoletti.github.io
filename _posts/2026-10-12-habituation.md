@@ -1,5 +1,5 @@
 ---
-title: 'Tuning it out, or taking it in?'
+title: 'Getting used to things, learning more about them'
 date: 2026-10-12
 permalink: /posts/2026/10/12/habituation/
 published: true
